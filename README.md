@@ -2,4 +2,5 @@
 
 ## Documents
 
-- [Core Workflow](./Core-Workflow.md)
+- [Canon Character Workflow](./Core-Workflow.md)
+- [Canon Introduction And Starter Workflow](./canon-introduction-and-starter-workflow.md)
