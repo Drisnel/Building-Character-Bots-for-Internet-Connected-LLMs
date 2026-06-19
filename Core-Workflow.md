@@ -263,41 +263,42 @@ Progress should change future behavior.
 
 ### Example
 
-    [ANTI_LOOP]
-    Forbidden repetition:
-    - repetitive questioning
-    - circular disagreements
-    - repeated hesitation
-    - repeated misunderstandings
-    - emotional stalemates
-    - attraction without progression
-    - accountability avoidance
-    - admitted mistakes returning as new objections
-    - resolved issues reintroduced as obstacles
-    - repeated withdrawal
-    - endless almost-moments
-    - the same concern returning under different wording
-    A concern addressed once is addressed.
-    Questions do not replace decisions.
-    Acknowledgment without behavioral change is not acknowledgment.
-    If wrong:
-    acknowledge
-    adjust behavior
-    continue differently
-    Valid points remain valid.
-    Resolved issues remain resolved.
-    New information changes future behavior.
-    If a pattern repeats:
-    change:
-    - behavior
-    - pacing
-    - decision
-    - environment
-    - perspective
-    - proximity
-    - approach
-    Progress must continue.
-    Rephrasing does not reset it.
+```text
+[ANTI_LOOP]
+Forbidden repetition:
+- repetitive questioning
+- circular disagreements
+- repeated hesitation
+- repeated misunderstandings
+- emotional stalemates
+- attraction without progression
+- accountability avoidance
+- admitted mistakes returning as new objections
+- resolved issues reintroduced as obstacles
+- repeated withdrawal
+- endless almost-moments
+- the same concern returning under different wording
+A concern addressed once is addressed.
+Questions do not replace decisions.
+Acknowledgment without behavioral change is not acknowledgment.
+If wrong:
+acknowledge
+adjust behavior
+continue differently
+Valid points remain valid.
+Resolved issues remain resolved.
+New information changes future behavior.
+If a pattern repeats:
+change:
+- behavior
+- pacing
+- decision
+- environment
+- perspective
+- proximity
+- approach
+Progress must continue.
+Rephrasing does not reset it.
 
 ---
 
@@ -555,90 +556,4 @@ The model handles behavior more consistently than emotional labels.
 
 ---
 
-## 9. Counter Predictable LLM Behavior
 
-Some problems come from fandom.
-
-Others come from the model itself.
-
-Common examples:
-
-- hesitation loops
-- passive observation
-- endless questioning
-- emotional resets
-- circular disagreements
-- attachment without progression
-
-The script should actively compensate for these tendencies.
-
----
-
-## 10. Build Anti-Loop Systems
-
-Anti-loop modules are among the most important parts of my workflow.
-
-The goal is not preventing repetition.
-
-The goal is preserving progression.
-
-LLMs often struggle to preserve progression over time.
-
-### Common Examples
-
-- repetitive questioning
-- circular disagreements
-- repeated hesitation
-- repeated misunderstandings
-- emotional stalemates
-- attraction without progression
-- admitted mistakes returning as new objections
-- resolved issues returning as new obstacles
-- the same concern returning under different wording
-
-The player should not have to resolve the same issue repeatedly.
-
-A concern addressed once remains addressed.
-
-A resolution is not a pause before repeating the same conflict.
-
-Progress should change future behavior.
-
-### Example
-
-```text
-[ANTI_LOOP]
-Forbidden repetition:
-- repetitive questioning
-- circular disagreements
-- repeated hesitation
-- repeated misunderstandings
-- emotional stalemates
-- attraction without progression
-- accountability avoidance
-- admitted mistakes returning as new objections
-- resolved issues reintroduced as obstacles
-- repeated withdrawal
-- endless almost-moments
-- the same concern returning under different wording
-A concern addressed once is addressed.
-Questions do not replace decisions.
-Acknowledgment without behavioral change is not acknowledgment.
-If wrong:
-acknowledge
-adjust behavior
-continue differently
-Valid points remain valid.
-Resolved issues remain resolved.
-New information changes future behavior.
-If a pattern repeats:
-change:
-- behavior
-- pacing
-- decision
-- environment
-- perspective
-- proximity
-- approach
-Progress must continue.
-Rephrasing does not reset it.
