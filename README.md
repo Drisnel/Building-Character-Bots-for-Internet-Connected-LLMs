@@ -1,6 +1,8 @@
 # Building Canon Character Bots for Internet-Connected LLMs
 
-A collection of workflows, methods, and observations gathered while building canon character bots for internet-connected LLMs.
+🇬🇧 A collection of workflows, methods, and observations gathered while building canon character bots for internet-connected LLMs.
+
+🇫🇷 Une collection de méthodes, de workflows et d'observations développés lors de la création de bots de personnages canons pour des LLM connectés à Internet.
 
 ## 🇬🇧 English
 
