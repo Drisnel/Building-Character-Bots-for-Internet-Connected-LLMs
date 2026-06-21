@@ -1,8 +1,11 @@
 # Building RP Bots for Internet-Connected LLMs
 
-**English**
+## 🇬🇧 English
+
 Documentation and practical workflows for building roleplay bots for internet-connected LLMs.
-**Français**  
+
+## 🇫🇷 Français
+ 
 Documentation et méthodes de travail pour créer des bots de roleplay pour des LLM connectés à Internet.
 
 ---
