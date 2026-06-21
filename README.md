@@ -51,9 +51,20 @@ Cross-bot design principles that apply to both canon and original RP bots.
 
 ---
 
+## 🧱 Templates
+Production templates for turning the repo’s methods into final bot script structures.
+
+**English**
+- [Canon Script Template](./templates/en/canon-script-template.md)
+
+**Français**
+- [Template de script canon](./templates/fr/template-script-bot-canon.md)
+
+---
+
 # 📁 Repository Structure
 
-Shared principles, canon workflows, and original bot workflows are separated into three main sections:
+Shared guides, canon workflows, original bot workflows, and production templates are separated into four main sections:
 
 - `canon/`
   - `en/`
@@ -64,6 +75,10 @@ Shared principles, canon workflows, and original bot workflows are separated int
   - `fr/`
 
 - `shared/`
+  - `en/`
+  - `fr/`
+
+- `templates/`
   - `en/`
   - `fr/`
 
@@ -78,6 +93,7 @@ This repository gathers documentation for building roleplay bots for internet-co
 - player protection
 - anti-loop systems
 - introductions and starters
+- production templates
 - practical workflow methods for RP platforms
 
 ## 🇫🇷 Français
@@ -87,4 +103,5 @@ Ce dépôt regroupe de la documentation pour créer des bots de roleplay destin�
 - la protection du joueur
 - les systèmes anti-loop
 - les introductions et démarrages
+- les templates de production
 - les méthodes de travail pratiques pour les plateformes de roleplay
