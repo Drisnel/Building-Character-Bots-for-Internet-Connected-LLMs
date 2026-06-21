@@ -5,7 +5,7 @@
 Documentation and practical workflows for building roleplay bots for internet-connected LLMs.
 
 ## 🇫🇷 Français
- 
+
 Documentation et méthodes de travail pour créer des bots de roleplay pour des LLM connectés à Internet.
 
 ---
@@ -43,15 +43,17 @@ Cross-bot design principles that apply to both canon and original RP bots.
 
 **English**
 - [How to Protect Player Agency in RP Bots](./shared/en/how-to-protect-player-agency-in-rp-bots.md)
+- [How to Build Anti-Loop Systems for RP Bots](./shared/en/how-to-build-anti-loop-systems-for-rp-bots.md)
 
 **Français**
 - [Comment protéger l’agence du joueur dans les bots de roleplay](./shared/fr/comment-proteger-lagence-du-joueur-dans-les-bots-rp.md)
+- [Comment construire des systèmes anti-loop pour les bots de roleplay](./shared/fr/comment-construire-des-systemes-anti-loop-pour-les-bots-rp.md)
 
 ---
 
 # 📁 Repository Structure
 
-shared principles, canon workflows, and original bot workflows are separated into three main sections:
+Shared principles, canon workflows, and original bot workflows are separated into three main sections:
 
 - `canon/`
   - `en/`
@@ -74,6 +76,7 @@ This repository gathers documentation for building roleplay bots for internet-co
 - long-term behavioral stability
 - script architecture
 - player protection
+- anti-loop systems
 - introductions and starters
 - practical workflow methods for RP platforms
 
@@ -82,5 +85,6 @@ Ce dépôt regroupe de la documentation pour créer des bots de roleplay destin�
 - la stabilité comportementale à long terme
 - l’architecture des scripts
 - la protection du joueur
+- les systèmes anti-loop
 - les introductions et démarrages
 - les méthodes de travail pratiques pour les plateformes de roleplay
