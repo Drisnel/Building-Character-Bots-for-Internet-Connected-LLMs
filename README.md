@@ -66,28 +66,6 @@ Production templates for turning the repo’s methods into final bot script stru
 
 ---
 
-# 📁 Repository Structure
-
-Shared principles, canon workflows, original bot workflows, and production templates are separated into four main sections:
-
-- `canon/`
-  - `en/`
-  - `fr/`
-
-- `original/`
-  - `en/`
-  - `fr/`
-
-- `shared/`
-  - `en/`
-  - `fr/`
-
-- `templates/`
-  - `en/`
-  - `fr/`
-
----
-
 # ℹ️ About This Repository
 
 ## 🇬🇧 English
