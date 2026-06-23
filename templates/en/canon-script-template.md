@@ -10,7 +10,20 @@ The goal is to turn canon analysis, behavioral logic, anti-fallback controls, co
 
 Not every block is mandatory.
 Use only the blocks that are structurally relevant to the bot.
-Add character-specific modules whenever needed.
+
+This template is modular.
+Do not assume that relational, romantic, domestic, or intimacy-oriented sections are automatically the center of every bot.
+
+If the bot is primarily driven by another structure — such as combat, politics, military hierarchy, leadership, religion, investigation, survival, status, or another canon-specific axis — create dedicated specialized modules for that axis and place them where they belong in the bot’s actual behavioral hierarchy.
+
+A specialized module should be placed before relational or intimacy-oriented sections whenever it governs:
+- the character’s decisions
+- scene generation
+- conflict behavior
+- long-term continuity
+- or the overall shape of the bot more strongly than those sections do
+
+The template should reflect the character’s real structure, not force every bot into the same order of importance.
 
 ---
 
@@ -70,12 +83,45 @@ Focus on what the character tends to:
 
 This block should capture how the character feels to roleplay against on a scene-by-scene level.
 
+[SPECIALIZED MODULE]
+Optional. Repeat as needed.
+
+Use this block when a canon-specific structure is too behaviorally important to leave implicit, but too specific to fit cleanly inside the shared core blocks.
+
+Unlike a minor add-on, a specialized module can be one of the main structural centers of the bot.
+If it governs behavior more strongly than the relational blocks, place it before them.
+
+Examples of valid specialized modules:
+- combat style with major behavioral consequences
+- politics, leadership, diplomacy, or command structure
+- clan duty, inheritance, rank, or succession pressure
+- religion, ritual, ideology, or taboo
+- investigation, strategy, secrecy, or operational logic
+- survival structure, travel structure, or mission logic
+- a defining canon mechanic or ability with strong scene consequences
+- a recurring symbolic behavior or sensory pattern
+- a specific post-canon consequence that keeps shaping scenes
+- a dynamic tied to grief, family, status, power, trauma, domestic ritual, body image, disability, illness, or physical limitation that needs dedicated behavioral handling
+- any canon element that should remain behaviorally active in scenes
+
+For each specialized module, define:
+- what it is
+- how it shapes decisions
+- how it shapes scene behavior
+- how it affects conflict, attachment, restraint, or escalation if relevant
+- what continuity it should preserve across scenes
+
+Do not use this block as a miscellaneous overflow section.
+If the content fits a core block, place it there instead.
+
 [RELATION USER]
 Define the user's role in the bot's life and the current relationship frame at the start of play.
 State what already exists and what does not.
 Do not force emotional conclusions if they are meant to develop in RP.
 
 [RELATIONAL MODEL]
+Optional if relational behavior is structurally important to the bot, or if the relationship with the user is one of the main engines of play.
+
 Describe how the character handles:
 - closeness
 - distance
@@ -90,21 +136,6 @@ Describe how the character handles:
 
 Focus on behavior.
 Not abstract labels.
-
-[CHARACTER-SPECIFIC MODULE]
-Optional. Repeat as needed.
-
-Use this only when an element is too structurally important to leave implicit, but too specific to fit cleanly into the shared core blocks.
-
-Good uses:
-- a defining canon mechanic or ability with strong behavioral consequences
-- a recurring symbolic behavior or sensory pattern
-- a specific post-canon consequence that keeps shaping scenes
-- a dynamic tied to grief, family, status, power, trauma, domestic ritual, body image, or physical limitation that needs dedicated behavioral handling
-- a canon element that should remain behaviorally active in scenes
-
-Do not use this block as a miscellaneous overflow section.
-If the content fits a core block, place it there instead.
 
 [ENVIRONMENT / HOME / DOMESTIC LIFE]
 Optional if relevant.
@@ -121,6 +152,8 @@ Examples:
 - trust developments remain active
 - promises matter later
 - routines continue to shape future scenes
+- specialized pressures continue to matter after they have entered play
+- world consequences remain active instead of disappearing between scenes
 
 This block protects progression from being erased.
 
@@ -150,6 +183,8 @@ Describe how the character handles:
 - unresolved tension
 
 State what conflict changes and what it does not suspend.
+
+If specialized modules materially affect conflict behavior, make sure the logic stays aligned with them.
 
 [ROMANCE]
 Optional if romance is structurally relevant to the bot.
@@ -199,6 +234,9 @@ State how the bot creates progression instead of replacing movement with:
 
 If something matters, what does the character do?
 
+Make sure momentum reflects the bot’s real structure.
+If combat, politics, mission logic, secrecy, leadership, investigation, survival, or another specialized axis drives scenes more than relational progression does, that should be visible here.
+
 [ANTI-FALLBACK]
 List the main fandom, model, or script distortions to suppress.
 Include the wrong version of the character the bot must not collapse into.
@@ -216,6 +254,7 @@ Examples:
 - circular disagreements
 - repeated emotional resets
 - returning to the same issue under different wording
+- collapsing every scene back into the same relational beat while ignoring the bot’s other structural drivers
 
 State what must happen instead if a pattern starts to repeat.
 
@@ -246,5 +285,6 @@ Write the final reminders that protect the bot from flattening into:
 - canon drift
 - emotional reset patterns
 - loss of momentum
+- over-prioritizing relational material while dropping the bot’s actual structural core
 
 This block should function as the last corrective layer if the script starts collapsing into a weaker or more generic version of the character.
