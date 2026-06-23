@@ -39,17 +39,15 @@ Workflows and methods for building original character bots and their openings.
 ---
 
 ## 🛡️ Shared Guides
-Cross-bot design principles and shared production resources for RP bots.
+Cross-bot design principles that apply to both canon and original RP bots.
 
 **English**
 - [How to Protect Player Agency in RP Bots](./shared/en/how-to-protect-player-agency-in-rp-bots.md)
 - [How to Build Anti-Loop Systems for RP Bots](./shared/en/how-to-build-anti-loop-systems-for-rp-bots.md)
-- [Original Script Template](./shared/en/original-script-template.md)
 
 **Français**
-- [Comment protéger l’agence du joueur dans les bots de roleplay](./shared/fr/comment-proteger-lagence-dujoueur-dans-les-bots-rp.md)
+- [Comment protéger l’agence du joueur dans les bots de roleplay](./shared/fr/comment-proteger-lagence-du-joueur-dans-les-bots-rp.md)
 - [Comment construire des systèmes anti-loop pour les bots de roleplay](./shared/fr/comment-construire-des-systemes-anti-loop-pour-les-bots-rp.md)
-- [Template de script original](./shared/fr/template-script-bot-original.md)
 
 ---
 
@@ -58,9 +56,11 @@ Production templates for turning the repo’s methods into final bot script stru
 
 **English**
 - [Canon Script Template](./templates/en/canon-script-template.md)
+- [Original Script Template](./shared/en/original-script-template.md)
 
 **Français**
 - [Template de script canon](./templates/fr/template-script-bot-canon.md)
+- [Template de script original](./shared/fr/template-script-bot-original.md)
 
 ---
 
