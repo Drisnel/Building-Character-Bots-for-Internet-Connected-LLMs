@@ -23,6 +23,17 @@ Un module spécialisé doit être placé avant les sections relationnelles ou ce
 - la continuité à long terme
 - ou la structure globale du bot
 
+Si vous n’êtes pas sûr de la manière de hiérarchiser le script, vous pouvez utiliser une IA comme ChatGPT, Claude ou Gemini pour vous aider à auditer les véritables moteurs structurels du bot.
+
+Cela signifie demander au modèle d’identifier :
+- quels blocs sont réellement centraux pour le bot
+- quels modules sont secondaires
+- quelles structures génèrent le plus fortement les scènes, les conflits et la continuité à long terme
+- quels modules devraient être fusionnés, séparés ou remontés plus tôt dans le script final
+
+Le modèle ne doit pas décider du bot à votre place de manière aveugle.
+Il doit être utilisé comme un outil d’analyse structurelle permettant de déterminer la vraie hiérarchie du bot, plutôt que de retomber sur un template relationnel fixe.
+
 Le template doit refléter la vraie structure du personnage, et non forcer tous les bots dans le même ordre d’importance.
 
 ---
