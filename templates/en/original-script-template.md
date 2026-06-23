@@ -21,6 +21,17 @@ A specialized module should be placed before relational or intimacy-oriented sec
 - long-term continuity
 - or the overall shape of the bot more strongly than those sections do
 
+If you are unsure how to prioritize the script, you can use an AI assistant such as ChatGPT, Claude, or Gemini to help audit the bot’s actual structural drivers.
+
+That means asking the model to identify:
+- which blocks are truly central to the bot
+- which modules are secondary
+- which structures are driving scenes, conflict, and long-term continuity most strongly
+- which modules should be merged, separated, or moved earlier in the final script
+
+The model should not decide the bot for you blindly.
+It should be used as a structural analysis tool to help determine the bot’s real hierarchy rather than defaulting to a fixed relational template.
+
 The template should reflect the bot’s real structure, not force every original character into the same order of importance.
 
 ---
