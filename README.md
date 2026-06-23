@@ -45,11 +45,13 @@ Cross-bot design principles, debugging methods, and structural safeguards that a
 - [How to Protect Player Agency in RP Bots](./shared/en/how-to-protect-player-agency-in-rp-bots.md)
 - [How to Build Anti-Loop Systems for RP Bots](./shared/en/how-to-build-anti-loop-systems-for-rp-bots.md)
 - [How to Test and Debug RP Bots](./shared/en/how-to-test-and-debug-rp-bots.md)
+- [How to Build Specialized Modules for RP Bots](./shared/en/how-to-build-specialized-modules-for-rp-bots.md)
 
 **Français**
 - [Comment protéger l’agence du joueur dans les bots de roleplay](./shared/fr/comment-proteger-lagence-du-joueur-dans-les-bots-rp.md)
 - [Comment construire des systèmes anti-loop pour les bots de roleplay](./shared/fr/comment-construire-des-systemes-anti-loop-pour-les-bots-rp.md)
 - [Comment tester et debugger des bots de roleplay](./shared/fr/comment-tester-et-debugger-des-bots-rp.md)
+- [Comment construire des modules spécialisés pour les bots RP](./shared/fr/comment-construire-des-modules-specialises-pour-les-bots-rp.md)
 
 ---
 
@@ -74,6 +76,7 @@ This repository gathers documentation for building roleplay bots for internet-co
 - script architecture
 - player protection
 - anti-loop systems
+- specialized module design
 - testing and debugging methods
 - introductions and starters
 - production templates
@@ -85,6 +88,7 @@ Ce dépôt regroupe de la documentation pour créer des bots de roleplay destin�
 - l’architecture des scripts
 - la protection du joueur
 - les systèmes anti-loop
+- la conception de modules spécialisés
 - les méthodes de test et de debugging
 - les introductions et démarrages
 - les templates de production
