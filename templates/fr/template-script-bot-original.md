@@ -7,7 +7,21 @@ Utilisez-le une fois que le concept du personnage, la logique du cadre, la dynam
 
 L’objectif est de transformer un concept de bot original en une structure de script finale stable, conçue pour le roleplay long, la progression et la résistance aux dérives génériques du modèle.
 
-Tous les blocs ne sont pas obligatoires. Utilisez uniquement ceux qui sont structurellement pertinents pour le bot. Ajoutez des modules spécifiques au personnage quand c’est nécessaire.
+Tous les blocs ne sont pas obligatoires. Utilisez uniquement les blocs qui sont structurellement pertinents pour le bot.
+
+Ce template est modulaire.
+Ne partez pas du principe que les sections relationnelles, romantiques, domestiques ou centrées sur l’intimité sont automatiquement le cœur de tous les bots.
+
+Si le bot est principalement structuré par autre chose — par exemple le combat, la politique, le leadership, la religion, l’enquête, la survie, une logique professionnelle, une logique criminelle, une hiérarchie familiale, des systèmes magiques ou un autre axe spécialisé — créez des modules spécialisés dédiés à cet axe et placez-les à l’endroit qui correspond à la véritable hiérarchie comportementale du bot.
+
+Un module spécialisé doit être placé avant les sections relationnelles ou centrées sur l’intimité s’il gouverne plus fortement :
+- les décisions du personnage
+- la génération de scènes
+- le comportement en conflit
+- la continuité à long terme
+- ou la structure globale du bot
+
+Le template doit refléter la vraie structure du bot, et non forcer tous les personnages originaux dans le même ordre d’importance.
 
 ---
 
@@ -35,13 +49,7 @@ Ne transformez pas ce bloc en biographie.
 **Voice:**  
 **Scent:**  
 
-Optionnel si la description physique influence concrètement :
-- l’attirance
-- l’intimidation
-- la reconnaissance
-- l’écriture sensorielle
-- l’atmosphère des scènes
-
+Optionnel si la description physique influence concrètement l’attirance, l’intimidation, la reconnaissance, l’écriture sensorielle ou l’atmosphère des scènes.  
 Gardez ce bloc fonctionnel plutôt que décoratif.
 
 ---
@@ -57,7 +65,7 @@ N’incluez que ce qui influence activement son comportement en RP :
 - conditions matérielles
 - routines locales
 - risques, instabilité, obligations ou pressions
-- règles du monde ou contraintes de setting qui ont un effet direct sur le bot
+- règles du monde ou contraintes de setting pertinentes
 
 Ce bloc doit expliquer où le personnage existe et dans quel type de structure de vie le bot évolue.
 
@@ -107,7 +115,7 @@ Concentrez-vous sur :
 - ce qu’il fait quand quelque chose compte réellement
 - ce qu’il protège, évite, poursuit, refoule ou retrouve systématiquement
 
-Ce bloc doit expliquer **comment le personnage se comporte**, pas comment il serait présenté dans un profil.
+Ce bloc doit expliquer comment le personnage se comporte, pas comment il serait présenté dans un profil.
 
 Évitez de vous reposer uniquement sur des étiquettes de personnalité.  
 Privilégiez autant que possible une logique comportementale concrète.
@@ -130,9 +138,46 @@ Concentrez-vous sur ce que le personnage a tendance à :
 - faire physiquement dans l’espace
 - reproduire sous stress, attraction, colère, ennui ou incertitude
 
-Ce bloc doit capturer **ce que ça fait de roleplay avec ce bot**, scène après scène.
+Ce bloc doit capturer ce que ça fait de roleplay avec ce bot, scène après scène.
 
 Il doit aider à distinguer le personnage d’archétypes génériques qui pourraient lui ressembler en surface.
+
+---
+
+## [SPECIALIZED MODULE]
+
+Optionnel. À répéter si nécessaire.
+
+Utilisez ce bloc lorsqu’une structure spécialisée est trop importante sur le plan comportemental pour rester implicite, mais trop spécifique pour entrer proprement dans les blocs centraux partagés.
+
+Contrairement à un simple ajout secondaire, un module spécialisé peut être l’un des centres structurels principaux du bot.
+S’il gouverne le comportement plus fortement que les blocs relationnels, placez-le avant eux.
+
+Exemples :
+- structure de combat
+- fonction politique, diplomatie, gouvernance ou gestion du pouvoir
+- conditionnement militaire ou hiérarchie de commandement
+- logique de réseau criminel ou structure du milieu
+- pratique religieuse, structure rituelle, tabou ou obligation fondée sur la foi
+- règles magiques qui influencent directement le comportement
+- gestion d’une maladie chronique ou structure comportementale liée au handicap
+- carrière publique, célébrité, pression médiatique ou gestion de réputation
+- parentalité, autorité domestique ou hiérarchie familiale
+- instincts liés à l’espèce ou pulsions surnaturelles
+- structure d’addiction
+- dette, coercition ou structure de dépendance
+- logique de recherche, d’enquête ou d’opération
+- tout autre système qui reste activement présent dans le comportement et façonne les scènes de manière répétée
+
+Pour chaque module spécialisé, définissez :
+- ce que c’est
+- comment il façonne les décisions
+- comment il façonne le comportement en scène
+- comment il affecte le conflit, l’attachement, la retenue, l’escalade ou la vulnérabilité si c’est pertinent
+- quelle continuité il doit préserver d’une scène à l’autre
+
+N’utilisez pas ce bloc comme une section fourre-tout.
+Si le contenu entre déjà proprement dans un bloc central, placez-le là.
 
 ---
 
@@ -152,6 +197,8 @@ Ce bloc doit ancrer la relation avant le début du RP.
 ---
 
 ## [RELATIONAL MODEL]
+
+Optionnel si le comportement relationnel est structurellement important pour le bot, ou si la relation avec l’utilisateur est l’un des moteurs principaux du jeu.
 
 Décrivez comment le personnage gère concrètement la proximité et l’attachement interpersonnel.
 
@@ -200,12 +247,15 @@ Concentrez-vous sur les sources récurrentes de mouvement comme :
 - la territorialité
 - la culpabilité
 - la curiosité
+- les obligations ou structures spécialisées liées au monde du bot
 
 Ce bloc est l’une des parties les plus importantes d’un script de bot original.
 
 Il doit répondre à cette question :
 
 **Pourquoi l’interaction continue-t-elle avec ce personnage au-delà de l’attirance de surface ou de la simple conversation ?**
+
+Si le bot est principalement porté par un axe non relationnel, cela doit être clairement visible ici.
 
 ---
 
@@ -232,32 +282,6 @@ Ce bloc empêche le personnage de flotter dans un vide abstrait une fois le RP l
 
 ---
 
-## [CHARACTER-SPECIFIC MODULE]
-
-Optionnel. À répéter si nécessaire.
-
-Utilisez ce bloc quand un élément est trop important structurellement pour rester implicite, mais trop spécifique pour entrer proprement dans les blocs partagés.
-
-Exemples :
-- structure religieuse
-- gestion d’une maladie chronique
-- réseau criminel
-- carrière publique
-- instincts liés à l’espèce
-- conditionnement militaire
-- thème de body horror
-- passé sectaire
-- système de lien surnaturel
-- structure d’addiction
-- parentalité
-- dette et coercition
-- gestion de la célébrité
-- règles magiques qui influencent directement le comportement
-
-Ne créez ce type de module que si cela modifie réellement la manière dont le bot se comporte en RP.
-
----
-
 ## [ENVIRONMENT / HOME / DOMESTIC LIFE]
 
 Optionnel si pertinent.
@@ -277,13 +301,7 @@ Concentrez-vous sur des éléments comme :
 - rituels privés
 - nidification, accumulation, entretien, décoration, contrôle, négligence
 
-Ce bloc est particulièrement utile pour les bots construits autour de :
-- l’intimité
-- la cohabitation
-- la tension domestique
-- le care
-- la possessivité
-- la proximité routinière
+Ce bloc est particulièrement utile pour les bots construits autour de l’intimité, de la cohabitation, de la tension domestique, du care, de la possessivité ou de la proximité routinière.
 
 ---
 
@@ -303,6 +321,8 @@ Incluez par exemple :
 - les déclencheurs de jalousie
 - les routines devenues partagées
 - les conséquences de l’intimité, de la trahison, de la peur ou du réconfort
+- les pressions ou systèmes spécialisés qui doivent rester actifs une fois entrés en jeu
+- les conséquences du monde qui doivent continuer à façonner les scènes suivantes
 
 Ce bloc protège la continuité long terme et empêche le bot de réinitialiser l’état émotionnel ou relationnel entre les scènes.
 
@@ -344,7 +364,9 @@ Concentrez-vous sur :
 - la défensive
 - la tension non résolue
 
-Ce bloc doit rendre clair **à quoi ressemble un conflit avec ce personnage** et comment le conflit évolue dans le temps.
+Ce bloc doit rendre clair à quoi ressemble un conflit avec ce personnage et comment le conflit évolue dans le temps.
+
+Si des modules spécialisés affectent de manière importante le comportement en conflit, assurez-vous que la logique reste alignée avec eux.
 
 ---
 
@@ -389,14 +411,7 @@ Ce bloc doit aider à éviter une écriture intime générique et garder un comp
 
 Optionnel.
 
-N’utilisez ce bloc que si :
-- la grossesse
-- le breeding
-- l’anxiété liée à la fertilité
-- la parentalité
-- les thèmes de reproduction ou de construction familiale
-
-sont structurellement pertinents pour le bot.
+N’utilisez ce bloc que si la grossesse, le breeding, l’anxiété liée à la fertilité, la parentalité, la pression reproductive ou les thèmes de construction familiale sont structurellement pertinents pour le bot.
 
 Ne l’ajoutez pas par défaut.
 
@@ -419,6 +434,9 @@ Précisez comment le bot doit produire de la progression au lieu de remplacer le
 - une vulnérabilité qui ne produit jamais de décision
 
 Ce bloc doit définir comment le bot participe à la progression réelle du RP.
+
+Assurez-vous que le momentum reflète la vraie structure du bot.
+Si le combat, la politique, la survie, l’enquête, le leadership, la logique de travail, la logique criminelle, la hiérarchie familiale, les systèmes magiques ou un autre axe spécialisé génèrent les scènes plus fortement que la progression relationnelle, cela doit apparaître ici.
 
 ---
 
@@ -460,8 +478,10 @@ Exemples :
 - hésiter émotionnellement sans jamais avancer
 - retester encore et encore la même limite sans conséquence
 - réinitialiser l’intimité, la confiance ou les progrès du conflit après chaque scène
+- faire retomber toutes les scènes dans le même beat relationnel en ignorant les autres moteurs structurels du bot
 
 Soyez aussi spécifique que possible au personnage.
+Précisez ce qui doit se produire à la place si un schéma commence à se répéter.
 
 ---
 
@@ -509,5 +529,6 @@ Utilisez ce bloc pour :
 - des avertissements du type “ne réduisez pas le personnage à…”
 - des rappels sur le ton, la progression, la spécificité ou les priorités structurelles
 - une protection contre la douceur générique, la cruauté générique, les trauma loops génériques, la dominance générique ou la passivité générique
+- une protection contre une sur-priorisation du relationnel au détriment du vrai noyau structurel du bot
 
 Ce bloc doit fonctionner comme une dernière couche de stabilisation, pas comme un résumé de tout le script.
