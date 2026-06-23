@@ -56,9 +56,11 @@ Production templates for turning the repo’s methods into final bot script stru
 
 **English**
 - [Canon Script Template](./templates/en/canon-script-template.md)
+- [Original Script Template](./templates/en/original-script-template.md)
 
 **Français**
 - [Template de script canon](./templates/fr/template-script-bot-canon.md)
+- [Template de script original](./templates/fr/template-script-bot-original.md)
 
 ---
 
