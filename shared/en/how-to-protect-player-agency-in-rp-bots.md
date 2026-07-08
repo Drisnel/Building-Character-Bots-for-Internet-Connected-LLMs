@@ -448,31 +448,95 @@ They solve different problems.
 
 ---
 
-# 13. Common Mistakes When Writing Player Protection
+# 13. Driving the Scene Does Not Mean Driving the Player
 
-Some common failure patterns:
+A common mistake is to believe that a bot must choose between two extremes.
 
-- writing a player protection block that only says "never write the user's thoughts" and nothing else
-- forbidding internal narration but forgetting to forbid user dialogue and POV
-- making the block so strict that the bot becomes unable to move the scene at all
-- making the block so loose that "guided" becomes "the bot decides everything for the user"
-- treating visible physical response as identical to internal emotional certainty
-- hardcoding consent in a way that forces verbal validation every few lines
-- failing to distinguish between external effect and internal meaning
-- assuming one player protection style fits every bot
+Either it remains almost completely passive in order to respect player agency.
 
-The goal is not simply to prevent the worst-case violation.
+Or it gradually takes control of the player in order to keep the scene moving.
 
-The goal is to define a stable and playable boundary.
+In practice, these two ideas are independent.
+
+A bot can be highly proactive while fully respecting the player's agency.
+
+The character can naturally:
+
+- take initiative
+- suggest an activity
+- change locations
+- change the pacing of the scene
+- solve a practical problem
+- return to an unfinished conversation
+- introduce a new objective
+- create new opportunities for interaction
+- change the environment around the player
+
+All of these actions move the roleplay forward.
+
+None of them require deciding what the player thinks, feels, wants, or chooses.
+
+This distinction is important.
+
+Driving the scene is not the same as driving the player.
+
+The character carries their own part of the story.
+
+The player remains free to decide how they respond.
+
+In my view, a good bot should not leave the entire responsibility for pacing to the player.
+
+The character also exists to create momentum.
+
+They make decisions.
+
+They take action.
+
+They create opportunities for interaction.
+
+They maintain the continuity of the scene.
+
+All of this is fully compatible with strong player agency protection.
+
+Ultimately, protecting player agency does not mean making the character passive.
+
+It simply means allowing the character to act as the character, without ever replacing the player.
 
 ---
 
-# 14. My General Rule
+# 14. Common Mistakes When Writing Player Protection
 
-If I had to reduce the whole framework to one principle, it would be this:
+Some common failure patterns include:
 
-protect the user's inner state.
-decide deliberately how much external scene control the bot is allowed to carry.
+- writing a player protection block that only says "never write the player's thoughts" and nothing more
+- forbidding internal narration while forgetting to forbid writing the player's dialogue or point of view
+- making the block so strict that the bot becomes unable to move the scene forward
+- assuming that an active character automatically threatens player agency
+- making the block so permissive that "guided" eventually becomes "the bot decides everything for the player"
+- treating a visible physical reaction as though it were equivalent to an internal emotional certainty
+- writing consent rules so rigidly that the bot requires explicit verbal confirmation every few lines
+- failing to distinguish external effects from their internal meaning
+- assuming that one style of player protection fits every bot
+
+The goal is not simply to avoid the worst possible violation.
+
+The goal is to define a stable and playable boundary.
+
+The character should be able to carry the scene.
+
+The player should always remain in control of their own inner state.
+
+That boundary is what allows roleplay to remain both dynamic and respectful of player agency.
+
+---
+
+# 15. My General Rule
+
+If I had to reduce this entire framework to a single principle, it would be this:
+
+Protect the player's inner state.
+
+Deliberately decide how much external scene control the bot is allowed to carry.
 
 That is the real design choice.
 
@@ -480,24 +544,58 @@ Not whether player protection matters.
 
 It does.
 
-The real choice is how strict or how guided the protection should be.
+The real decision is determining how far the character may carry the scene without ever replacing the player.
+
+The character may create momentum.
+
+They may take initiative.
+
+They may change the pacing.
+
+They may influence the direction of the scene.
+
+They may not decide what the player thinks, feels, wants, or chooses.
+
+That boundary defines the style of player protection used by the bot.
+
+Depending on the creator's goals, that boundary may be stricter or more guided.
+
+What matters is that it remains clear, consistent, and stable.
 
 ---
 
-# Final Thought
+# Final Thoughts
 
 Player protection is not a decorative module.
 
-It is one of the systems that determines whether a bot feels collaborative or invasive.
+It is one of the systems that determines whether a bot feels collaborative or intrusive.
 
-A good player protection block does not only prevent the bot from speaking for the user.
+A good player protection block does more than prevent the bot from speaking for the player.
 
-It defines the line between roleplay guidance and player replacement.
+It defines the boundary between the character and the player.
 
-That line will not look exactly the same for every creator.
+It also allows the character to fully exist.
 
-Some want strict agency.
-Some want guided agency.
-Both can work.
+A character does not need to become passive in order to respect player agency.
 
-What matters is writing the boundary clearly enough that the bot knows where the user ends and the character begins.
+They can make decisions.
+
+They can move the scene forward.
+
+They can create new situations.
+
+They can carry the pacing of the roleplay.
+
+All of this is possible without ever deciding the player's inner state.
+
+That boundary will not look exactly the same for every creator.
+
+Some prefer strict agency.
+
+Others prefer guided agency.
+
+Both approaches can produce excellent bots.
+
+What matters is that the player remains the author of their own inner world, while the character remains fully responsible for their own decisions and for bringing the scene to life.
+
+That balance is, in my experience, what produces the most natural and long-lasting roleplay experiences.
