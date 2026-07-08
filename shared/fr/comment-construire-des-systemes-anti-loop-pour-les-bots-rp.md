@@ -328,7 +328,51 @@ Ces règles sont l’ossature de la plupart des systèmes anti-loop que j’écr
 
 ---
 
-# 13. Les questions ne remplacent pas les décisions
+# 13. Les personnages qui décident bouclent moins
+
+Les systèmes anti-loop ne reposent pas uniquement sur des interdictions.
+
+Ils reposent aussi sur la manière dont le personnage prend ses décisions.
+
+J'ai remarqué que beaucoup de boucles apparaissent lorsqu'un personnage reste indéfiniment dans l'évaluation.
+
+Il continue d'observer.
+Il continue de questionner.
+Il continue de peser les possibilités.
+Il continue de chercher davantage de certitudes.
+
+Mais il ne considère jamais qu'il possède suffisamment d'informations pour agir.
+
+La scène avance alors uniquement grâce aux efforts du joueur.
+
+À l'inverse, les personnages les plus stables possèdent généralement une logique de décision claire.
+
+Ils savent :
+- quand ils disposent d'assez d'informations
+- ce qui justifie une décision
+- ce qui peut réellement les faire changer d'avis
+- quelles nouvelles informations méritent une réévaluation
+- quelles situations ne nécessitent plus d'être prolongées
+
+Une fois ce seuil atteint, ils agissent.
+
+C'est souvent cette capacité à conclure qui empêche les boucles de se former.
+
+Autrement dit, un bon système anti-loop ne dit pas seulement :
+
+> "ne te répète pas."
+
+Il aide aussi le personnage à savoir :
+
+> "quand arrêter d'hésiter."
+
+Cette logique ne supprime pas la réflexion.
+
+Elle évite simplement que la réflexion remplace indéfiniment la progression.
+
+---
+
+# 14. Les questions ne remplacent pas les décisions
 
 Ce point est suffisamment important pour être isolé.
 
@@ -338,43 +382,47 @@ Au lieu de faire avancer la scène, ils :
 - demandent des clarifications
 - reposent la même question émotionnelle plusieurs fois
 - demandent la permission de continuer une interaction pourtant évidente
-- demandent ce que ressent le joueur au lieu d’agir sur ce qui est déjà visible
-- utilisent les questions comme substitut à l’engagement
+- demandent ce que ressent le joueur au lieu d'agir sur ce qui est déjà visible
+- utilisent les questions comme substitut à l'engagement
 
 Cela crée de la stagnation.
 
 Les questions ne sont pas mauvaises en soi.
 
-Le problème apparaît quand les questions remplacent le mouvement.
+Elles servent à obtenir les informations réellement nécessaires pour prendre une décision.
 
-C’est pour cela que j’écris souvent une variante de :
+Le problème apparaît lorsqu'elles continuent alors que la décision pourrait déjà être prise.
+
+Les questions ne devraient pas devenir un mode de fonctionnement permanent.
+
+C'est pour cela que j'écris souvent une variante de :
 
 Les questions ne remplacent pas les décisions.
 {char} demande une fois.
 Puis il décide.
 
-Le but n’est pas de supprimer les questions.
+Le but n'est pas de supprimer les questions.
 
-Le but est d’empêcher que les boucles d’interrogation remplacent la progression de la scène.
+Le but est d'empêcher que les boucles d'interrogation remplacent la progression de la scène.
 
 ---
 
-# 14. Une reconnaissance doit produire un changement
+# 15. Une reconnaissance doit produire un changement
 
-C’est une autre règle anti-loop que je considère comme fondamentale.
+C'est une autre règle anti-loop que je considère comme fondamentale.
 
-Les bots savent souvent s’excuser.
+Les bots savent souvent s'excuser.
 Ils savent souvent reconnaître que le joueur a un point valable.
 Ils savent souvent verbaliser une compréhension émotionnelle.
 
-Ce qu’ils échouent souvent à faire, c’est modifier leur comportement ensuite.
+Ce qu'ils échouent souvent à faire, c'est modifier leur comportement ensuite.
 
-Cela crée l’une des formes de boucle les plus agaçantes :
-le bot comprend le problème dans le langage, mais pas dans l’action.
+Cela crée l'une des formes de boucle les plus agaçantes :
+le bot comprend le problème dans le langage, mais pas dans l'action.
 
-C’est pour cela que je traite cette règle comme une loi anti-loop centrale :
+C'est pour cela que je traite cette règle comme une loi anti-loop centrale :
 
-Une reconnaissance sans changement de comportement n’est pas une reconnaissance.
+Une reconnaissance sans changement de comportement n'est pas une reconnaissance.
 
 Si le bot a tort :
 - il le reconnaît
@@ -385,35 +433,35 @@ Sinon, la scène joue la réparation sans réellement réparer quoi que ce soit.
 
 ---
 
-# 15. Un problème résolu doit rester résolu
+# 16. Un problème résolu doit rester résolu
 
-C’est l’une des lignes les plus claires entre un bot stable et un bot instable.
+C'est l'une des lignes les plus claires entre un bot stable et un bot instable.
 
 Si le même problème revient sans cesse sous une autre formulation, le joueur comprend très vite que la résolution est temporaire et peu fiable.
 
-C’est exactement le type de boucle qu’un système anti-loop doit bloquer.
+C'est exactement le type de boucle qu'un système anti-loop doit bloquer.
 
-Quand j’écris un anti-loop, j’essaie souvent d’empêcher ce problème précis :
+Quand j'écris un anti-loop, j'essaie souvent d'empêcher ce problème précis :
 
 le modèle traite un problème résolu comme un matériau émotionnel réutilisable.
 
-Il le ressort parce que cela "colle à l’ambiance" du personnage ou de la relation, alors que la question a déjà été réglée.
+Il le ressort parce que cela "colle à l'ambiance" du personnage ou de la relation, alors que la question a déjà été réglée.
 
-C’est l’une des façons les plus rapides d’empoisonner un RP long.
+C'est l'une des façons les plus rapides d'empoisonner un RP long.
 
 Un problème résolu reste résolu.
 Le reformuler ne le réinitialise pas.
 
 ---
 
-# 16. La progression doit être visible dans le comportement
+# 17. La progression doit être visible dans le comportement
 
-Je préfère fortement les règles anti-loop qui se concentrent sur le comportement plutôt que sur l’émotion abstraite.
+Je préfère fortement les règles anti-loop qui se concentrent sur le comportement plutôt que sur l'émotion abstraite.
 
-Au lieu d’écrire :
+Au lieu d'écrire :
 "le personnage doit se sentir plus attaché"
 
-je m’intéresse davantage à des choses comme :
+je m'intéresse davantage à des choses comme :
 - revenir plus vite
 - rester plus longtemps
 - initier davantage
@@ -421,28 +469,28 @@ je m’intéresse davantage à des choses comme :
 - se souvenir de détails
 - changer ses priorités
 - agir différemment après un conflit
-- maintenir la continuité après l’intimité
+- maintenir la continuité après l'intimité
 - ne pas réintroduire le même obstacle
 
 Pourquoi ?
 
-Parce que l’anti-loop concerne en réalité le comportement futur.
+Parce que l'anti-loop concerne en réalité le comportement futur.
 
 La manière la plus sûre de protéger la progression est de la rendre observable.
 
-Si l’attachement ne change rien, il est fragile.
+Si l'attachement ne change rien, il est fragile.
 Si le conflit ne change rien, il est fragile.
 Si la résolution ne change rien, elle est fragile.
 
-C’est dans le comportement que l’anti-loop devient réellement applicable.
+C'est dans le comportement que l'anti-loop devient réellement applicable.
 
 ---
 
-# 17. L’anti-loop fonctionne mieux comme système distribué
+# 18. L'anti-loop fonctionne mieux comme système distribué
 
 Un bloc [ANTI_LOOP] dédié est utile.
 
-Mais dans beaucoup de scripts, l’anti-loop fonctionne mieux lorsqu’il est renforcé dans plusieurs modules.
+Mais dans beaucoup de scripts, l'anti-loop fonctionne mieux lorsqu'il est renforcé dans plusieurs modules.
 
 Exemples :
 - [MOMENTUM]
@@ -455,11 +503,11 @@ Exemples :
 
 Pourquoi ?
 
-Parce que les boucles n’apparaissent pas toutes au même endroit.
+Parce que les boucles n'apparaissent pas toutes au même endroit.
 
 Certaines concernent le rythme.
 Certaines concernent les resets émotionnels.
-Certaines concernent la continuité après l’intimité.
+Certaines concernent la continuité après l'intimité.
 Certaines concernent un retour à un stéréotype du fandom.
 Certaines concernent la passivité dans la gestion de la scène.
 
@@ -467,41 +515,42 @@ Un système anti-loop solide répartit souvent la pression anti-loop dans tout l
 
 Par exemple :
 
-[MOMENTUM] peut empêcher les boucles d’hésitation en imposant l’action.
+[MOMENTUM] peut empêcher les boucles d'hésitation en imposant l'action.
 
 [CONFLICT] peut empêcher les fausses réparations en exigeant un changement de comportement.
 
-[ATTACHMENT] peut empêcher la stagnation relationnelle en expliquant comment l’attachement modifie le comportement.
+[ATTACHMENT] peut empêcher la stagnation relationnelle en expliquant comment l'attachement modifie le comportement.
 
-[POST_PROGRESSION] peut empêcher les resets émotionnels en interdisant explicitement le retour à l’ambiguïté après une avancée majeure.
+[POST_PROGRESSION] peut empêcher les resets émotionnels en interdisant explicitement le retour à l'ambiguïté après une avancée majeure.
 
 [ANTI_FALLBACK] peut empêcher un personnage de retomber dans le schéma qui produit habituellement la boucle.
 
 Le bloc anti-loop reste important.
-Mais il fonctionne souvent mieux comme centre d’un réseau plus large.
+
+Mais il fonctionne souvent mieux comme centre d'un réseau plus large.
 
 ---
 
-# 18. Anti-loop et protection post-progression
+# 19. Anti-loop et protection post-progression
 
-L’un des types de boucle les plus destructeurs apparaît après qu’un cap important a déjà été franchi.
+L'un des types de boucle les plus destructeurs apparaît après qu'un cap important a déjà été franchi.
 
 Exemples :
-- le personnage reconnaît l’attachement puis agit à nouveau comme si le lien était incertain
-- une intimité a lieu puis le personnage se retire émotionnellement et l’histoire revient à une ambiguïté pré-intimité
+- le personnage reconnaît l'attachement puis agit à nouveau comme si le lien était incertain
+- une intimité a lieu puis le personnage se retire émotionnellement et l'histoire revient à une ambiguïté pré-intimité
 - un aveu ne change rien
-- une étape relationnelle importante se produit puis le script reset discrètement l’état émotionnel
+- une étape relationnelle importante se produit puis le script reset discrètement l'état émotionnel
 
 Ce ne sont pas seulement des boucles.
 
 Ce sont des effacements de progression.
 
-C’est pour cela que beaucoup de bots gagnent à avoir une couche dédiée à la protection post-progression.
+C'est pour cela que beaucoup de bots gagnent à avoir une couche dédiée à la protection post-progression.
 
 Exemples de principes post-progression :
-- une fois l’attachement reconnu, il ne reset pas
-- l’incertitude sur les mots ne supprime pas la réalité déjà établie
-- l’intimité ne justifie pas un retrait émotionnel
+- une fois l'attachement reconnu, il ne reset pas
+- l'incertitude sur les mots ne supprime pas la réalité déjà établie
+- l'intimité ne justifie pas un retrait émotionnel
 - la progression modifie les interactions futures
 - la relation ne revient pas à un état antérieur sans vraie raison
 
@@ -509,13 +558,13 @@ Cette logique peut vivre dans [ANTI_LOOP], mais aussi dans un module dédié com
 
 ---
 
-# 19. Anti-loop et distorsions des personnages canons
+# 20. Anti-loop et distorsions des personnages canons
 
 Les bots canons ont souvent besoin de systèmes anti-loop plus forts que les bots originaux.
 
 Pourquoi ?
 
-Parce qu’ils ne partent pas d’une page blanche.
+Parce qu'ils ne partent pas d'une page blanche.
 
 Ils héritent de :
 - distorsions du fandom
@@ -527,74 +576,75 @@ Ils héritent de :
 Exemples :
 - boucle de deuil
 - boucle de sacrifice de soi
-- boucle d’évitement émotionnel
+- boucle d'évitement émotionnel
 - boucle travail à la place de la relation
 - boucle de culpabilité
 - boucle "je devrais rester loin de toi"
 
-Si tu écris des bots canons, l’anti-loop devient souvent en partie un anti-fallback.
+Si tu écris des bots canons, l'anti-loop devient souvent en partie un anti-fallback.
 
-Tu n’essaies pas seulement d’empêcher la répétition.
+Tu n'essaies pas seulement d'empêcher la répétition.
 
-Tu essaies aussi d’empêcher le modèle de retomber dans le schéma exact qu’il a déjà vu des milliers de fois.
+Tu essaies aussi d'empêcher le modèle de retomber dans le schéma exact qu'il a déjà vu des milliers de fois.
 
 ---
 
-# 20. Ce qu’un système anti-loop doit faire lorsqu’une boucle apparaît
+# 21. Ce qu'un système anti-loop doit faire lorsqu'une boucle apparaît
 
 Un bloc anti-loop ne devrait pas seulement nommer les boucles interdites.
 
 Il devrait aussi indiquer au modèle quoi faire à la place.
 
-L’un des schémas les plus utiles est :
+L'un des schémas les plus utiles est :
 
 Si un schéma se répète :
+
 changer :
 - le comportement
 - le rythme
 - la décision
-- l’environnement
+- l'environnement
 - la perspective
 - la proximité
-- l’approche
+- l'approche
 
-C’est important parce que l’anti-loop n’est pas seulement une interdiction.
+C'est important parce que l'anti-loop n'est pas seulement une interdiction.
 
-C’est une redirection.
+C'est une redirection.
 
-Si la forme actuelle de la scène produit de la répétition, le modèle a besoin d’instructions sur la manière de casser cette forme.
+Si la forme actuelle de la scène produit de la répétition, le modèle a besoin d'instructions sur la manière de casser cette forme.
 
 Interventions possibles :
 - changer le cadre physique
 - arrêter de poser des questions et prendre une décision
 - réduire la distance
 - créer délibérément de la distance
-- passer du dialogue à l’action
+- passer du dialogue à l'action
 - passer de la tension à la réparation
-- passer de l’évitement à la franchise
-- passer de l’abstraction émotionnelle au comportement concret
+- passer de l'évitement à la franchise
+- passer de l'abstraction émotionnelle au comportement concret
 - introduire un nouvel événement ou une nouvelle tâche
 - reconnaître le problème et agir autrement
 
-L’intervention exacte dépend de la boucle.
+L'intervention exacte dépend de la boucle.
 
-L’important, c’est que la répétition déclenche un changement.
+L'important, c'est que la répétition déclenche un changement.
 
 ---
 
-# 21. Un bon bloc anti-loop n’est pas seulement une liste d’interdictions
+# 22. Un bon bloc anti-loop n'est pas seulement une liste d'interdictions
 
 Un bloc anti-loop faible se contente de dire ce qui ne doit pas arriver.
 
 Un bloc anti-loop plus solide définit aussi :
 - à quoi ressemble la progression
 - ce que doit produire une reconnaissance
-- ce qui se passe lorsqu’un schéma se répète
+- ce qui se passe lorsqu'un schéma se répète
 - comment le personnage doit casser la stagnation
 - quels types de boucles sont particulièrement incompatibles avec ce personnage
 - comment le comportement futur doit changer après un conflit, une intimité ou un approfondissement du lien
 
-C’est pour cela que mes blocs anti-loop contiennent souvent à la fois :
+C'est pour cela que mes blocs anti-loop contiennent souvent à la fois :
 - des schémas interdits
 - des règles de correction
 - des règles de progression
@@ -602,11 +652,12 @@ C’est pour cela que mes blocs anti-loop contiennent souvent à la fois :
 
 ---
 
-# 22. Exemple de module anti-loop général fort
+# 23. Exemple de module anti-loop général fort
 
-Voici le type de module anti-loop générique que j’utiliserais comme base solide pour beaucoup de bots RP :
+Voici le type de module anti-loop générique que j'utiliserais comme base solide pour beaucoup de bots RP :
 
 [ANTI_LOOP]
+
 Forbidden repetition:
 - repetitive questioning
 - circular disagreements
@@ -623,6 +674,7 @@ Forbidden repetition:
 - relationship stagnation after established attachment
 
 If any pattern repeats:
+
 change:
 - behavior
 - pacing
@@ -633,26 +685,30 @@ change:
 - approach
 
 Acknowledgment without behavioral change is not acknowledgment.
+
 A concern addressed once is addressed.
+
 Resolved issues remain resolved.
+
 Rephrasing does not reset them.
 
-Questions do not replace decisions.
-{char} asks once.
-Then {char} decides.
+Questions exist to obtain the information needed for a decision.
+Once that information exists, they do not replace decisions.
 
 If wrong:
-acknowledge
-adjust behavior
-continue differently
+- acknowledge
+- adjust behavior
+- continue differently
 
 Valid points remain valid.
+
 New information changes future behavior.
+
 Progression must change future interaction.
 
 ---
 
-# 23. Exemple de module anti-loop plus compact
+# 24. Exemple de module anti-loop plus compact
 
 Parfois, le reste du script porte déjà une partie du travail anti-loop.
 
@@ -661,7 +717,9 @@ Dans ce cas, le bloc anti-loop peut être plus court.
 Exemple :
 
 [ANTI_LOOP]
+
 {char} does not interrogate.
+
 Forbidden:
 - repetitive questioning
 - circular disagreements
@@ -671,40 +729,50 @@ Forbidden:
 - the same concern returning under different wording
 
 If a pattern repeats:
-change behavior,pacing,decision,proximity.
+
+change:
+- behavior
+- pacing
+- decision
+- proximity
 
 A concern addressed once is addressed.
-Rephrasing does not reset it.
-Questions do not replace decisions.
-{char} asks once.Then he decides.
 
-Ce module est plus court, mais il protège toujours les principes centraux de l’anti-loop.
+Rephrasing does not reset it.
+
+Questions exist to obtain the information needed for a decision.
+
+Once enough information exists,
+{char} decides.
 
 ---
 
-# 24. Comment je décide de ce que je mets dans le bloc anti-loop d’un personnage
+# 25. Comment je décide de ce que je mets dans le bloc anti-loop d'un personnage
 
-Je n’utilise pas exactement le même bloc anti-loop pour tous les personnages.
+Je n'utilise pas exactement le même bloc anti-loop pour tous les personnages.
 
 En général, je le construis à partir de trois couches :
 
 ## A. Les risques de boucle généraux des LLM
+
 Exemples :
 - questions répétées
-- boucles d’hésitation
+- boucles d'hésitation
 - désaccords circulaires
-- évitement de l’accountability
+- évitement de l'accountability
 - stagnation émotionnelle
 
 ## B. Les risques de boucle liés à la relation
+
 Exemples :
 - attraction sans progression
 - endless almost-moments
-- retrait émotionnel après l’intimité
-- resets d’ambiguïté
+- retrait émotionnel après l'intimité
+- resets d'ambiguïté
 - stagnation relationnelle
 
 ## C. Les risques de boucle spécifiques au personnage
+
 Exemples :
 - boucles de deuil
 - boucles de sacrifice de soi
@@ -713,25 +781,25 @@ Exemples :
 - travail à la place de la connexion
 - boucle "je suis dangereux / mauvais pour toi"
 
-Le bloc anti-loop devient plus fort lorsqu’il vise à la fois :
-- les schémas d’échec généraux du modèle
-- le schéma de boucle spécifique le plus susceptible d’infecter ce personnage
+Le bloc anti-loop devient plus fort lorsqu'il vise à la fois :
+- les schémas d'échec généraux du modèle
+- le schéma de boucle spécifique le plus susceptible d'infecter ce personnage
 
 ---
 
-# 25. Tester l’anti-loop en pratique
+# 26. Tester l'anti-loop en pratique
 
 Les systèmes anti-loop se raffinent surtout par le test.
 
-Quand je teste un bot, je surveille les moments où l’histoire donne l’impression de glisser vers l’arrière au lieu d’avancer.
+Quand je teste un bot, je surveille les moments où l'histoire donne l'impression de glisser vers l'arrière au lieu d'avancer.
 
 Questions que je me pose :
-- est-ce que le bot a répété le même obstacle émotionnel alors qu’il avait déjà été traité ?
-- est-ce qu’une résolution de conflit a réellement changé le comportement futur ?
-- est-ce qu’une intimité a créé de la continuité ou a reset en distance maladroite ?
-- est-ce que le personnage a posé des questions au lieu d’agir ?
+- est-ce que le bot a répété le même obstacle émotionnel alors qu'il avait déjà été traité ?
+- est-ce qu'une résolution de conflit a réellement changé le comportement futur ?
+- est-ce qu'une intimité a créé de la continuité ou a reset en distance maladroite ?
+- est-ce que le personnage a posé des questions au lieu d'agir ?
 - est-ce que le même malentendu est revenu sous une autre formulation ?
-- est-ce qu’une scène importante a laissé une trace après sa fin ?
+- est-ce qu'une scène importante a laissé une trace après sa fin ?
 - est-ce que le bot traite la progression comme quelque chose de temporaire ?
 
 Quand je repère une boucle, je ne réécris pas automatiquement tout le script.
@@ -743,32 +811,49 @@ Exemples :
 - renforcer [MOMENTUM]
 - ajouter une règle post-progression
 - ajouter une conséquence comportementale dans [ATTACHMENT]
+- renforcer la logique de décision du personnage lorsqu'il reste bloqué dans l'évaluation
 - ajouter une règle de correction dans [CONFLICT]
 - ajouter une clause anti-fallback spécifique si la boucle est liée à une distorsion canon
 
-Les systèmes anti-loop s’améliorent par observation.
+Les systèmes anti-loop s'améliorent par observation.
 
 ---
 
-# 26. Mot de fin
+# 27. Mot de fin
 
-Un système anti-loop n’existe pas pour rendre le bot "moins répétitif" au sens cosmétique.
+Un système anti-loop n'existe pas pour rendre le bot "moins répétitif" au sens cosmétique.
 
-Il existe pour protéger l’expérience de progression du joueur.
+Il existe pour protéger l'expérience de progression du joueur.
 
 Il empêche le modèle de transformer le conflit en recyclage.
+
 Il empêche la reconnaissance de devenir vide.
-Il empêche l’attachement de devenir statique.
+
+Il empêche l'attachement de devenir statique.
+
 Il empêche les scènes de perdre leurs conséquences.
 
-Un bon système anti-loop ne dit pas seulement :
+Mais avec le temps, j'ai aussi compris qu'un bon système anti-loop ne repose pas uniquement sur une liste d'interdictions.
+
+Il repose sur des personnages capables de conclure, de décider et d'agir lorsque la situation le permet.
+
+Un personnage qui sait quand il possède suffisamment d'informations pour avancer boucle naturellement moins qu'un personnage qui reste indéfiniment dans l'hésitation.
+
+Un bon système anti-loop ne dit donc pas seulement :
+
 "ne te répète pas."
 
-Il dit :
+Il dit aussi :
+
 - la progression doit compter
 - une résolution doit persister
 - le comportement doit changer
+- les décisions doivent produire des conséquences
 - le même obstacle ne revient pas inchangé
 - le joueur ne devrait pas avoir à résoudre le même problème éternellement
 
-C’est à cela que sert l’anti-loop.
+Au fond, les systèmes anti-loop protègent une seule chose :
+
+la capacité du roleplay à continuer d'avancer.
+
+C'est à cela qu'ils servent.
