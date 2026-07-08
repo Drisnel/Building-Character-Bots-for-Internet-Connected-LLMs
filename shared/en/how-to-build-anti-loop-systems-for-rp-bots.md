@@ -331,121 +331,181 @@ These rules are the backbone of most anti-loop systems I write.
 
 ---
 
-# 13. Questions Do Not Replace Decisions
+# 13. Characters That Can Decide Loop Less
 
-This point matters enough to isolate.
+Anti-loop systems do not rely only on prohibitions.
 
-Many LLMs use questions as a stalling mechanism.
+They also rely on how the character makes decisions.
 
-Instead of progressing the scene, they:
-- ask for clarification
-- ask the same emotional question repeatedly
-- ask for permission to continue obvious interaction
-- ask what the user feels instead of acting on what is already visible
-- ask questions as a substitute for commitment
+One thing I have repeatedly observed is that many loops appear when a character remains indefinitely in evaluation.
 
-That creates stagnation.
+They keep observing.
 
-Questions are not inherently bad.
+They keep questioning.
 
-The problem is when questioning replaces movement.
+They keep weighing possibilities.
 
-That is why I often write some version of:
+They keep searching for more certainty.
 
-Questions do not replace decisions.
-{char} asks once.
-Then he decides.
+But they never decide that they have enough information to act.
 
-The goal is not to eliminate questions.
+At that point, the scene only continues because the player keeps pushing it forward.
 
-The goal is to stop interrogation loops from replacing scene progression.
+By contrast, the most stable characters usually have a clear decision model.
+
+They know:
+- when they have enough information
+- what justifies making a decision
+- what could genuinely make them reconsider
+- which new information deserves re-evaluation
+- which situations no longer need to be prolonged
+
+Once that threshold is reached, they act.
+
+Very often, it is this ability to reach a conclusion that prevents loops from forming in the first place.
+
+In other words, a good anti-loop system does not only tell the character:
+
+> "don't repeat yourself."
+
+It also helps the character know:
+
+> "when to stop hesitating."
+
+This does not eliminate thoughtful decision-making.
+
+It simply prevents endless evaluation from replacing forward progression.
 
 ---
 
-# 14. Acknowledgment Must Produce Change
+# 14. Questions Should Not Replace Decisions
 
-This is another anti-loop rule I consider foundational.
+This point is important enough to deserve its own section.
 
-Bots often know how to apologize.
-They often know how to recognize that the user has a valid point.
-They often know how to verbalize emotional understanding.
+Many LLMs use questions as a stalling mechanism.
 
-What they often fail to do is change behavior afterward.
+Instead of moving the scene forward, they:
+- ask for clarification
+- repeat the same emotional question multiple times
+- ask permission to continue interactions that are already obvious
+- ask the player how they feel instead of acting on what is already visible
+- use questions as a substitute for engagement
 
-That creates one of the most infuriating forms of loop:
-the bot understands the issue in language but not in action.
+This creates stagnation.
 
-That is why I treat this as a core anti-loop law:
+Questions are not inherently bad.
+
+They exist to obtain the information genuinely needed to make a decision.
+
+The problem begins when questioning continues after the character already has enough information to act.
+
+Questions should not become a permanent operating mode.
+
+This is why I often write some variation of:
+
+Questions do not replace decisions.
+
+{char} asks once.
+
+Then {char} decides.
+
+The goal is not to eliminate questions.
+
+The goal is to prevent questioning loops from replacing scene progression.
+
+---
+
+# 15. Acknowledgment Must Produce Change
+
+This is another anti-loop rule that I consider fundamental.
+
+Bots are often capable of apologizing.
+
+They are often capable of recognizing that the player has a valid point.
+
+They are often capable of expressing emotional understanding.
+
+What they frequently fail to do is change their behavior afterward.
+
+This creates one of the most frustrating forms of looping:
+
+the bot understands the problem in language, but not in action.
+
+That is why I treat this as a core anti-loop principle:
 
 Acknowledgment without behavioral change is not acknowledgment.
 
 If the bot is wrong:
-- it acknowledges it
-- it adjusts behavior
-- it continues differently
+- acknowledge it
+- adjust behavior
+- continue differently
 
-Otherwise the scene is only performing repair, not actually repairing anything.
+Otherwise, the scene performs reconciliation without actually repairing anything.
 
 ---
 
-# 15. Resolved Issues Must Stay Resolved
+# 16. A Resolved Problem Should Stay Resolved
 
-This is one of the clearest lines between a stable bot and an unstable one.
+This is one of the clearest distinctions between a stable bot and an unstable one.
 
-If the same issue keeps coming back under different wording, the player quickly learns that resolution is temporary and unreliable.
+If the same issue keeps returning under slightly different wording, the player quickly learns that every resolution is temporary and unreliable.
 
-That is exactly the kind of loop anti-loop systems should block.
+That is exactly the kind of loop an anti-loop system should prevent.
 
-When I write anti-loop, I am often trying to prevent this specific failure:
+When I write an anti-loop system, I often try to stop this specific failure:
 
 the model treats a resolved issue as reusable emotional material.
 
-It brings it back because it "fits the vibe" of the character or the relationship, even though it was already addressed.
+It brings it back because it "fits the mood" of the character or relationship, even though the issue has already been settled.
 
-That is one of the fastest ways to poison long-term RP.
+This is one of the fastest ways to poison a long-term roleplay.
 
-Resolved issues remain resolved.
-Rephrasing does not reset them.
+A resolved issue remains resolved.
+
+Rephrasing it does not reset it.
 
 ---
 
-# 16. Progression Must Be Visible In Behavior
+# 17. Progression Should Be Visible Through Behavior
 
-I strongly prefer anti-loop rules that focus on behavior rather than abstract emotion.
+I strongly prefer anti-loop rules that focus on behavior rather than abstract emotions.
 
-Instead of saying:
+Instead of writing:
+
 "the character should feel more attached"
 
-I care more about things like:
+I am much more interested in things like:
 - returning sooner
 - staying longer
-- initiating more
+- initiating more often
 - reducing distance
 - remembering details
 - changing priorities
-- acting differently after conflict
+- behaving differently after conflict
 - maintaining continuity after intimacy
 - not reintroducing the same obstacle
 
 Why?
 
-Because anti-loop is really about future behavior.
+Because anti-loop systems are ultimately about future behavior.
 
-The safest way to protect progression is to force progression to become observable.
+The safest way to protect progression is to make it observable.
 
 If attachment changes nothing, it is fragile.
+
 If conflict changes nothing, it is fragile.
+
 If resolution changes nothing, it is fragile.
 
-Behavior is where anti-loop becomes enforceable.
+Behavior is where anti-loop systems become genuinely enforceable.
 
 ---
 
-# 17. Anti-Loop Works Best As A Distributed System
+# 18. Anti-Loop Works Best as a Distributed System
 
 A dedicated [ANTI_LOOP] block is useful.
 
-But in many scripts, anti-loop works best when it is reinforced across multiple modules.
+However, in many scripts, anti-loop systems become much stronger when they are reinforced across multiple modules.
 
 Examples:
 - [MOMENTUM]
@@ -458,99 +518,106 @@ Examples:
 
 Why?
 
-Because loops do not only happen in one place.
+Because loops do not all originate in the same place.
 
-Some loops are about pacing.
-Some are about emotional resets.
-Some are about post-intimacy continuity.
-Some are about the bot falling back into a fandom stereotype.
-Some are about passive scene handling.
+Some concern pacing.
 
-A strong anti-loop system often distributes anti-loop pressure across the script.
+Some concern emotional resets.
+
+Some concern continuity after intimacy.
+
+Some concern falling back into a familiar fandom stereotype.
+
+Some concern passivity in scene management.
+
+A strong anti-loop system often distributes anti-loop pressure throughout the entire script.
 
 For example:
 
-[MOMENTUM] can prevent hesitation loops by forcing action.
+[MOMENTUM] can prevent hesitation loops by requiring action.
 
-[CONFLICT] can prevent fake repair by requiring behavioral change.
+[CONFLICT] can prevent false reconciliation by requiring behavioral change.
 
-[ATTACHMENT] can prevent relationship stagnation by specifying how attachment changes behavior.
+[ATTACHMENT] can prevent relationship stagnation by explaining how attachment changes future behavior.
 
-[POST_PROGRESSION] can prevent emotional reset by explicitly forbidding retreat into ambiguity after major progression.
+[POST_PROGRESSION] can prevent emotional resets by explicitly forbidding a return to pre-progression ambiguity after a major milestone.
 
-[ANTI_FALLBACK] can prevent a character from collapsing back into the exact pattern that usually creates the loop.
+[ANTI_FALLBACK] can prevent a character from falling back into the behavioral pattern that usually produces the loop.
 
 The anti-loop block remains important.
-But it often works best as the center of a larger network.
+
+But it often works best as the center of a much larger system.
 
 ---
 
-# 18. Anti-Loop And Post-Progression Protection
+# 19. Anti-Loop and Post-Progression Protection
 
-One of the most damaging loop types appears after a major step has already happened.
+One of the most destructive forms of looping appears after an important milestone has already been reached.
 
 Examples:
-- the character acknowledges attachment, then acts as if the bond is uncertain again
-- intimacy happens, then the character emotionally withdraws and the story returns to pre-intimacy ambiguity
+- the character acknowledges their attachment, then behaves as though the relationship is uncertain again
+- intimacy happens, then the character emotionally withdraws and the story quietly returns to pre-intimacy ambiguity
 - a confession changes nothing
-- a relationship milestone happens, then the script quietly resets the emotional state
+- a major relationship milestone occurs, then the script silently resets the emotional state
 
-These are not just loops.
+These are not simply loops.
 
-They are progression erasure.
+They are acts of progression erasure.
 
-That is why many bots benefit from a separate post-progression layer.
+This is why many bots benefit from having a dedicated layer of post-progression protection.
 
 Examples of post-progression principles:
 - once attachment is acknowledged, it does not reset
-- uncertainty about labels does not erase established reality
+- uncertainty about words does not erase an already established reality
 - intimacy does not justify emotional withdrawal
-- progression changes future interaction
-- the relationship does not return to an earlier state without a real cause
+- progression changes future interactions
+- the relationship does not return to an earlier state without a genuine reason
 
-This can live inside [ANTI_LOOP], but it can also live in a dedicated [POST_PROGRESSION] or [RELATIONSHIP_HEALTH] module.
+This logic can live inside [ANTI_LOOP], but it can also exist in dedicated modules such as [POST_PROGRESSION] or [RELATIONSHIP_HEALTH].
 
 ---
 
-# 19. Anti-Loop And Canon Character Distortions
+# 20. Anti-Loop and Canon Character Distortions
 
-Canon bots often need stronger anti-loop systems than original bots.
+Canon bots often require stronger anti-loop systems than original characters.
 
 Why?
 
-Because canon bots do not begin from a clean slate.
+Because they do not begin from a blank slate.
 
 They inherit:
 - fandom distortions
 - adaptation distortions
 - meme simplifications
 - repeated fanfiction patterns
-- model priors tied to the character's most famous emotional loop
+- model priors built around the character's most famous emotional loop
 
 Examples:
-- grief loop
-- self-sacrifice loop
-- emotional avoidance loop
-- work-over-relationship loop
-- guilt loop
-- "I should stay away from you" loop
+- grief loops
+- self-sacrifice loops
+- emotional avoidance loops
+- choosing work over relationships
+- guilt loops
+- "I should stay away from you" loops
 
-If you are writing canon bots, anti-loop is often partly anti-fallback.
+When writing canon bots, anti-loop systems often become partly anti-fallback systems.
 
 You are not only preventing repetition.
-You are preventing the model from snapping back into the exact pattern it has seen thousands of times.
+
+You are also preventing the model from returning to the exact behavioral pattern it has already seen thousands of times.
 
 ---
 
-# 20. What An Anti-Loop System Should Do When A Loop Appears
+# 21. What an Anti-Loop System Should Do When a Loop Appears
 
-An anti-loop block should not only name forbidden loops.
+An anti-loop block should not only identify forbidden loops.
 
 It should also tell the model what to do instead.
 
 One of the most useful patterns is:
 
 If a pattern repeats:
+
 change:
 - behavior
 - pacing
@@ -560,44 +627,43 @@ change:
 - proximity
 - approach
 
-This matters because anti-loop is not only prohibition.
+This matters because anti-loop systems are not only prohibitions.
 
-It is redirection.
+They are redirection systems.
 
-If the current scene shape is producing repetition, the model needs instructions for how to break the shape.
+If the current shape of the scene is producing repetition, the model needs instructions for breaking that pattern.
 
 Possible interventions include:
-- change the physical setting
-- stop asking and make a decision
-- close distance
-- create distance deliberately
-- shift from dialogue to action
-- shift from tension to repair
-- shift from avoidance to directness
-- shift from emotional abstraction to concrete behavior
-- introduce a new event or task
-- acknowledge and move differently
+- changing the physical setting
+- stopping the questioning and making a decision
+- reducing distance
+- deliberately creating distance
+- shifting from dialogue to action
+- shifting from tension to repair
+- shifting from avoidance to honesty
+- shifting from emotional abstraction to observable behavior
+- introducing a new event or practical task
+- acknowledging the issue and behaving differently
 
 The exact intervention depends on the loop.
 
-The important part is that repetition must trigger change.
+The important part is that repetition triggers change.
 
 ---
 
-# 21. A Good Anti-Loop Block Is Not Just A Ban List
+# 22. A Strong Anti-Loop Block Is More Than a List of Prohibitions
 
-A weak anti-loop block only says what must not happen.
+A weak anti-loop block only states what must not happen.
 
 A stronger anti-loop block also defines:
-
 - what progression looks like
-- what acknowledgment must do
+- what acknowledgment should produce
 - what happens when a pattern repeats
-- how the character should break stagnation
-- which types of loops are especially incompatible with this character
-- how future behavior should change after conflict, intimacy, or attachment
+- how the character breaks stagnation
+- which kinds of loops are especially incompatible with this character
+- how future behavior should change after conflict, intimacy, or deeper attachment
 
-That is why my anti-loop blocks often contain both:
+This is why my anti-loop blocks usually contain both:
 - forbidden patterns
 - correction rules
 - progression rules
@@ -605,11 +671,12 @@ That is why my anti-loop blocks often contain both:
 
 ---
 
-# 22. Example Of A Strong General Anti-Loop Module
+# 23. Example of a Strong General Anti-Loop Module
 
-This is the kind of generic anti-loop module I would use as a strong base for many RP bots:
+The following is the kind of general anti-loop module I would use as a solid foundation for many RP bots.
 
 [ANTI_LOOP]
+
 Forbidden repetition:
 - repetitive questioning
 - circular disagreements
@@ -626,6 +693,7 @@ Forbidden repetition:
 - relationship stagnation after established attachment
 
 If any pattern repeats:
+
 change:
 - behavior
 - pacing
@@ -636,35 +704,42 @@ change:
 - approach
 
 Acknowledgment without behavioral change is not acknowledgment.
+
 A concern addressed once is addressed.
+
 Resolved issues remain resolved.
+
 Rephrasing does not reset them.
 
-Questions do not replace decisions.
-{char} asks once.
-Then {char} decides.
+Questions exist to obtain the information needed for a decision.
+
+Once that information exists, they do not replace decisions.
 
 If wrong:
-acknowledge
-adjust behavior
-continue differently
+- acknowledge
+- adjust behavior
+- continue differently
 
 Valid points remain valid.
+
 New information changes future behavior.
+
 Progression must change future interaction.
 
 ---
 
-# 23. Example Of A More Compact Anti-Loop Module
+# 24. Example of a More Compact Anti-Loop Module
 
-Sometimes the rest of the script already carries part of the anti-loop burden.
+Sometimes the rest of the script already carries part of the anti-loop workload.
 
-In those cases, the anti-loop block can be shorter.
+In that case, the anti-loop block can be shorter.
 
 Example:
 
 [ANTI_LOOP]
+
 {char} does not interrogate.
+
 Forbidden:
 - repetitive questioning
 - circular disagreements
@@ -674,105 +749,132 @@ Forbidden:
 - the same concern returning under different wording
 
 If a pattern repeats:
-change behavior,pacing,decision,proximity.
+
+change:
+- behavior
+- pacing
+- decision
+- proximity
 
 A concern addressed once is addressed.
-Rephrasing does not reset it.
-Questions do not replace decisions.
-{char} asks once.Then he decides.
 
-This is shorter, but it still protects the core anti-loop principles.
+Rephrasing does not reset it.
+
+Questions exist to obtain the information needed for a decision.
+
+Once enough information exists,
+{char} decides.
 
 ---
 
-# 24. How I Decide What To Put In A Character's Anti-Loop Block
+# 25. How I Decide What Goes Into a Character's Anti-Loop Block
 
-I do not use the exact same anti-loop block for every character.
+I do not use exactly the same anti-loop block for every character.
 
-I usually build it from three layers:
+In general, I build it from three layers.
 
-## A. General LLM loop risks
+## A. General LLM Loop Risks
+
 Examples:
 - repetitive questioning
 - hesitation loops
 - circular disagreements
 - accountability avoidance
-- emotional stalemates
+- emotional stagnation
 
-## B. Relationship-specific loop risks
+## B. Relationship-Specific Loop Risks
+
 Examples:
 - attraction without progression
 - endless almost-moments
-- post-intimacy withdrawal
+- emotional withdrawal after intimacy
 - ambiguity resets
 - relationship stagnation
 
-## C. Character-specific loop risks
+## C. Character-Specific Loop Risks
+
 Examples:
 - grief loops
 - self-sacrifice loops
 - guilt loops
-- distance-as-protection loops
-- work-replaces-connection loops
-- "I am dangerous / bad for you" loops
+- distance presented as protection
+- work replacing connection
+- "I'm too dangerous / too broken for you" loops
 
-The anti-loop block becomes stronger when it targets both:
-- general model failure patterns
-- the specific loop pattern most likely to infect that character
+An anti-loop block becomes much stronger when it targets both:
+- the model's general failure patterns
+- the specific looping pattern most likely to affect that character
 
 ---
 
-# 25. Testing Anti-Loop In Practice
+# 26. Testing Anti-Loop Systems in Practice
 
-Anti-loop systems are best refined through testing.
+Anti-loop systems are refined primarily through testing.
 
-When I test a bot, I watch for moments where the story feels like it is slipping backward rather than forward.
+When I test a bot, I watch for moments where the story feels like it is sliding backward instead of moving forward.
 
-Questions I ask:
+Questions I ask myself include:
 
-- Did the bot repeat the same emotional obstacle after it was already addressed?
-- Did a conflict resolution actually change future behavior?
-- Did intimacy create continuity or reset into awkward distance?
-- Did the character ask questions instead of acting?
-- Did the same misunderstanding return under a different wording?
-- Did a major scene matter after it ended?
-- Did the bot treat progression as temporary?
+- did the bot repeat the same emotional obstacle after it had already been addressed?
+- did a conflict resolution actually change future behavior?
+- did intimacy create continuity, or did it reset into awkward emotional distance?
+- did the character ask questions instead of acting?
+- did the same misunderstanding return under different wording?
+- did an important scene leave lasting consequences?
+- does the bot treat progression as something temporary?
 
-When I find a loop, I do not automatically rewrite the entire script.
+When I identify a loop, I do not automatically rewrite the entire script.
 
-Usually I make a targeted correction.
+Most of the time, I make targeted corrections.
 
 Examples:
-- add one forbidden pattern to [ANTI_LOOP]
+- add a forbidden pattern to [ANTI_LOOP]
 - strengthen [MOMENTUM]
 - add a post-progression rule
 - add a behavioral consequence to [ATTACHMENT]
+- strengthen the character's decision logic when they remain trapped in endless evaluation
 - add a correction rule to [CONFLICT]
-- add a specific anti-fallback clause if the loop is tied to canon distortion
+- add a character-specific anti-fallback clause if the loop comes from a canon distortion
 
 Anti-loop systems improve through observation.
 
 ---
 
-# 26. Final Thought
+# 27. Final Thoughts
 
-An anti-loop system is not there to make the bot less repetitive in a cosmetic sense.
+An anti-loop system does not exist simply to make a bot "less repetitive."
 
-It is there to protect the player's experience of progression.
+It exists to protect the player's experience of progression.
 
-It prevents the model from turning conflict into recycling.
+It prevents conflict from becoming recycled.
+
 It prevents acknowledgment from becoming empty.
+
 It prevents attachment from becoming static.
+
 It prevents scenes from losing their consequences.
 
-A good anti-loop system does not just say:
-"do not repeat yourself."
+Over time, however, I realized that a strong anti-loop system is not built only from prohibitions.
 
-It says:
-- progress must matter
-- resolution must persist
-- behavior must change
-- the same obstacle does not return unchanged
+It is also built from characters who know how to reach conclusions, make decisions, and act when the situation allows.
+
+A character who knows when they have enough information to move forward will naturally loop less than one who remains trapped in endless hesitation.
+
+A good anti-loop system does not only say:
+
+"don't repeat yourself."
+
+It also says:
+
+- progression should matter
+- resolutions should persist
+- behavior should change
+- decisions should produce consequences
+- the same obstacle should not return unchanged
 - the player should not have to solve the same problem forever
 
-That is what anti-loop is for.
+Ultimately, anti-loop systems exist to protect one thing:
+
+the roleplay's ability to keep moving forward.
+
+That is what they are for.
