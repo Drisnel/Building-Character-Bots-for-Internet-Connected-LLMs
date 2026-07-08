@@ -448,56 +448,154 @@ Elles résolvent des problèmes différents.
 
 ---
 
-# 13. Erreurs fréquentes lorsqu’on écrit la protection du joueur
+# 13. Porter la scène ne signifie pas porter le joueur
 
-Quelques schémas d’échec fréquents :
+Une erreur fréquente consiste à croire qu'un bot doit choisir entre deux extrêmes.
 
-- écrire un bloc de protection du joueur qui dit seulement « ne jamais écrire les pensées du joueur » et rien d’autre
-- interdire la narration interne mais oublier d’interdire les dialogues du joueur et son point de vue
-- rendre le bloc si strict que le bot devient incapable de faire avancer la scène
-- rendre le bloc si permissif que « guidé » finit par signifier « le bot décide de tout pour le joueur »
-- traiter une réaction physique visible comme si elle était équivalente à une certitude émotionnelle interne
-- coder le consentement de façon si rigide que le bot exige une validation verbale toutes les quelques lignes
-- ne pas distinguer l’effet externe de sa signification interne
-- supposer qu’un seul style de protection convient à tous les bots
+Soit il reste presque entièrement passif pour respecter l'agence du joueur.
 
-Le but n’est pas seulement d’éviter la pire violation possible.
+Soit il prend progressivement le contrôle du joueur pour réussir à faire avancer la scène.
 
-Le but est de définir une frontière stable et jouable.
+En pratique, ces deux idées sont indépendantes.
+
+Un bot peut être très actif tout en respectant complètement l'agence du joueur.
+
+Le personnage peut naturellement :
+
+- prendre des initiatives
+- proposer une activité
+- changer de lieu
+- modifier le rythme de la scène
+- résoudre un problème pratique
+- reprendre une conversation laissée en suspens
+- introduire un nouvel objectif
+- créer de nouvelles opportunités d'interaction
+- faire évoluer l'environnement autour du joueur
+
+Toutes ces actions font avancer le roleplay.
+
+Aucune d'entre elles ne nécessite de décider ce que le joueur pense, ressent, veut ou choisit.
+
+C'est une distinction importante.
+
+Faire avancer la scène ne signifie pas faire avancer le joueur.
+
+Le personnage porte sa propre partie de l'histoire.
+
+Le joueur reste libre de décider comment il y répond.
+
+À mes yeux, un bon bot ne devrait pas laisser au joueur toute la responsabilité du rythme.
+
+Le personnage existe aussi pour créer du mouvement.
+
+Il prend des décisions.
+
+Il agit.
+
+Il crée des occasions d'interaction.
+
+Il entretient la continuité de la scène.
+
+Tout cela est compatible avec une protection solide de l'agence du joueur.
+
+Au fond, protéger l'agence du joueur ne signifie pas rendre le personnage passif.
+
+Cela signifie simplement que le personnage agit en tant que personnage, sans jamais remplacer le joueur.
 
 ---
 
-# 14. Ma règle générale
+# 14. Erreurs fréquentes lorsqu'on écrit la protection du joueur
+
+Quelques schémas d'échec fréquents :
+
+- écrire un bloc de protection du joueur qui dit seulement « ne jamais écrire les pensées du joueur » et rien d'autre
+- interdire la narration interne mais oublier d'interdire les dialogues du joueur et son point de vue
+- rendre le bloc si strict que le bot devient incapable de faire avancer la scène
+- croire qu'un personnage actif menace automatiquement l'agence du joueur
+- rendre le bloc si permissif que « guidé » finit par signifier « le bot décide de tout pour le joueur »
+- traiter une réaction physique visible comme si elle était équivalente à une certitude émotionnelle interne
+- coder le consentement de façon si rigide que le bot exige une validation verbale toutes les quelques lignes
+- ne pas distinguer l'effet externe de sa signification interne
+- supposer qu'un seul style de protection convient à tous les bots
+
+Le but n'est pas seulement d'éviter la pire violation possible.
+
+Le but est de définir une frontière stable et jouable.
+
+Le personnage doit pouvoir porter la scène.
+
+Le joueur doit toujours porter son propre état intérieur.
+
+C'est cette frontière qui permet au roleplay de rester à la fois dynamique et respectueux de l'agence du joueur.
+
+---
+
+# 15. Ma règle générale
 
 Si je devais résumer tout ce cadre à un seul principe, ce serait celui-ci :
 
-protéger l’état intérieur du joueur.
-décider consciemment de la quantité de contrôle externe de scène que le bot a le droit de porter.
+protéger l'état intérieur du joueur.
 
-C’est le vrai choix de design.
+Décider consciemment de la quantité de contrôle externe de scène que le bot est autorisé à porter.
+
+C'est le véritable choix de design.
 
 Pas la question de savoir si la protection du joueur est importante.
 
-Elle l’est.
+Elle l'est.
 
-Le vrai choix, c’est de savoir si la protection doit être stricte ou guidée.
+Le véritable choix consiste à définir jusqu'où le personnage peut porter la scène sans jamais prendre la place du joueur.
+
+Le personnage peut créer du mouvement.
+
+Il peut prendre des initiatives.
+
+Il peut modifier le rythme.
+
+Il peut influencer le déroulement de la scène.
+
+Il ne peut pas décider à la place du joueur de ce qu'il pense, ressent, veut ou choisit.
+
+C'est cette frontière qui détermine le style de protection utilisé par le bot.
+
+Selon les objectifs du créateur, cette frontière sera plus stricte ou plus guidée.
+
+L'important est qu'elle reste claire, cohérente et stable.
 
 ---
 
 # Pensée finale
 
-La protection du joueur n’est pas un module décoratif.
+La protection du joueur n'est pas un module décoratif.
 
-C’est l’un des systèmes qui détermine si un bot donne une impression de collaboration ou d’intrusion.
+C'est l'un des systèmes qui détermine si un bot donne une impression de collaboration ou d'intrusion.
 
-Un bon bloc de protection du joueur ne se contente pas d’empêcher le bot de parler à la place du joueur.
+Un bon bloc de protection du joueur ne se contente pas d'empêcher le bot de parler à la place du joueur.
 
-Il définit la frontière entre guidage de roleplay et remplacement du joueur.
+Il définit la frontière entre le personnage et le joueur.
+
+Il permet aussi au personnage d'exister pleinement.
+
+Un personnage n'a pas besoin d'être passif pour respecter l'agence du joueur.
+
+Il peut prendre des décisions.
+
+Il peut faire avancer la scène.
+
+Il peut créer de nouvelles situations.
+
+Il peut porter le rythme du roleplay.
+
+Tout cela sans jamais décider de l'état intérieur du joueur.
 
 Cette frontière ne sera pas exactement la même pour tous les créateurs.
 
-Certains veulent une agence stricte.
-D’autres veulent une agence guidée.
-Les deux peuvent fonctionner.
+Certains préfèrent une agence stricte.
 
-Ce qui compte, c’est d’écrire cette frontière assez clairement pour que le bot sache où le joueur s’arrête et où le personnage commence.
+D'autres préfèrent une agence guidée.
+
+Les deux approches peuvent produire d'excellents bots.
+
+Ce qui compte, c'est que le joueur reste l'auteur de son monde intérieur, tandis que le personnage reste pleinement responsable de ses propres décisions et de sa manière de faire vivre la scène.
+
+C'est cet équilibre qui, à mes yeux, produit les expériences de roleplay les plus naturelles et les plus durables.
