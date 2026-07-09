@@ -31,7 +31,7 @@ Si vous découvrez ce dépôt, je vous recommande l'ordre de lecture suivant.
 7. Workflow des introductions et démarrages
 8. Templates de production
 
-### Guides des plateformes *(optionnel)*
+### Guides des plateformes *(Optionnel)*
 
 Ces guides sont indépendants de la méthodologie principale et ne sont utiles que si vous utilisez la plateforme concernée.
 
@@ -48,11 +48,11 @@ Ces documents présentent les principes de conception utilisés dans l'ensemble 
 
 Ils s'appliquent aussi bien aux personnages canon qu'aux personnages originaux, quelle que soit la plateforme utilisée.
 
-- [Comment construire des personnages participatifs](./shared/fr/comment-construire-des-personnages-participatifs.md)
-- [Comment protéger l'agence du joueur dans les bots de roleplay](./shared/fr/comment-proteger-lagence-du-joueur-dans-les-bots-rp.md)
-- [Comment construire des systèmes anti-loop pour les bots de roleplay](./shared/fr/comment-construire-des-systemes-anti-loop-pour-les-bots-rp.md)
-- [Comment construire des modules spécialisés pour les bots RP](./shared/fr/comment-construire-des-modules-specialises-pour-les-bots-rp.md)
-- [Comment tester et debugger des bots de roleplay](./shared/fr/comment-tester-et-debugger-des-bots-rp.md)
+- [Comment construire des personnages participatifs](../shared/fr/comment-construire-des-personnages-participatifs.md)
+- [Comment protéger l'agence du joueur dans les bots de roleplay](../shared/fr/comment-proteger-lagence-du-joueur-dans-les-bots-rp.md)
+- [Comment construire des systèmes anti-loop pour les bots de roleplay](../shared/fr/comment-construire-des-systemes-anti-loop-pour-les-bots-rp.md)
+- [Comment construire des modules spécialisés pour les bots RP](../shared/fr/comment-construire-des-modules-specialises-pour-les-bots-rp.md)
+- [Comment tester et debugger des bots de roleplay](../shared/fr/comment-tester-et-debugger-des-bots-rp.md)
 
 ---
 
@@ -62,8 +62,8 @@ Ces workflows sont consacrés à la création de personnages canon tout en prés
 
 Ils mettent l'accent sur l'analyse de l'œuvre d'origine, l'identification des déformations courantes des modèles et du fandom, puis leur traduction en scripts stables prêts à être utilisés.
 
-- [Méthode de construction de personnages canon](./canon/fr/Core-Workflow-francais.md)
-- [Méthode de création des introductions et démarrages pour bots canons](./canon/fr/creation-introduction-demarrage-bot-canon-connecte-internet.md)
+- [Méthode de construction de personnages canon](../canon/fr/Core-Workflow-francais.md)
+- [Méthode de création des introductions et démarrages pour bots canons](../canon/fr/creation-introduction-demarrage-bot-canon-connecte-internet.md)
 
 ---
 
@@ -73,8 +73,8 @@ Ces workflows expliquent comment concevoir des personnages originaux à partir d
 
 Au lieu d'adapter un personnage existant, ils montrent comment transformer un concept original en un bot de roleplay complet.
 
-- [Comment créer un bot original](./original/fr/comment-creer-un-bot-original.md)
-- [Comment créer des ouvertures pour des bots originaux](./original/fr/comment-creer-des-ouvertures-pour-des-bots-originaux.md)
+- [Comment créer un bot original](../original/fr/comment-creer-un-bot-original.md)
+- [Comment créer des ouvertures pour des bots originaux](../original/fr/comment-creer-des-ouvertures-pour-des-bots-originaux.md)
 
 ---
 
@@ -84,8 +84,8 @@ Une fois un workflow terminé, ces templates fournissent une structure standardi
 
 Il ne s'agit **ni de tutoriels ni de workflows**, mais du format de production obtenu après avoir appliqué les méthodes documentées dans ce dépôt.
 
-- [Template de script canon](./templates/fr/template-script-bot-canon.md)
-- [Template de script original](./templates/fr/template-script-bot-original.md)
+- [Template de script canon](../templates/fr/template-script-bot-canon.md)
+- [Template de script original](../templates/fr/template-script-bot-original.md)
 
 ---
 
@@ -99,8 +99,8 @@ Ces documents complètent la méthodologie du dépôt mais peuvent également ê
 
 ### PolyBuzz
 
-- [Comment comprendre et exploiter la mémoire permanente de PolyBuzz](./platforms/polybuzz/fr/comment-comprendre-et-exploiter-la-memoire-permanente-de-polybuzz.md)
-- [Comment construire un Persona PolyBuzz efficace](./platforms/polybuzz/fr/comment-construire-un-persona-polybuzz-efficace.md)
+- [Comment comprendre et exploiter la mémoire permanente de PolyBuzz](../platforms/polybuzz/fr/comment-comprendre-et-exploiter-la-memoire-permanente-de-polybuzz.md)
+- [Comment construire un Persona PolyBuzz efficace](../platforms/polybuzz/fr/comment-construire-un-persona-polybuzz-efficace.md)
 
 ---
 
