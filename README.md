@@ -2,15 +2,19 @@
 
 ## 🇬🇧 English
 
-Documentation and practical workflows for building roleplay bots for internet-connected LLMs.
+Documentation, practical workflows, production templates, and platform-specific guides for building roleplay bots for internet-connected LLMs.
 
-This repository focuses on long-term behavioral stability, practical script architecture, and design methods for creating roleplay bots that remain engaging over extended interactions.
+This repository focuses on long-term behavioral stability, practical script architecture, player experience, and advanced platform features that help create roleplay bots capable of remaining engaging over extended interactions.
+
+Rather than providing universal rules, this repository documents the methods, workflows, and observations that currently produce the most consistent results throughout my own projects.
 
 ## 🇫🇷 Français
 
-Documentation et méthodes de travail pour créer des bots de roleplay destinés à des LLM connectés à Internet.
+Documentation, méthodes de travail, templates de production et guides dédiés à certaines plateformes pour créer des bots de roleplay destinés à des LLM connectés à Internet.
 
-Ce dépôt met l'accent sur la stabilité comportementale à long terme, l'architecture pratique des scripts et les méthodes de conception permettant de créer des bots agréables à jouer sur la durée.
+Ce dépôt met l'accent sur la stabilité comportementale à long terme, l'architecture pratique des scripts, l'expérience du joueur et les fonctionnalités avancées de certaines plateformes permettant de créer des bots de roleplay capables de rester cohérents et agréables à jouer sur la durée.
+
+Plutôt que de proposer des règles universelles, ce dépôt documente les méthodes, les workflows et les observations qui produisent actuellement les résultats les plus cohérents dans mes propres projets.
 
 ---
 
@@ -18,11 +22,15 @@ Ce dépôt met l'accent sur la stabilité comportementale à long terme, l'archi
 
 ## 🇬🇧 English
 
-Although the repository is divided into canon workflows, original workflows, shared guides, and production templates, they all rely on the same core design principles.
+This repository is organized into **two complementary parts**.
 
-If you're reading this repository for the first time, I recommend starting with the shared guides. Once those principles are familiar, choose either the canon or original workflow depending on the type of bot you want to build. Finally, use the production templates to turn your work into a complete script.
+The first focuses on **building roleplay bots**, covering design principles, production workflows, and script templates.
 
-**Suggested reading order**
+The second documents **platform-specific features** that can significantly improve long-term roleplay when properly understood and exploited.
+
+If this is your first time reading the repository, I recommend following this order.
+
+### Core Methodology
 
 1. How to Build Participating Characters
 2. How to Protect Player Agency in RP Bots
@@ -33,13 +41,27 @@ If you're reading this repository for the first time, I recommend starting with 
 7. Introduction and Starter Workflow
 8. Production Templates
 
+### Platform Guides *(Optional)*
+
+Read these only if you're using the corresponding platform.
+
+Currently available:
+
+- PolyBuzz Permanent Memory
+
+---
+
 ## 🇫🇷 Français
 
-Même si ce dépôt est organisé en workflows pour personnages canon, workflows pour personnages originaux, guides partagés et templates de production, tous reposent sur les mêmes principes de conception.
+Ce dépôt est organisé en **deux parties complémentaires**.
 
-Si vous découvrez ce dépôt, je vous recommande de commencer par les guides partagés. Une fois ces principes assimilés, choisissez le workflow canon ou original selon le type de bot que vous souhaitez créer. Enfin, utilisez les templates de production pour transformer votre travail en un script complet.
+La première est consacrée à **la conception de bots de roleplay** : principes de conception, workflows de production et templates de scripts.
 
-**Ordre de lecture conseillé**
+La seconde documente **les fonctionnalités propres à certaines plateformes**, qui peuvent considérablement améliorer les roleplays de longue durée lorsqu'elles sont correctement comprises et exploitées.
+
+Si vous découvrez ce dépôt, je vous recommande l'ordre de lecture suivant.
+
+### Méthodologie principale
 
 1. Comment construire des personnages participatifs
 2. Comment protéger l'agence du joueur dans les bots de roleplay
@@ -50,9 +72,23 @@ Si vous découvrez ce dépôt, je vous recommande de commencer par les guides pa
 7. Workflow des introductions et démarrages
 8. Templates de production
 
+### Guides des plateformes *(Optionnel)*
+
+À consulter uniquement si vous utilisez la plateforme concernée.
+
+Actuellement disponible :
+
+- Mémoire permanente de PolyBuzz
+
 ---
 
-# 🛡️ Shared Guides
+# 🛡️ Core Methodology
+
+The following sections document the methodology used throughout this repository.
+
+They are platform-independent and apply to any internet-connected roleplay LLM.
+
+## Shared Guides
 
 Core design principles that apply to both canon and original RP bots.
 
@@ -74,132 +110,62 @@ Core design principles that apply to both canon and original RP bots.
 
 ---
 
-# 🎭 Canon Bots
-
-Workflows and methods for building canon character bots.
-
-**English**
-
-- [Canon Character Workflow](./canon/en/Core-Workflow.md)
-- [Canon Introduction And Starter Workflow](./canon/en/canon-introduction-and-starter-workflow.md)
-
-**Français**
-
-- [Méthode de construction de personnages canon](./canon/fr/Core-Workflow-francais.md)
-- [Méthode de création des introductions et démarrages pour bots canons](./canon/fr/creation-introduction-demarrage-bot-canon-connecte-internet.md)
-
----
-
-# 🧩 Original Bots
-
-Workflows and methods for building original character bots.
-
-**English**
-
-- [How to Build Original Bots](./original/en/how-to-build-original-bots.md)
-- [How to Build Openings for Original Bots](./original/en/how-to-build-openings-for-original-bots.md)
-
-**Français**
-
-- [Comment créer un bot original](./original/fr/comment-creer-un-bot-original.md)
-- [Comment créer des ouvertures pour des bots originaux](./original/fr/comment-creer-des-ouvertures-pour-des-bots-originaux.md)
-
----
-
-# 🧱 Templates
-
-Production templates for turning the repository's methods into complete bot scripts.
-
-**English**
-
-- [Canon Script Template](./templates/en/canon-script-template.md)
-- [Original Script Template](./templates/en/original-script-template.md)
-
-**Français**
-
-- [Template de script canon](./templates/fr/template-script-bot-canon.md)
-- [Template de script original](./templates/fr/template-script-bot-original.md)
-
----
-
-# 📁 Repository Structure
-
-## 🇬🇧 English
-
-The repository is organized into four main sections.
-
-- `shared/` — Core design principles that apply to every RP bot.
-- `canon/` — Workflows dedicated to canon characters.
-- `original/` — Workflows dedicated to original characters.
-- `templates/` — Production templates used to turn completed workflows into finished bot scripts.
-
-Each section is available in both English and French.
-
-## 🇫🇷 Français
-
-Le dépôt est organisé en quatre grandes sections.
-
-- `shared/` — Les principes de conception communs à tous les bots de roleplay.
-- `canon/` — Les méthodes de travail dédiées aux personnages canon.
-- `original/` — Les méthodes de travail dédiées aux personnages originaux.
-- `templates/` — Les templates de production permettant de transformer un workflow terminé en script final.
-
-Chaque section est disponible en anglais et en français.
-
----
-
 # ℹ️ About This Repository
 
 ## 🇬🇧 English
 
-This repository gathers documentation for building roleplay bots for internet-connected LLMs, with a particular focus on:
+This repository combines **two complementary objectives**.
 
-- long-term behavioral stability
-- script architecture
-- character participation
-- player agency
-- anti-loop systems
-- specialized module design
-- testing and debugging methods
-- introductions and starters
-- production-ready script templates
-- practical workflows for RP platforms
+The first is to document practical methods for designing stable, engaging, and long-lasting roleplay bots for internet-connected LLMs.
 
-The goal of this repository is not to define universal rules for every roleplay bot.
+The second is to document advanced platform-specific features that can significantly improve long-term roleplay when properly understood and exploited.
 
-Instead, it documents the workflow, design principles, and scripting methods that currently produce the most consistent results throughout my own projects.
+Everything published here is based on my own research, experimentation, and practical experience.
 
-As these methods continue to evolve, this repository will evolve alongside them.
+The workflows, scripting methods, and platform guides presented throughout this repository are **not intended to be universal rules**.
+
+Instead, they document the approaches and observations that currently produce the most consistent results throughout my own projects.
+
+As both LLMs and RP platforms continue to evolve, this repository will evolve alongside them.
+
+---
 
 ## 🇫🇷 Français
 
-Ce dépôt regroupe de la documentation pour créer des bots de roleplay destinés à des LLM connectés à Internet, avec un accent particulier sur :
+Ce dépôt poursuit **deux objectifs complémentaires**.
 
-- la stabilité comportementale à long terme
-- l'architecture des scripts
-- les personnages participatifs
-- la protection de l'agence du joueur
-- les systèmes anti-loop
-- la conception de modules spécialisés
-- les méthodes de test et de debugging
-- les introductions et démarrages
-- les templates de scripts prêts à l'emploi
-- les méthodes de travail pratiques pour les plateformes de roleplay
+Le premier est de documenter des méthodes concrètes permettant de concevoir des bots de roleplay stables, cohérents et agréables à jouer pour des LLM connectés à Internet.
 
-L'objectif de ce dépôt n'est pas de proposer une méthode universelle applicable à tous les bots de roleplay.
+Le second est de documenter les fonctionnalités avancées propres à certaines plateformes qui peuvent améliorer considérablement les roleplays de longue durée lorsqu'elles sont correctement comprises et exploitées.
 
-Il documente simplement le workflow, les principes de conception et les méthodes d'écriture qui produisent actuellement les résultats les plus stables dans mes propres projets.
+L'ensemble des documents publiés ici est basé sur mes propres recherches, expérimentations et retours d'expérience.
 
-Ces méthodes continuent d'évoluer, et ce dépôt évoluera avec elles.
+Les workflows, méthodes d'écriture et guides de plateformes présentés dans ce dépôt **n'ont pas vocation à constituer des règles universelles**.
+
+Ils documentent simplement les approches et les observations qui produisent actuellement les résultats les plus cohérents dans mes propres projets.
+
+À mesure que les LLM et les plateformes de roleplay évolueront, ce dépôt évoluera avec eux.
 
 ---
 
 # 🤖 Public Bot Examples
 
-Some public bots built using this general methodology are available on my PolyBuzz profile.
+If you'd like to see these methods applied in practice, several public bots built using this general methodology are available on my PolyBuzz profile.
 
-Quelques bots publics construits avec cette méthodologie générale sont disponibles sur mon profil PolyBuzz.
+Si vous souhaitez voir cette méthodologie appliquée en pratique, plusieurs bots publics construits à partir de ces méthodes sont disponibles sur mon profil PolyBuzz.
 
 **PolyBuzz Profile / Profil PolyBuzz**
 
 https://polybuzz.ai/su/XszqPReuNlR
+
+---
+
+# 🚀 Repository Roadmap
+
+This repository is actively evolving.
+
+Future documentation will continue expanding both the core methodology and the platform-specific documentation as new workflows, production methods, and platform features are explored.
+
+Ce dépôt est en constante évolution.
+
+De nouveaux documents viendront progressivement enrichir aussi bien la méthodologie générale que la documentation consacrée aux plateformes, au fur et à mesure des nouvelles expérimentations et des nouvelles fonctionnalités explorées.
