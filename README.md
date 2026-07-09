@@ -110,6 +110,134 @@ Core design principles that apply to both canon and original RP bots.
 
 ---
 
+# 🎭 Canon Bots
+
+Workflows dedicated to building canon characters while preserving their behavioral identity, long-term consistency, and natural progression throughout extended roleplay.
+
+These workflows focus on analyzing canon material, identifying common model and fandom distortions, and translating that analysis into stable production-ready scripts.
+
+**English**
+
+- [Canon Character Workflow](./canon/en/Core-Workflow.md)
+- [Canon Introduction and Starter Workflow](./canon/en/canon-introduction-and-starter-workflow.md)
+
+**Français**
+
+- [Méthode de construction de personnages canon](./canon/fr/Core-Workflow-francais.md)
+- [Méthode de création des introductions et démarrages pour bots canons](./canon/fr/creation-introduction-demarrage-bot-canon-connecte-internet.md)
+
+---
+
+# 🧩 Original Bots
+
+Workflows dedicated to creating original characters from scratch while maintaining coherent behavior, believable progression, and strong player interaction over long conversations.
+
+These documents focus on transforming an original concept into a complete RP bot rather than adapting existing source material.
+
+**English**
+
+- [How to Build Original Bots](./original/en/how-to-build-original-bots.md)
+- [How to Build Openings for Original Bots](./original/en/how-to-build-openings-for-original-bots.md)
+
+**Français**
+
+- [Comment créer un bot original](./original/fr/comment-creer-un-bot-original.md)
+- [Comment créer des ouvertures pour des bots originaux](./original/fr/comment-creer-des-ouvertures-pour-des-bots-originaux.md)
+
+---
+
+# 🧱 Production Templates
+
+Once a workflow is complete, these templates provide a standardized production structure that can be used to assemble the final bot script.
+
+They are not tutorials or workflows themselves. Instead, they represent the finished script architecture produced by the methods documented throughout this repository.
+
+**English**
+
+- [Canon Script Template](./templates/en/canon-script-template.md)
+- [Original Script Template](./templates/en/original-script-template.md)
+
+**Français**
+
+- [Template de script canon](./templates/fr/template-script-bot-canon.md)
+- [Template de script original](./templates/fr/template-script-bot-original.md)
+
+---
+
+# 🖥️ Platform Guides
+
+Unlike the previous sections, these guides are platform-specific.
+
+They document advanced features, observed behaviors, limitations, and workflows that are unique to a particular roleplay platform.
+
+These documents complement the core methodology but are not required to use it.
+
+## PolyBuzz
+
+**English**
+
+- [How to Understand and Use PolyBuzz Permanent Memory](./platforms/polybuzz/en/how-to-understand-and-use-polybuzz-permanent-memory.md)
+
+**Français**
+
+- [Comment comprendre et exploiter la mémoire permanente de PolyBuzz](./platforms/polybuzz/fr/comment-comprendre-et-exploiter-la-memoire-permanente-de-polybuzz.md)
+
+---
+
+# 📁 Repository Structure
+
+## 🇬🇧 English
+
+The repository is divided into two complementary areas.
+
+### Core Methodology
+
+Documentation that focuses on designing stable and engaging RP bots, regardless of the platform.
+
+- `shared/` — Core design principles used throughout the repository.
+- `canon/` — Workflows dedicated to canon characters.
+- `original/` — Workflows dedicated to original characters.
+- `templates/` — Production-ready script templates.
+
+### Platform Documentation
+
+Documentation dedicated to features and workflows that are specific to individual roleplay platforms.
+
+- `platforms/`
+  - `polybuzz/`
+    - `en/`
+    - `fr/`
+
+Every document is available in both English and French whenever possible.
+
+---
+
+## 🇫🇷 Français
+
+Le dépôt est organisé en deux ensembles complémentaires.
+
+### Méthodologie
+
+Documentation consacrée à la conception de bots de roleplay, indépendamment de la plateforme utilisée.
+
+- `shared/` — Les principes de conception communs à l'ensemble du dépôt.
+- `canon/` — Les workflows dédiés aux personnages canon.
+- `original/` — Les workflows dédiés aux personnages originaux.
+- `templates/` — Les templates de production permettant de construire les scripts finaux.
+
+### Documentation des plateformes
+
+Documentation consacrée aux fonctionnalités et aux méthodes propres à certaines plateformes de roleplay.
+
+- `platforms/`
+  - `polybuzz/`
+    - `en/`
+    - `fr/`
+
+Chaque document est proposé en français et en anglais lorsque cela est possible.
+
+---
+
 # ℹ️ About This Repository
 
 ## 🇬🇧 English
