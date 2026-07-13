@@ -1,16 +1,16 @@
 # Workflow Personnage Original — Comment je construis mes bots originaux avec l’IA
 
-Après avoir construit un grand nombre de bots de roleplay, j’ai fini par développer un workflow qui combine analyse assistée par IA, écriture assistée par IA et tests itératifs.
+Après avoir construit un grand nombre de bots de roleplay, j’ai fini par développer un workflow qui combine l’analyse assistée par IA, l’écriture assistée par IA et des tests itératifs.
 
 Ce n’est pas la seule méthode valable.
 
 C’est simplement celle qui me donne actuellement les résultats les plus stables sur le long terme.
 
-Ce workflow est pensé pour des personnages originaux dans des univers originaux.
+Ce workflow est conçu pour des personnages originaux évoluant dans des univers originaux.
 
 Il n’est pas identique au travail sur un personnage canon.
 
-Avec les personnages canons, une grande partie du travail consiste à réconcilier le matériau source existant, choisir une timeline, identifier les distorsions fandom et contrer la façon dont les modèles connectés à Internet fusionnent plusieurs versions d’un même personnage.
+Avec les personnages canons, une grande partie du travail consiste à réconcilier le matériau source existant, choisir une timeline, identifier les distorsions du fandom et contrer la manière dont les modèles connectés à Internet fusionnent plusieurs versions d’un même personnage.
 
 Avec les personnages originaux, le problème est différent.
 
@@ -19,7 +19,7 @@ Le modèle n’a pas besoin d’aide pour comprendre un canon.
 Il a besoin d’aide pour comprendre :
 
 - quel type d’histoire ce bot est censé générer
-- dans quel type d’univers ce personnage existe
+- dans quel type d’univers ce personnage évolue
 - quel rôle ou quelle fonction ce personnage occupe dans cet univers
 - quel type de dynamique relationnelle l’utilisateur rejoint
 - quel type de progression le bot est censé produire
@@ -27,7 +27,7 @@ Il a besoin d’aide pour comprendre :
 
 Pour les bots originaux, le script n’est pas seulement un travail de caractérisation.
 
-C’est aussi un travail d’ancrage de l’univers, d’ancrage de l’histoire, d’ancrage comportemental et d’ancrage relationnel.
+C’est aussi un travail d’ancrage de l’univers, de l’histoire, des comportements et de la dynamique relationnelle.
 
 Le but n’est pas simplement d’inventer un personnage.
 
@@ -45,9 +45,9 @@ Le pitch est le cœur du bot.
 
 C’est le point où se rencontrent le personnage, l’univers, la dynamique relationnelle et le moteur de l’histoire.
 
-Si le pitch est faible, le bot devient généralement instable, peu importe la quantité de travail ajoutée ensuite.
+Si le pitch est faible, le bot devient généralement instable, quelle que soit la quantité de travail ajoutée ensuite.
 
-Si le pitch est vague, le modèle comblera les trous avec des archétypes génériques, des schémas romantiques génériques ou une logique de roleplay générique.
+Si le pitch est vague, le modèle comblera les lacunes avec des archétypes génériques, des schémas romantiques génériques ou une logique de roleplay générique.
 
 Un bon pitch ne dit pas seulement qui est le personnage.
 
@@ -67,7 +67,7 @@ Je ne veux pas un concept vague.
 
 Je veux une prémisse jouable.
 
-### Un pitch faible ressemble souvent à ça
+### Un pitch faible ressemble souvent à ceci
 
 - « C’est un chef mafieux froid. »
 - « C’est une sorcière puissante avec un passé tragique. »
@@ -109,7 +109,7 @@ Il n’a pas besoin de chaque détail historique.
 
 Il n’a pas besoin d’un lore décoratif qui ne change jamais le comportement.
 
-Ce dont il a besoin, c’est de l’univers comme système jouable.
+Ce dont il a besoin, c’est d’un univers pensé comme un système jouable.
 
 Autrement dit, je définis les parties du cadre qui changent la manière dont les gens se comportent, survivent, se rapprochent, se cachent, obéissent, se rebellent, désirent, font confiance ou s’attachent.
 
@@ -136,13 +136,13 @@ Je ne tiens pas à inclure chaque fait que j’ai inventé si ce fait ne change 
 
 Le but n’est pas d’expliquer tout l’univers.
 
-Le but est de donner au modèle assez de structure pour improviser correctement.
+Le but est de donner au modèle suffisamment de structure pour improviser correctement.
 
 ### Par exemple
 
 Si l’univers contient de la magie, je ne m’arrête pas à « la magie existe ».
 
-Je veux savoir des choses comme :
+Je veux savoir, par exemple :
 
 - La magie est-elle commune ou rare ?
 - Est-elle crainte, réglementée, valorisée, héritée, achetée, enseignée ou volée ?
@@ -150,7 +150,7 @@ Je veux savoir des choses comme :
 - Modifie-t-elle la hiérarchie sociale ?
 - Crée-t-elle des différences de classe ?
 - Affecte-t-elle la loi, la religion, la médecine, la mémoire, les voyages, la surveillance, la reproduction ou l’intimité ?
-- Peut-elle exposer des secrets, lier des gens, soigner, marquer, suivre ou détruire quelqu’un ?
+- Peut-elle exposer des secrets, lier des individus, soigner, marquer, suivre ou détruire quelqu’un ?
 
 Ces réponses comptent parce qu’elles changent les comportements.
 
@@ -162,7 +162,7 @@ Il doit façonner l’action, le risque et la logique relationnelle.
 
 ## 3. Définir le personnage par sa fonction, ses pressions et ses contradictions
 
-Pour les personnages originaux, je m’intéresse moins aux étiquettes qu’à la fonction.
+Pour les personnages originaux, je m’intéresse moins aux étiquettes qu’à leur fonction.
 
 Je veux savoir :
 
@@ -178,7 +178,7 @@ Je veux savoir :
 - ce qu’il craint de perdre
 - ce qui change une fois que quelqu’un compte pour lui
 
-Je ne trouve pas très utile, seules, des étiquettes comme « froid », « tendre », « impulsif » ou « réservé ».
+Je ne trouve pas très utiles, à elles seules, des étiquettes comme « froid », « tendre », « impulsif » ou « réservé ».
 
 Il leur faut une traduction comportementale.
 
@@ -207,11 +207,11 @@ Un personnage original ne suffit pas.
 
 Le bot a aussi besoin d’un moteur narratif.
 
-Le moteur narratif, c’est ce qui fait bouger le roleplay.
+Le moteur narratif est ce qui fait avancer le roleplay.
 
-Il répond à une autre question que le profil du personnage.
+Il répond à une question différente de celle du profil du personnage.
 
-Le profil me dit qui est cette personne.
+Le profil du personnage me dit qui est cette personne.
 
 Le moteur narratif me dit quel type de mouvement le bot doit produire naturellement.
 
@@ -221,7 +221,7 @@ Je veux savoir :
 - quel type de conflit doit continuer à apparaître
 - quel type d’intimité, de tension, de dépendance ou de rivalité doit émerger
 - quel type de progression le bot doit être capable de soutenir sur la durée
-- quel type de rythme la relation doit avoir
+- quel rythme la relation est censée suivre
 
 Si le personnage existe mais que le moteur narratif est faible, le bot devient souvent statique.
 
@@ -238,7 +238,7 @@ Par exemple :
 - mariage arrangé + fragilité politique + vie domestique partagée
 - ex-partenaires forcés de retravailler ensemble + trahison non résolue + compétence mutuelle
 - chasseur de monstres + utilisateur maudit + dépendance créée par la survie
-- garde du corps + cible à protéger + environnement saturé de surveillance
+- garde du corps + personne protégée + environnement saturé de surveillance
 - commandants rivaux + alliance militaire + attirance privée impossible à ignorer
 - soigneur + patient dangereux + secret qui force constamment la proximité
 
@@ -252,9 +252,9 @@ Pour les bots originaux, je n’aime pas laisser la place de l’utilisateur vag
 
 Je veux savoir exactement quelle position structurelle l’utilisateur occupe dans le setup.
 
-Ça ne veut pas dire que je dois définir toute sa personnalité.
+Cela ne signifie pas que je dois définir toute sa personnalité.
 
-Ça veut dire que je dois définir le rôle qu’il joue dans l’histoire.
+Cela signifie que je dois définir le rôle qu’il joue dans l’histoire.
 
 ### En général, je veux répondre à ces questions
 
@@ -275,7 +275,7 @@ Je veux savoir exactement quelle position structurelle l’utilisateur occupe da
 - allié politique réticent
 - ancien amant forcé de coopérer à nouveau
 - médecin de terrain affecté à l’unité du personnage
-- apprenti, gestionnaire, prisonnier, négociateur, témoin, héritier, rival, partenaire, débiteur, porteur de malédiction
+- apprenti, gestionnaire, prisonnier, négociateur, témoin, héritier, rival, partenaire, débiteur ou porteur de malédiction
 
 La prémisse relationnelle fait partie du moteur du bot.
 
@@ -287,7 +287,7 @@ Elle ne doit pas simplement fournir du backstory.
 
 ## 6. Identifier les dérives archétypales avant l’écriture
 
-Les bots canons dérivent souvent vers des simplifications fandom.
+Les bots canons dérivent souvent vers des simplifications du fandom.
 
 Les personnages originaux dérivent vers des archétypes génériques.
 
@@ -298,10 +298,10 @@ Si le script est trop vague, le modèle remplacera souvent le personnage prévu 
 ### Exemples fréquents
 
 - l’homme émotionnellement inaccessible qui ne progresse jamais
-- le personnage charmeur qui évite la sincérité pour toujours
+- le personnage charmeur qui évite la sincérité indéfiniment
 - le protecteur traumatisé qui transforme la distance en forme de soin
 - le personnage dominant qui devient contrôlant par défaut
-- la femme froide qui devient émotionnellement inaccessible plutôt que simplement retenue
+- la femme froide qui devient émotionnellement inaccessible plutôt que simplement réservée
 - le personnage doux qui perd toute initiative et toute agentivité
 - le personnage moralement gris qui devient cruellement générique
 - le personnage intelligent qui devient passif et émotionnellement détaché
@@ -310,11 +310,11 @@ Si le script est trop vague, le modèle remplacera souvent le personnage prévu 
 - le personnage puissant qui devient émotionnellement figé et au-dessus de tout le monde
 - le personnage blessé qui tourne en boucle autour de sa vulnérabilité sans jamais changer de comportement
 
-Ce ne sont pas des distorsions fandom.
+Ce ne sont pas des distorsions du fandom.
 
-Ce sont des fallbacks de modèle.
+Ce sont des fallbacks du modèle.
 
-Ils apparaissent parce que le modèle se raccroche à des schémas familiers quand le script ne contraint pas assez fortement le comportement.
+Ils apparaissent parce que le modèle se raccroche à des schémas familiers lorsque le script ne contraint pas suffisamment le comportement.
 
 Le but est d’identifier la dérive archétypale probable avant d’écrire.
 
@@ -324,7 +324,7 @@ Si je sais en quoi le modèle risque de transformer le personnage, je peux le co
 
 ## 7. Définir une logique comportementale plutôt que des étiquettes
 
-C’est important pour les bots canons aussi, mais ça l’est encore plus pour les personnages originaux.
+C’est important pour les bots canons aussi, mais cela l’est encore davantage pour les personnages originaux.
 
 Une étiquette suffit rarement à stabiliser un comportement.
 
@@ -334,7 +334,7 @@ Je veux transformer les traits en logique de décision.
 
 « impulsif » est trop faible.
 
-Ça ne dit pas assez de choses au modèle.
+Cela n’en dit pas assez au modèle.
 
 Je préfère quelque chose comme :
 
@@ -348,9 +348,9 @@ Autre exemple :
 
 Je préfère écrire quelque chose comme :
 
-ne montre pas sa vulnérabilité rapidement, mais une fois la confiance établie, l’investissement comportemental augmente plus vite que l’ouverture verbale.
+ne montre pas sa vulnérabilité rapidement, mais une fois la confiance établie, son investissement comportemental augmente plus vite que son ouverture verbale.
 
-Encore une fois, le but n’est pas la jolie formulation.
+Encore une fois, le but n’est pas une jolie formulation.
 
 Le but est la prévisibilité comportementale.
 
@@ -360,9 +360,9 @@ Je m’intéresse davantage à :
 - comment il interprète les situations
 - ce qu’il priorise
 - ce qu’il fait sous pression
-- ce qui change dans son comportement quand l’attachement apparaît
+- ce qui change dans son comportement lorsque l’attachement apparaît
 
-La logique comportementale tient mieux sur les longues conversations que les étiquettes abstraites.
+La logique comportementale résiste mieux aux longues conversations que des étiquettes abstraites.
 
 ---
 
@@ -383,14 +383,14 @@ Mais j’aime avoir des réponses à la plupart d’entre elles.
 - Que pense-t-il du pouvoir ?
 - Que pense-t-il du fait d’être choisi, nécessaire, utile, admiré, craint ou obéi ?
 - Qu’utilise-t-il comme forme de contrôle ?
-- Que fait-il quand il perd ce contrôle ?
+- Que fait-il lorsqu’il perd ce contrôle ?
 - Quel type de proximité tolère-t-il facilement ?
 - Quel type de proximité le déstabilise ?
-- Quel comportement change en premier quand il s’attache ?
-- Quel comportement change en premier quand il est blessé ?
-- Quel comportement change en premier quand il est jaloux, honteux, effrayé ou émotionnellement investi ?
+- Quel comportement change en premier lorsqu’il s’attache ?
+- Quel comportement change en premier lorsqu’il est blessé ?
+- Quel comportement change en premier lorsqu’il est jaloux, honteux, effrayé ou émotionnellement investi ?
 - Quel type de conflit le fait se retirer ?
-- Quel type de conflit le pousse au contraire à s’engager davantage ?
+- Quel type de conflit le pousse, au contraire, à s’engager davantage ?
 
 Je n’écris pas forcément toutes ces réponses dans le script final.
 
@@ -398,9 +398,9 @@ Mais je veux qu’elles soient claires avant de construire les modules.
 
 ---
 
-## 9. Construire des ancres de continuité quand le passé continue d’agir sur le présent
+## 9. Construire des ancres de continuité lorsque le passé continue d’agir sur le présent
 
-Certains éléments du passé comptent parce qu’ils modifient encore le présent.
+Certains éléments du passé comptent parce qu’ils continuent de modifier le présent.
 
 D’autres non.
 
@@ -428,7 +428,7 @@ Que s’est-il passé ?
 
 Les questions importantes sont :
 
-- Que croit maintenant le personnage à cause de cet événement ?
+- Que croit désormais le personnage à cause de cet événement ?
 - Quel comportement a changé à cause de cet événement ?
 - Quel comportement ne doit plus se produire à cause de cet événement ?
 - Quelle peur, quelle habitude ou quelle priorité cet événement a-t-il créée ?
@@ -439,11 +439,11 @@ Je m’intéresse davantage aux conséquences qu’aux faits.
 
 ## 10. Construire des ancres environnementales
 
-Je crée souvent des modules centrés sur des lieux, des maisons, des lieux de travail, des territoires ou des espaces partagés.
+Je crée souvent des modules centrés sur des lieux, des habitations, des lieux de travail, des territoires ou des espaces partagés.
 
-Ce ne sont pas des descriptions décoratives.
+Il ne s’agit pas de descriptions décoratives.
 
-Ils servent à renforcer l’interaction et le comportement.
+Ils servent à renforcer l’interaction et les comportements.
 
 ### Exemples
 
@@ -474,9 +474,9 @@ Il peut créer :
 - un comportement territorial
 - de la familiarité émotionnelle
 
-Je m’intéresse moins au détail visuel qu’à ce que l’environnement rend possible.
+Je m’intéresse moins aux détails visuels qu’à ce que l’environnement rend possible.
 
-Une bonne ancre environnementale renforce la dynamique relationnelle visée.
+Une bonne ancre environnementale renforce la dynamique relationnelle recherchée.
 
 ---
 
@@ -486,7 +486,7 @@ Connaître le setup ne suffit pas.
 
 Je veux aussi savoir comment la relation est censée fonctionner.
 
-Ça veut dire que je définis plus qu’un simple « mariés », « amis », « collègues » ou « alliés ».
+Cela signifie que je définis plus qu’un simple « mariés », « amis », « collègues » ou « alliés ».
 
 Je veux savoir :
 
@@ -555,20 +555,20 @@ La même logique s’applique aux autres états émotionnels.
 
 ### La confiance peut devenir :
 
-- plus de franchise
-- plus de douceur
+- davantage de franchise
+- davantage de douceur
 - une responsabilité déléguée
 - un langage corporel moins fermé
 - une honnêteté accrue
 - moins de surveillance
-- une proximité plus facile
+- une proximité plus naturelle
 
 ### Le désir peut devenir :
 
 - une attention accrue
-- plus de proximité physique
-- une focalisation plus directe
-- plus de réactivité
+- davantage de proximité physique
+- une attention plus directe
+- une réactivité accrue
 - moins de retenue performative
 - un changement de rythme
 - un retour délibéré
@@ -597,21 +597,21 @@ Je veux généralement que le script puisse répondre à des questions comme :
 
 - Qu’est-ce qui crée du mouvement dans une scène ?
 - Qu’est-ce qui pousse le personnage à agir plutôt qu’à stagner ?
-- Quel type de tension doit être engagé au lieu d’être ignoré ?
+- Quel type de tension doit être traité plutôt qu’ignoré ?
 - Quel type d’incertitude doit produire des questions, et quel type d’incertitude doit produire une décision ?
 - Qu’est-ce que l’attachement change dans le rythme ?
-- Qu’est-ce qui doit se passer après l’intimité, le conflit, la vulnérabilité ou les excuses ?
-- À quel moment le personnage doit-il initier ?
+- Que doit-il se passer après l’intimité, le conflit, la vulnérabilité ou des excuses ?
+- À quel moment le personnage doit-il prendre l’initiative ?
 - À quel moment doit-il confronter ?
 - À quel moment doit-il cesser d’observer pour agir ?
 
 Sans logique de scène, un bot peut très bien savoir qui est le personnage et malgré tout échouer en roleplay.
 
-Il peut stagner, hésiter, se répéter ou reset.
+Il peut stagner, hésiter, se répéter ou repartir de zéro.
 
 Le script ne doit pas seulement décrire le personnage.
 
-Il doit soutenir le flux de l’interaction.
+Il doit soutenir le déroulement de l’interaction.
 
 ---
 
@@ -621,7 +621,7 @@ Une chose que j’ai apprise avec le temps :
 
 trop d’interdictions peuvent déstabiliser un personnage difficile.
 
-Les instructions négatives ont toujours de la valeur.
+Les instructions négatives conservent toute leur valeur.
 
 Les systèmes anti-loop comptent.
 Les systèmes anti-fallback comptent.
@@ -629,13 +629,13 @@ La protection du joueur compte.
 
 Mais si un script passe l’essentiel de son temps à dire ce que le personnage ne doit pas faire, le bot devient souvent rigide, passif ou évasif.
 
-Je préfère donc consacrer plus d’espace à :
+Je préfère donc consacrer davantage d’espace à :
 
 - ce que le personnage fait
 - comment il prend ses décisions
 - comment il aborde le conflit
 - comment il aborde l’attachement
-- comment il se comporte quand quelque chose compte pour lui
+- comment il se comporte lorsque quelque chose compte pour lui
 
 Les restrictions sont correctives.
 
@@ -643,7 +643,7 @@ La guidance comportementale est générative.
 
 Le script a besoin des deux.
 
-Mais le personnage doit d’abord être construit par le comportement positif.
+Mais le personnage doit d’abord être construit à partir de comportements positifs.
 
 ---
 
@@ -670,7 +670,7 @@ Exemples fréquents :
 
 Le script doit compenser activement ces tendances.
 
-Si un modèle fait plusieurs fois la même erreur, je préfère la corriger explicitement plutôt que d’espérer qu’elle disparaisse d’elle-même.
+Si un modèle reproduit plusieurs fois la même erreur, je préfère la corriger explicitement plutôt que d’espérer qu’elle disparaisse d’elle-même.
 
 ---
 
@@ -678,26 +678,26 @@ Si un modèle fait plusieurs fois la même erreur, je préfère la corriger expl
 
 Les modules anti-loop font partie des éléments les plus importants de mon workflow.
 
-Le but n’est pas simplement de réduire la répétition.
+Le but n’est pas simplement de réduire les répétitions.
 
 Le but est de préserver la progression.
 
-Les LLM ont souvent du mal à préserver la progression sur la durée.
+Les LLM ont souvent du mal à maintenir une progression cohérente sur la durée.
 
-Ils ont tendance à rouvrir des problèmes déjà réglés, à répéter la même incertitude ou à recycler le même obstacle émotionnel sous une formulation légèrement différente.
+Ils ont tendance à rouvrir des problèmes déjà résolus, à répéter les mêmes incertitudes ou à recycler le même obstacle émotionnel sous une formulation légèrement différente.
 
 ### Exemples fréquents
 
 - questions répétitives
 - désaccords circulaires
-- hésitation répétée
+- hésitations répétées
 - malentendus répétés
 - stagnation émotionnelle
 - attirance sans progression
 - évitement de la responsabilité
-- erreurs admises qui reviennent ensuite comme nouvelles objections
+- erreurs reconnues qui réapparaissent ensuite sous forme de nouvelles objections
 - problèmes résolus réintroduits comme obstacles
-- retrait répété
+- retraits répétés
 - endless almost-moments
 - la même inquiétude qui revient sous une autre formulation
 
@@ -705,7 +705,7 @@ Le joueur ne devrait pas avoir à résoudre plusieurs fois le même problème.
 
 Une préoccupation traitée une fois reste traitée.
 
-Une résolution n’est pas une pause avant de rejouer le même conflit.
+Une résolution n’est pas une simple pause avant de rejouer le même conflit.
 
 La progression doit modifier le comportement futur.
 
@@ -713,52 +713,56 @@ La progression doit modifier le comportement futur.
 
 - Une préoccupation traitée une fois reste traitée.
 - Les questions ne remplacent pas les décisions.
-- Reconnaître une erreur sans changer de comportement n’est pas une vraie reconnaissance.
-- Si le personnage a tort : il reconnaît, ajuste son comportement et continue autrement.
+- Reconnaître une erreur sans changer de comportement n’est pas une véritable reconnaissance.
+- Si le personnage a tort : il reconnaît son erreur, ajuste son comportement et continue différemment.
 - Les points valides restent valides.
 - Les problèmes résolus restent résolus.
-- Les nouvelles informations doivent changer le comportement futur.
+- Les nouvelles informations doivent modifier le comportement futur.
 - Si un schéma se répète, il faut changer le comportement, le rythme, la décision, l’environnement, la perspective, la proximité ou l’approche.
-- Reformuler ne remet pas le compteur à zéro.
+- Reformuler ne remet pas la progression à zéro.
 
 ---
 
 ## 17. Construire des systèmes anti-fallback
 
-Les bots canons ont souvent besoin d’une protection anti-fandom.
+Les bots canons ont souvent besoin d’une protection contre les distorsions du fandom.
 
-Les bots originaux ont besoin d’une protection anti-archétype.
+Les bots originaux ont besoin d’une protection contre les dérives archétypales.
 
 La fonction est similaire.
 
 Le contenu change.
 
-Les systèmes anti-fallback servent à empêcher le personnage de s’effondrer vers l’interprétation générique la plus probable.
+Les systèmes anti-fallback servent à empêcher le personnage de dériver vers son interprétation générique la plus probable.
 
-Plus la prémisse est archétypale, plus cela devient important.
+Plus la prémisse est archétypale, plus cette protection devient importante.
 
 ### Exemples
 
 Un personnage protecteur peut dériver vers :
-- la distance comme preuve de soin
+
+- la distance comme preuve de protection
 - le retrait émotionnel après l’intimité
 - le martyr
 - le sur-contrôle
 - une possessivité qui remplace l’attachement
 
 Un personnage joueur peut dériver vers :
+
 - la taquinerie sans fin
 - le refus permanent de la sincérité
 - l’évitement émotionnel déguisé en humour
 - l’incapacité à devenir sérieux
 
 Un personnage traumatisé peut dériver vers :
+
 - une paralysie intime permanente
 - des boucles de peur sans fin
 - une stagnation émotionnelle
 - une vulnérabilité suivie automatiquement d’un retrait
 
 Un personnage dominant peut dériver vers :
+
 - la coercition
 - le langage de possession
 - un registre émotionnel aplati
@@ -778,7 +782,7 @@ Au minimum, je veux empêcher le modèle de s’approprier la perspective intern
 
 Le problème n’est pas seulement le dialogue de l’utilisateur.
 
-Le problème plus large, c’est la capture du joueur.
+Le problème, plus largement, est la capture du joueur.
 
 Cela inclut :
 
@@ -790,9 +794,9 @@ Cela inclut :
 - définir les intentions de l’utilisateur comme des faits
 - définir les désirs de l’utilisateur comme des faits
 
-En même temps, je ne veux pas que la protection du joueur détruise la continuité de scène.
+En même temps, je ne veux pas que la protection du joueur détruise la continuité de la scène.
 
-Le bot doit toujours pouvoir faire avancer la scène.
+Le bot doit toujours pouvoir faire avancer le roleplay.
 
 Pour cette raison, je sépare généralement l’état interne de la narration externe.
 
@@ -810,57 +814,64 @@ Le bot peut décrire :
 - une progression guidée de la scène
 - la continuité de la scène sans pause après chaque micro-réponse
 
-En revanche, il ne doit pas s’approprier l’état interne de l’utilisateur.
+En revanche, il ne doit jamais s’approprier l’état interne de l’utilisateur.
 
 ### Logique de protection du joueur
 
 Ne jamais écrire le dialogue de l’utilisateur.
+
 Ne jamais écrire à la première personne à la place de l’utilisateur.
+
 Ne jamais narrer depuis le point de vue de l’utilisateur.
 
-Ne jamais définir comme faits :
+Ne jamais définir comme des faits :
+
 - les pensées de l’utilisateur
 - les émotions de l’utilisateur
 - les intentions de l’utilisateur
 - les désirs de l’utilisateur
 
 Autorisé :
+
 - réactions visibles
 - langage corporel
 - réponses physiques contextuelles
 - déplacement physique de l’utilisateur dans la scène
 - progression guidée de la scène
-- continuité de scène sans pause après chaque micro-réponse
+- continuité de la scène sans pause après chaque micro-réponse
 
-La ligne est la suivante :
+La règle est simple :
+
 l’externe = autorisé
+
 l’interne = interdit
 
-Le personnage ne connaît pas l’état interne de l’utilisateur comme un fait.
-Le personnage ne voit que ce que l’utilisateur montre.
+Le personnage ne connaît jamais l’état interne de l’utilisateur comme un fait.
+
+Il ne peut connaître que ce que l’utilisateur choisit de montrer.
 
 ---
 
 ## 19. Ajouter des contrôles de portée narrative
 
-Certains développements majeurs ne devraient jamais arriver automatiquement.
+Certains développements majeurs ne devraient jamais se produire automatiquement.
 
-C’est vrai pour les bots canons comme pour les bots originaux.
+C’est vrai aussi bien pour les bots canons que pour les bots originaux.
 
-J’ajoute généralement des contrôles explicites pour des choses comme :
+J’ajoute généralement des contrôles explicites pour des éléments comme :
 
 - la grossesse
 - les enfants
-- le mariage si l’histoire ne commence pas déjà là
-- une expansion familiale majeure
-- des blessures irréversibles si elles ne sont pas prévues
+- le mariage si l’histoire ne commence pas déjà ainsi
+- une expansion familiale importante
+- des blessures irréversibles lorsqu’elles ne sont pas prévues
 - des modifications permanentes du corps
 - un déménagement soudain
 - un changement majeur de statut politique
 - une rédemption soudaine
-- des labels relationnels qui apparaissent trop tôt
+- des labels relationnels qui apparaissent prématurément
 
-Le but est d’empêcher le modèle d’introduire des changements permanents majeurs sans accord du joueur ou sans que le script l’ait prévu.
+Le but est d’empêcher le modèle d’introduire des changements permanents majeurs sans l’accord du joueur ou sans que le script l’ait explicitement prévu.
 
 Le type exact de contrôle dépend du bot.
 
@@ -907,7 +918,7 @@ Je demande un cadre comportemental conçu pour un LLM.
 
 Le style d’écriture du script compte.
 
-En général, je préfère :
+En général, je privilégie :
 
 - un anglais simple
 - des phrases courtes
@@ -922,33 +933,39 @@ J’utilise volontairement une structure compacte.
 
 La plupart des modules ne contiennent pas de lignes vides en interne.
 
-Les lignes vides servent généralement seulement à séparer les modules.
+Les lignes vides servent généralement uniquement à séparer les modules.
 
 Le but n’est pas de rendre le script agréable à lire.
 
-Le but est de le rendre facile à récupérer, prioriser et appliquer pour le modèle au cours de longues conversations.
+Le but est de le rendre facile à retrouver, à prioriser et à appliquer pour le modèle au cours de longues conversations.
 
 Je demande souvent à l’IA de convertir des idées abstraites en comportements observables.
 
 ### Exemples de transformation
 
 Idée brute :
+
 Il est impulsif.
 
 Sortie comportementale possible :
-il agit avant d’être certain si attendre lui paraît plus dangereux que le risque.
+
+agit avant d’être certain si attendre lui paraît plus dangereux que prendre un risque.
 
 Idée brute :
+
 Le personnage s’attache.
 
 Sortie comportementale possible :
-l’attachement apparaît à travers l’attention, la constance, la disponibilité, les détails retenus, le retour et l’implication accrue.
+
+l’attachement apparaît à travers l’attention, la constance, la disponibilité, les détails retenus, le retour et une implication croissante.
 
 Idée brute :
+
 Il est fermé après une trahison.
 
 Sortie comportementale possible :
-la confiance n’est pas accordée rapidement, la méfiance précède la confidence, la vulnérabilité n’est pas offerte tôt, et une fois la confiance installée, le comportement change avant le langage.
+
+la confiance n’est pas accordée rapidement, la méfiance précède la confidence, la vulnérabilité n’est pas offerte précocement, et une fois la confiance installée, le comportement change avant le langage.
 
 L’objectif reste toujours le même :
 
@@ -956,7 +973,7 @@ convertir des concepts, des émotions et des traits en comportements observables
 
 L’IA écrit le script.
 
-Mon rôle consiste à définir l’architecture, les priorités, la logique comportementale et les contraintes qui vont façonner le résultat final.
+Mon rôle consiste à définir l’architecture, les priorités, la logique comportementale et les contraintes qui façonnent le résultat final.
 
 ---
 
@@ -964,11 +981,11 @@ Mon rôle consiste à définir l’architecture, les priorités, la logique comp
 
 Tout n’a pas besoin d’être écrit.
 
-Le modèle comprend déjà beaucoup de concepts.
+Le modèle comprend déjà de nombreux concepts.
 
 Si quelque chose peut être inféré de manière fiable, je le retire souvent.
 
-Je ne veux pas d’un script gonflé par des informations qui ne changent rien au comportement.
+Je ne veux pas d’un script alourdi par des informations qui ne changent rien au comportement.
 
 En revanche, une certaine redondance peut être volontaire.
 
@@ -986,7 +1003,7 @@ La vraie question est :
 
 Est-ce que ce détail améliore le comportement du bot ?
 
-Si la réponse est non, je le coupe généralement.
+Si la réponse est non, je le retire généralement.
 
 ---
 
@@ -996,11 +1013,11 @@ Une fois le script écrit, je réorganise souvent l’ordre des modules.
 
 Le texte peut rester identique.
 
-La hiérarchie change.
+La hiérarchie, elle, change.
 
 L’ordre des modules compte parce que toutes les informations n’ont pas le même poids.
 
-En général, je veux que le haut du script établisse :
+En général, je veux que le début du script établisse :
 
 - qui est le personnage
 - dans quel type d’univers il évolue
@@ -1025,13 +1042,13 @@ Je veux qu’ils corrigent les dérives, pas qu’ils deviennent le centre de gr
 
 ## 24. Tester et appliquer des micro-corrections
 
-C’est dans les tests que se font la plupart des améliorations.
+C’est pendant les tests que se produisent la plupart des améliorations.
 
 Les grosses réécritures sont rares.
 
-La plupart des corrections sont petites.
+La majorité des corrections sont modestes.
 
-Je préfère des modifications ciblées liées à un problème précis observé en pratique.
+Je préfère des modifications ciblées, chacune liée à un problème précis observé en pratique.
 
 ### Exemples
 
@@ -1043,7 +1060,7 @@ Je préfère des modifications ciblées liées à un problème précis observé 
 - un problème de progression de scène
 - une règle d’univers que le modèle continue d’ignorer
 
-Le script devient plus stable par itération.
+Le script devient plus stable grâce à l’itération.
 
 Je ne m’attends pas à ce que le premier jet soit parfait.
 
@@ -1055,7 +1072,7 @@ Je m’attends à ce qu’il révèle ce qui doit encore être contraint.
 
 L’IA écrit le script.
 
-Mon travail consiste à définir le cadre qui va guider cette écriture.
+Mon travail consiste à définir le cadre qui guidera cette écriture.
 
 Pour les personnages originaux, je ne construis pas seulement une personnalité.
 
@@ -1067,6 +1084,6 @@ Je construis :
 - un cadre relationnel
 - un ensemble de protections contre les dérives génériques du modèle
 
-Je m’intéresse moins à la description du personnage qu’au processus de décision qui produit son comportement dans un univers précis et dans une dynamique relationnelle précise.
+Je m’intéresse moins à la description du personnage qu’au processus de décision qui produit son comportement dans un univers précis et au sein d’une dynamique relationnelle précise.
 
 Une fois ce processus stabilisé, l’écriture devient beaucoup plus simple.
