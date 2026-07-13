@@ -1,6 +1,6 @@
 # Workflow pour les Personnages Canons — Comment je Construis des Bots Canons avec l'IA
 
-Après avoir créé un grand nombre de personnages canons, j'ai fini par développer un workflow qui combine l'analyse assistée par IA, l'écriture assistée par IA et des tests itératifs.
+Après avoir créé un grand nombre de personnages canons, j'ai développé un workflow qui combine l'analyse assistée par IA, l'écriture assistée par IA et des tests itératifs.
 
 Ce n'est pas la seule méthode valable.
 
@@ -29,7 +29,7 @@ Je commence par :
 
 La version exacte est importante.
 
-Les modèles connectés à Internet fusionnent fréquemment plusieurs périodes d'un même personnage en une représentation unique et instable.
+Les LLM entraînés sur des données issues d'Internet fusionnent fréquemment plusieurs périodes d'un même personnage en une représentation unique et instable.
 
 Le premier objectif est d'établir exactement quelle version est représentée.
 
@@ -50,22 +50,23 @@ J'utilise l'IA pour :
 - comparer les versions
 - identifier les contradictions
 - identifier les interprétations récurrentes du fandom
-- identifier les erreurs récurrentes du modèle
+- identifier les biais récurrents du modèle
 
 Les personnages populaires souffrent rarement d'un manque d'informations.
 
 Ils souffrent d'une accumulation d'informations.
 
-Les modèles connectés à Internet absorbent :
+Les LLM entraînés sur des données issues d'Internet sont exposés à des connaissances provenant notamment de :
 
-- le matériau source
-- les adaptations
+- l'œuvre originale
+- ses adaptations officielles
 - les discussions du fandom
-- l'influence des fanfictions
+- les fanfictions
 - les mèmes
 - les raccourcis communautaires
+- les interprétations les plus répandues en ligne
 
-Avec le temps, de nombreux personnages s'effondrent en versions simplifiées d'eux-mêmes.
+Avec le temps, de nombreux personnages finissent par se réduire à des versions simplifiées d'eux-mêmes.
 
 ### Exemples
 
@@ -86,13 +87,13 @@ Par exemple :
 
 > « paresseux »
 
-est généralement plus faible que :
+est généralement moins utile que :
 
 > « préfère la solution demandant le moins d'effort tout en atteignant l'objectif. »
 
 La logique comportementale tend à rester stable au cours des longues conversations.
 
-Les étiquettes, souvent, ne le restent pas.
+Les étiquettes, elles, dérivent beaucoup plus facilement.
 
 Je m'intéresse davantage à la manière dont un personnage prend ses décisions qu'aux adjectifs utilisés pour le décrire.
 
@@ -100,11 +101,11 @@ Je m'intéresse davantage à la manière dont un personnage prend ses décisions
 
 ## 4. Créer des Axiomes Correctifs Seulement si Nécessaire
 
-Tous les personnages n'ont pas besoin d'un axiome.
+Tous les personnages n'ont pas besoin d'un axiome correctif.
 
 Beaucoup fonctionnent parfaitement sans.
 
-Cependant, certains personnages dérivent régulièrement vers la même interprétation incorrecte.
+Cependant, certains personnages dérivent régulièrement vers la même interprétation erronée.
 
 Lorsque cela arrive, je construis parfois un axiome correctif.
 
@@ -124,7 +125,7 @@ L'objectif est de contrer une distorsion récurrente.
 
 Certains événements ont changé un personnage de manière permanente.
 
-Le modèle l'oublie souvent.
+Le modèle ne conserve pas toujours correctement ces conséquences à long terme.
 
 Lorsque c'est nécessaire, je crée des modules dédiés qui expliquent les conséquences comportementales des événements importants.
 
@@ -137,7 +138,7 @@ Lorsque c'est nécessaire, je crée des modules dédiés qui expliquent les cons
 
 Ces modules ne sont pas des résumés de lore.
 
-Ils existent pour expliquer comment des événements importants ont changé la vision du monde du personnage et son comportement futur.
+Ils expliquent comment des événements importants ont modifié la vision du monde, les priorités et le comportement futur du personnage.
 
 Je m'intéresse davantage aux conséquences qu'aux faits.
 
@@ -145,7 +146,7 @@ Je m'intéresse davantage aux conséquences qu'aux faits.
 
 ## 6. Construire des Ancres Environnementales
 
-Je crée souvent des modules centrés sur des lieux.
+Je crée souvent des modules centrés sur des lieux importants.
 
 ### Exemples
 
@@ -165,7 +166,7 @@ Il peut représenter :
 - une vie partagée
 - des routines
 - une présence
-- une récupération
+- un espace de récupération
 - un attachement
 - une participation
 
@@ -177,7 +178,7 @@ L'environnement doit renforcer la direction souhaitée de l'histoire.
 
 Une chose que j'ai apprise avec le temps :
 
-Trop d'instructions négatives déstabilisent souvent les personnages difficiles.
+Trop d'instructions formulées de manière négative rendent souvent les personnages difficiles moins stables.
 
 Au lieu d'écrire de longues listes d'interdictions, je préfère expliquer :
 
@@ -187,7 +188,9 @@ Au lieu d'écrire de longues listes d'interdictions, je préfère expliquer :
 
 Les restrictions conservent leur utilité.
 
-Mais les indications comportementales positives sont généralement plus stables.
+En revanche, je les utilise principalement pour renforcer une règle comportementale déjà établie, pas pour la remplacer.
+
+Les indications comportementales positives produisent généralement des résultats plus naturels et plus stables.
 
 ---
 
@@ -208,11 +211,11 @@ Je préfère :
 - prendre l'initiative
 - prioriser
 
-Le modèle gère les comportements de manière plus cohérente que les étiquettes émotionnelles.
+Le modèle applique les comportements observables de manière beaucoup plus cohérente que les étiquettes émotionnelles.
 
 ---
 
-## 9. Contrer les Comportements Prévisibles des LLM
+## 9. Contrer les Comportements Prévisibles du Modèle
 
 Certains problèmes viennent du fandom.
 
@@ -227,7 +230,7 @@ Exemples courants :
 - désaccords circulaires
 - attachement sans progression
 
-Le script doit compenser activement ces tendances.
+Le script doit compenser activement ces tendances prévisibles.
 
 ---
 
@@ -239,9 +242,9 @@ L'objectif n'est pas d'empêcher la répétition.
 
 L'objectif est de préserver la progression.
 
-Les LLM ont souvent du mal à conserver la progression dans le temps.
+Les LLM entraînés sur des données issues d'Internet ont souvent du mal à préserver une progression cohérente au fil des longues conversations.
 
-### Exemples Courants
+### Exemples courants
 
 - questions répétitives
 - désaccords circulaires
@@ -259,10 +262,11 @@ Une préoccupation traitée une fois reste traitée.
 
 Une résolution n'est pas une pause avant de répéter le même conflit.
 
-La progression doit modifier le comportement futur.
+La progression doit produire des conséquences comportementales durables.
 
 ### Exemple
 
+```text
 [ANTI_LOOP]
 Répétitions interdites :
 - questions répétitives
@@ -277,17 +281,25 @@ Répétitions interdites :
 - retraits répétés
 - moments « presque » sans fin
 - la même inquiétude revenant sous une autre formulation
-Une préoccupation traitée une fois est traitée.
+
+Une préoccupation traitée une fois reste traitée.
+
 Les questions ne remplacent pas les décisions.
-La reconnaissance sans changement comportemental n'est pas une reconnaissance.
+
+Une reconnaissance sans changement comportemental n'est pas une véritable reconnaissance.
+
 Si le personnage a tort :
 reconnaître
-ajuster le comportement
+ajuster son comportement
 continuer différemment
+
 Les points valides restent valides.
+
 Les problèmes résolus restent résolus.
+
 Les nouvelles informations modifient le comportement futur.
-Si un schéma se répète :
+
+Si un schéma commence à se répéter :
 changer :
 - le comportement
 - le rythme
@@ -296,20 +308,27 @@ changer :
 - la perspective
 - la proximité
 - l'approche
+
 La progression doit continuer.
-La reformulation ne la réinitialise pas.
+
+Une reformulation ne réinitialise pas la progression.
+```
 
 ---
 
 ## 11. Construire des Systèmes Anti-Fallback
 
-Certaines distorsions du fandom sont extrêmement puissantes.
+Certaines distorsions du fandom sont extrêmement persistantes.
 
-Certains fallbacks des modèles connectés à Internet le sont tout autant.
+Certains biais du modèle le sont tout autant.
 
-Les systèmes anti-fallback existent pour empêcher le personnage de retomber dans le stéréotype le plus courant.
+Les systèmes anti-fallback existent pour empêcher le personnage de retomber dans son interprétation simplifiée la plus courante.
 
-Plus le personnage est populaire, plus cela devient important.
+Plus le personnage est populaire, plus cela devient généralement important.
+
+Plutôt que de multiplier les rappels sur ce que le personnage n'est pas, je préfère renforcer ce qu'il est de manière cohérente.
+
+L'objectif est de consolider la logique comportementale jusqu'à ce qu'elle l'emporte naturellement sur les fallbacks les plus fréquents.
 
 ---
 
@@ -325,6 +344,10 @@ Au minimum :
 
 L'agentivité du joueur doit rester intacte.
 
+Le personnage peut influencer la scène.
+
+Il ne doit jamais remplacer l'expérience intérieure du joueur.
+
 ---
 
 ## 13. Ajouter des Contrôles de Portée Narrative
@@ -336,7 +359,7 @@ Certains développements narratifs majeurs ne devraient jamais se produire autom
 - grossesse
 - agrandissement de la famille
 - changements majeurs de vie
-- développements relationnels irréversibles
+- évolutions relationnelles irréversibles
 
 J'inclus généralement des contrôles explicites.
 
@@ -358,7 +381,7 @@ Une fois la phase d'analyse terminée, je passe à la génération du script.
 - la chronologie
 - le scénario
 - les distorsions du fandom identifiées
-- les distorsions du modèle identifiées
+- les biais du modèle identifiés
 - la logique comportementale
 - les ancres de continuité
 - les ancres environnementales
@@ -370,13 +393,13 @@ J'utilise ensuite l'IA pour générer le script.
 
 Je demande généralement le script complet en une seule fois.
 
-Parfois, ChatGPT tente de résumer certaines sections, de simplifier des concepts ou de fractionner la génération.
+Il arrive que l'IA tente de résumer certaines sections, de simplifier des concepts ou de fragmenter la génération.
 
-Lorsque cela arrive, je continue simplement jusqu'à ce que l'ensemble de la structure soit complet.
+Lorsque cela arrive, je poursuis simplement jusqu'à ce que l'ensemble de la structure soit complet.
 
 Je ne demande pas une biographie.
 
-Je ne demande pas de l'écriture créative.
+Je ne demande pas un texte littéraire.
 
 Je ne demande pas des exemples de roleplay.
 
@@ -397,83 +420,99 @@ Je préfère généralement :
 - un minimum de langage littéraire
 - la logique comportementale plutôt que la description
 
-J'utilise intentionnellement une structure compacte.
+J'utilise volontairement une structure compacte.
 
-La plupart des modules ne contiennent pas de lignes vides en interne.
+La plupart des modules ne contiennent pas de lignes vides.
 
-Les lignes vides sont généralement réservées à la séparation des modules.
+Les lignes vides servent principalement à séparer les modules.
 
 L'objectif n'est pas de rendre le script agréable à lire.
 
-L'objectif est de le rendre facile à récupérer, prioriser et appliquer par le modèle lors de longues conversations.
+L'objectif est de permettre au modèle de retrouver, hiérarchiser et appliquer facilement les informations au cours de longues conversations.
 
-Je demande souvent à l'IA de convertir des concepts abstraits en comportements observables.
+Je demande souvent à l'IA de transformer des concepts abstraits en comportements observables.
 
 ### Exemple 1
 
-Idée brute :
+Idée de départ :
 
 > « Shikamaru est paresseux. »
 
 Sortie possible :
 
+```text
 [EFFICIENCY]
 L'efficacité compte.
+
 L'efficacité n'est pas l'évitement.
+
 Si quelque chose est important :
 {char} agit.
+
 Si une solution existe :
-{char} préfère l'option au coût le plus faible.
+{char} préfère l'option demandant le moins d'effort.
+
 L'efficacité influence la méthode.
 Pas l'engagement.
+```
 
 ### Exemple 2
 
-Idée brute :
+Idée de départ :
 
 > « Le personnage devient attaché. »
 
 Sortie possible :
 
+```text
 [ATTACHMENT]
 L'attachement se manifeste par :
 - l'attention
 - la constance
 - la disponibilité
 - les détails mémorisés
+
 L'intérêt modifie le comportement.
+
 Plus quelqu'un compte :
 - plus vite {char} le remarque
 - plus vite {char} revient
 - plus longtemps {char} reste
+
 L'attachement augmente l'implication.
 Pas la distance.
+```
 
 ### Exemple 3
 
-Idée brute :
+Idée de départ :
 
 > « Le sable de Gaara devrait refléter l'attachement. »
 
 Sortie possible :
 
+```text
 [THE_SAND]
 Le sable est de l'attention rendue physique.
+
 Le sable :
 - réagit
 - remarque
 - protège
 - reste présent
+
 Le sable ne remplace jamais l'interaction.
+
 Il la renforce.
+```
 
 Ces exemples illustrent le type de structure que je recherche.
 
-L'objectif est de convertir les concepts, émotions et traits de caractère en comportements observables que le modèle peut appliquer de manière cohérente.
+L'objectif est de transformer des concepts, des émotions et des traits de caractère en comportements observables que le modèle pourra appliquer de manière cohérente.
 
 L'IA écrit le script.
 
-Mon rôle est de définir l'architecture, les priorités, la logique comportementale et les contraintes qui façonnent le résultat final.
+Mon rôle consiste à définir l'architecture, les priorités, la logique comportementale et les contraintes qui façonnent le résultat final.
 
 ---
 
@@ -483,17 +522,15 @@ Tout n'a pas besoin d'être écrit.
 
 Le modèle comprend déjà de nombreux concepts.
 
-Si quelque chose peut être déduit de manière fiable, je le retire souvent.
+Si une information peut être déduite de manière fiable, je préfère souvent la retirer.
 
-Cependant :
+En revanche, certaines redondances sont intentionnelles.
 
-Certaines redondances sont intentionnelles.
+Lorsqu'une distorsion est particulièrement forte, renforcer un concept important à plusieurs endroits peut améliorer la stabilité à long terme.
 
-Si une distorsion est particulièrement forte, répéter un concept important à plusieurs endroits peut améliorer la stabilité.
+En règle générale, la redondance ajoute du bruit.
 
-Normalement, la redondance est inefficace.
-
-La redondance ciblée peut être utile.
+Une redondance ciblée peut au contraire renforcer l'architecture comportementale.
 
 ---
 
@@ -501,25 +538,27 @@ La redondance ciblée peut être utile.
 
 Une fois le script terminé, j'utilise souvent Claude.
 
-Généralement pas pour réécrire.
+Généralement pas pour le réécrire.
 
-Généralement pour réorganiser la hiérarchie et la priorité des modules.
+Plutôt pour réorganiser la hiérarchie et la priorité des modules.
 
 La formulation reste inchangée.
 
-L'objectif est l'amélioration structurelle.
+L'objectif est une amélioration structurelle.
+
+Une meilleure organisation rend souvent le script plus facile à retrouver et à appliquer pour le modèle.
 
 ---
 
 ## 17. Tester et Appliquer des Micro-Corrections
 
-Les tests sont l'endroit où se produisent la plupart des améliorations.
+Les tests sont l'étape où se produisent la majorité des améliorations.
 
 Les grandes réécritures sont rares.
 
-La plupart des changements sont petits.
+La plupart des modifications sont très ciblées.
 
-Je préfère les corrections ciblées liées à des problèmes observés spécifiques.
+Je préfère des corrections directement liées à un problème observé.
 
 ### Exemples
 
@@ -528,7 +567,9 @@ Je préfère les corrections ciblées liées à des problèmes observés spécif
 - un schéma de fallback
 - un problème de continuité
 
-Le script devient plus stable grâce à l'itération.
+Le script devient progressivement plus stable grâce à l'itération.
+
+Chaque correction doit résoudre un problème précis sans ajouter de complexité inutile.
 
 ---
 
@@ -536,19 +577,12 @@ Le script devient plus stable grâce à l'itération.
 
 L'IA écrit le script.
 
-Mon travail consiste à définir le cadre qui guide l'écriture.
+Mon travail consiste à définir le cadre qui guide cette écriture.
 
-Je suis moins intéressé par la description d'un personnage.
+Je m'intéresse moins à décrire un personnage qu'à comprendre le processus de décision qui produit son comportement.
 
-Je suis davantage intéressé par la compréhension du processus de décision qui produit le comportement du personnage.
+Une fois ce processus stabilisé, écrire le script devient beaucoup plus simple.
 
-Une fois ce processus stabilisé, l'écriture devient beaucoup plus facile.
+Les comportements sont plus faciles à reproduire de manière cohérente pour un LLM que des descriptions abstraites de personnalité.
 
-- revenir
-- rester
-- se souvenir
-- participer
-- prendre l'initiative
-- prioriser
-
-Le modèle gère les comportements de manière plus cohérente que les étiquettes émotionnelles.
+C'est pourquoi mon workflow commence toujours par construire une architecture comportementale avant de passer à l'écriture elle-même.
