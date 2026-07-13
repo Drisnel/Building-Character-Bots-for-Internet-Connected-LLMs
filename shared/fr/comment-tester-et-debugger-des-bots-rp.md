@@ -38,7 +38,7 @@ Elle permet de tester :
 - les sujets sensibles
 - les priorités comportementales
 - la manière dont le bot comprend une relation, un conflit, un attachement, une limite ou un thème donné
-- la résistance du script aux dérives fandom, surtout sur les personnages canon connectés au net
+- la résistance du script aux dérives fandom, surtout sur les personnages canons dont le modèle a été entraîné à partir de nombreux contenus disponibles sur le Web
 
 ## Phase 2 — mises en situation + questions système simulées
 Cette phase sert à tester le comportement du bot dans des contextes qui ne sont pas forcément ceux du point de départ du script.
@@ -180,7 +180,7 @@ Exemples :
 - ce qui le fait reculer ou s’ouvrir
 
 ## 5.4. La version réelle du personnage activée par le script
-C’est particulièrement important pour les personnages canon connectés au net.
+C’est particulièrement important pour les personnages canons dont le modèle a été entraîné à partir de nombreux contenus disponibles sur le Web.
 
 Le bot peut très bien avoir un script correct en apparence, tout en conservant en profondeur :
 - une version fandomisée du personnage
