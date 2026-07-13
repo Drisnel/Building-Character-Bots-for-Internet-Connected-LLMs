@@ -1,10 +1,12 @@
 # Documentation française
 
-Bienvenue dans la documentation française de **Building RP Bots for Internet-Connected LLMs**.
+Bienvenue dans la documentation française de **Building RP Bots for LLMs entraînés sur des données issues d'Internet**.
 
-Ce dépôt documente des méthodes pratiques pour concevoir des bots de roleplay destinés à des LLM connectés à Internet.
+Ce dépôt documente des méthodes pratiques pour concevoir des bots de roleplay destinés à des LLM entraînés sur des données issues d'Internet.
 
-Il rassemble des workflows de production, des méthodes d'écriture, des principes de conception, des templates de scripts ainsi que des guides consacrés aux fonctionnalités propres à certaines plateformes, le tout basé sur des expérimentations et des tests réalisés en conditions réelles.
+Il rassemble des workflows de production, des méthodes d'écriture, des principes de conception, des templates de scripts ainsi que des guides consacrés aux fonctionnalités propres à certaines plateformes, le tout fondé sur des expérimentations et des tests réalisés en conditions réelles.
+
+Les méthodes présentées ici s'adressent aux modèles de langage dont les connaissances proviennent en grande partie de données issues d'Internet, qu'elles soient acquises lors de l'entraînement du modèle, par des mises à jour régulières ou via des fonctionnalités propres à certaines plateformes.
 
 Plutôt que de proposer des règles universelles, ce dépôt documente les workflows, les méthodes d'écriture et les observations qui produisent actuellement les résultats les plus cohérents dans mes propres projets.
 
@@ -60,7 +62,7 @@ Ils s'appliquent aussi bien aux personnages canon qu'aux personnages originaux, 
 
 Ces workflows sont consacrés à la création de personnages canon tout en préservant leur identité comportementale, leur cohérence à long terme et leur évolution naturelle au fil du roleplay.
 
-Ils mettent l'accent sur l'analyse de l'œuvre d'origine, l'identification des déformations courantes des modèles et du fandom, puis leur traduction en scripts stables prêts à être utilisés.
+Ils mettent l'accent sur l'analyse de l'œuvre d'origine, l'identification des biais récurrents du modèle et des distorsions du fandom, puis leur traduction en scripts stables, prêts à être utilisés.
 
 - [Méthode de construction de personnages canon](../canon/fr/Core-Workflow-francais.md)
 - [Méthode de création des introductions et démarrages pour bots canons](../canon/fr/creation-introduction-demarrage-bot-canon-connecte-internet.md)
@@ -134,7 +136,7 @@ Dans la mesure du possible, chaque document est proposé en français et en angl
 
 Ce dépôt poursuit **deux objectifs complémentaires**.
 
-Le premier est de documenter des méthodes concrètes permettant de concevoir des bots de roleplay stables, cohérents et agréables à jouer pour des LLM connectés à Internet.
+Le premier est de documenter des méthodes concrètes permettant de concevoir des bots de roleplay stables, cohérents et agréables à jouer pour des LLM entraînés sur des données issues d'Internet.
 
 Le second est de documenter les fonctionnalités avancées propres à certaines plateformes pouvant améliorer considérablement les roleplays de longue durée lorsqu'elles sont correctement comprises et exploitées.
 
@@ -144,7 +146,7 @@ Les workflows, méthodes d'écriture, templates et guides de plateformes présen
 
 Ils documentent simplement les approches, les observations et les méthodes de production qui produisent actuellement les résultats les plus cohérents dans mes propres projets.
 
-À mesure que les LLM et les plateformes de roleplay évolueront, ce dépôt évoluera avec eux.
+À mesure que les modèles de langage et les plateformes de roleplay évolueront, ce dépôt évoluera avec eux.
 
 ---
 
@@ -164,4 +166,4 @@ Ce dépôt est un projet en constante évolution.
 
 De nouveaux documents viendront progressivement enrichir aussi bien la méthodologie générale que la documentation consacrée aux plateformes, au fur et à mesure des nouvelles expérimentations, des nouvelles méthodes de production et des nouvelles fonctionnalités explorées.
 
-L'objectif est de construire une base de connaissances complète consacrée à la création de bots de roleplay stables, cohérents et agréables à jouer pour des LLM connectés à Internet.
+L'objectif est de construire une base de connaissances complète consacrée à la création de bots de roleplay stables, cohérents et agréables à jouer pour des LLM entraînés sur des données issues d'Internet.
