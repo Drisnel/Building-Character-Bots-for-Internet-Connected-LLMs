@@ -32,7 +32,7 @@ Leur rôle est d’empêcher le modèle de tomber dans des schémas de répétit
 
 Ce n’est pas la seule méthode valable.
 
-C’est simplement le cadre qui me donne actuellement les résultats les plus stables lorsque je construis des bots de roleplay pour des LLM connectés à Internet.
+C’est simplement le cadre qui me donne actuellement les résultats les plus stables lorsque je construis des bots de roleplay pour des LLM entraînés sur de vastes corpus de données issus du Web.
 
 ---
 
