@@ -51,7 +51,7 @@ The character actively contributes to building it.
 
 This is not the only valid approach.
 
-It is simply the framework that currently gives me the most consistent results when building roleplay bots for internet-connected LLMs.
+It is simply the framework that currently gives me the most consistent results when building roleplay bots for modern LLM-based roleplay platforms.
 
 ---
 
