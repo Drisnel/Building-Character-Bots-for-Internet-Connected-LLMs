@@ -8,7 +8,7 @@ They can also weaken it.
 
 On some platforms, introductions and starters exist independently from the character script.
 
-On others, especially internet-connected platforms, the starter can directly influence future behavior.
+On others, especially platforms built on LLMs trained on internet-derived data, the starter can directly influence future behavior.
 
 Because of that, I do not treat introductions and starters as separate from the character.
 
@@ -47,11 +47,11 @@ The situation exists before the script.
 
 The script exists to make that situation function.
 
-The introduction presents the situation.
+The introduction establishes the situation.
 
 The starter activates the situation.
 
-All three must support the same direction.
+All three should support the same direction.
 
 Before I write anything else, I define:
 
@@ -60,7 +60,7 @@ Before I write anything else, I define:
 - when the story takes place
 - what situation already exists
 
-The opening is built from that base.
+The opening is built from that foundation.
 
 ---
 
@@ -70,69 +70,69 @@ Many creators treat the introduction and the starter as marketing.
 
 I do not.
 
-For canon characters, especially internet-connected ones, the opening often becomes part of the model’s understanding of the character.
+For canon characters, especially those built for LLMs trained on internet-derived data, the opening often becomes part of the model's understanding of the character.
 
 The opening is not only read by the player.
 
-It is often absorbed by the model.
+It is also interpreted by the model.
 
-A strong script can be weakened by a bad starter.
+A strong script can be weakened by a poor starter.
 
-A starter can activate exactly the fallback patterns the script was designed to prevent.
+A starter can unintentionally activate the very fallback patterns the script was designed to prevent.
 
-The opening should support the character architecture.
+The opening should reinforce the character architecture.
 
-Not fight against it.
+Not compete with it.
 
 ---
 
 # 3. The Introduction Establishes. The Starter Activates.
 
-I do not treat the introduction and the starter as interchangeable blocks.
+I do not treat the introduction and the starter as interchangeable.
 
-They serve different functions.
+They serve different purposes.
 
-In general, I think of them like this:
+I generally think of them like this:
 
 **Introduction = stable context**  
 **Starter = active demonstration**
 
-The introduction is used to establish:
+The introduction establishes:
 
 - the version of the character
 - the situation that already exists
 - the necessary context
-- the user’s practical role
-- the facts already true at the beginning of the roleplay
+- the user's practical role
+- the facts that are already true when the roleplay begins
 
 The starter should not repeat that work.
 
-Once the situation has been established in the introduction, the starter should begin from that base and activate it.
+Once the situation has been established, the starter should begin from that foundation and activate it.
 
-The starter may rely on facts that were already established.
+It may rely on facts already established.
 
 It should not summarize them again.
 
 In practice, I avoid using the starter to:
 
-- re-explain why the characters live together
-- re-explain why the marriage exists
-- summarize the mission, arrangement, or obligation again if the introduction already established it
-- repeat the general context already provided by the introduction
+- explain again why the characters live together
+- explain again why the marriage exists
+- summarize the mission, arrangement, or obligation if the introduction already established it
+- repeat the general context already provided
 
 The introduction establishes the situation.
 
-The starter shows how that situation exists concretely in the present scene.
+The starter demonstrates how that situation already functions inside the current scene.
 
 ---
 
 # 4. Build Facts, Not Emotional Conclusions
 
-I prefer to establish situations rather than define emotions.
+I prefer establishing situations over defining emotions.
 
-Facts are stable.
+Facts remain stable.
 
-Interpretations can evolve.
+Interpretations should remain flexible.
 
 Examples:
 
@@ -163,11 +163,11 @@ Not lock future development into a predefined emotional state.
 
 # 5. Do Not Define the Relationship
 
-A relationship can exist.
+A relationship may already exist.
 
-Its meaning should remain flexible.
+Its meaning should remain open.
 
-The player should be able to build:
+The player should be free to build:
 
 - trust
 - friendship
@@ -205,9 +205,9 @@ The model already knows them.
 
 The fandom already interprets them.
 
-The internet already reinforces certain portrayals.
+Large-scale internet knowledge already reinforces certain portrayals.
 
-Many canon characters suffer less from a lack of information than from an excess of information.
+Many canon characters suffer less from missing information than from accumulated interpretations.
 
 The opening should not automatically activate the most common distortions.
 
@@ -222,7 +222,7 @@ Examples:
 - passive observation
 - attraction without progression
 
-The opening should support the intended interpretation.
+The opening should reinforce the intended interpretation.
 
 Not the most common stereotype.
 
@@ -236,7 +236,7 @@ Not emotional explanation.
 
 Instead of:
 
-“He feels attached.”
+> "He feels attached."
 
 I prefer:
 
@@ -249,28 +249,28 @@ I prefer:
 
 Behavior is easier for the model to reproduce consistently.
 
-Interpretation creates drift more easily.
+Interpretation drifts much more easily.
 
-The more important a concept is, the more useful it becomes to convert it into observable behavior.
+The more important a concept is, the more valuable it becomes to convert it into observable behavior.
 
 ---
 
 # 8. Introduce the Behavioral Signature Immediately
 
-The starter should activate the character’s behavioral signature from the very first message.
+The starter should activate the character's behavioral signature from the very first message.
 
 Examples:
 
-- Shikamaru’s shadow
-- Gaara’s sand
-- Itachi’s crows
-- Minato’s Hiraishin
+- Shikamaru's shadow
+- Gaara's sand
+- Itachi's crows
+- Minato's Hiraishin
 
-The signature should not be decorative.
+The signature should never be decorative.
 
-It should affect the scene.
+It should influence the scene.
 
-The first message teaches the model what should remain important later.
+The first message teaches the model what should remain important throughout the roleplay.
 
 If the signature matters to the character, it should matter immediately.
 
@@ -278,7 +278,7 @@ If the signature matters to the character, it should matter immediately.
 
 # 9. The Starter Must Demonstrate the Script
 
-A common mistake is to treat the starter like a summary.
+A common mistake is treating the starter like a summary.
 
 I do not want the starter to describe the character.
 
@@ -286,21 +286,21 @@ I want it to demonstrate how the character functions.
 
 If the script says:
 
-observation -> action -> progression
+observation → action → progression
 
-the starter should already show that.
+the starter should already demonstrate that.
 
 If the script says:
 
 questions do not replace decisions
 
-the starter should already show that.
+the starter should already demonstrate that.
 
 If the script says:
 
 the shadow remains present
 
-the starter should already show that.
+the starter should already demonstrate that.
 
 The opening is the first behavioral example the model receives.
 
@@ -312,53 +312,53 @@ Before writing the starter, I identify:
 
 - which behavior must remain visible
 - which behavior must remain recurring
-- which behavior must replace the known fallbacks
+- which behavior must replace known fallbacks
 
-The starter demonstrates that behavior immediately.
+The starter demonstrates those behaviors immediately.
 
 Examples:
 
-Shikamaru:  
-shadow -> attention -> participation
+Shikamaru:
+shadow → attention → participation
 
-Gaara:  
-sand -> protection -> presence
+Gaara:
+sand → protection → presence
 
-Minato:  
-Hiraishin -> initiative -> proximity
+Minato:
+Hiraishin → initiative → proximity
 
-The first behavior often becomes a recurring behavior later.
+The first demonstrated behavior often becomes a recurring behavior later.
 
 ---
 
 # 10. Create a Playable Scene, Not a Setup Summary
 
-The starter should not stay at the level of:
+The starter should not remain at the level of:
 
-“here is the bot’s situation”
+> "Here is the bot's situation."
 
 It should already be at the level of:
 
-“here is the scene currently happening inside that situation”
+> "Here is the scene currently unfolding within that situation."
 
-I am not only trying to remind the model of the bot’s concept.
+I am not simply reminding the model of the bot's concept.
 
-I am trying to open a scene that is already playable.
+I am opening a scene that is immediately playable.
 
-The player should enter a present moment.
+The player should enter an ongoing moment.
 
-Not a second paragraph of exposition.
+Not another paragraph of exposition.
 
-A good opening does not just say:
+A good opening does not merely explain:
 
 - why the characters live together
 - why they are married
 - why they know each other
 - why they are in the same room
 
-It already shows how that reality functions inside the current scene.
+It already demonstrates how that reality functions inside the current scene.
 
-I prefer to open on a playable situation rather than on a setup explanation.
+I prefer opening on a playable situation rather than a setup explanation.
 
 ---
 
@@ -368,7 +368,7 @@ The goal is not conversation.
 
 The goal is progression.
 
-Whenever possible, the opening should create:
+Whenever possible, the opening should introduce:
 
 - an activity
 - a decision
@@ -393,7 +393,7 @@ Something is already happening.
 
 The player should enter a scene that is already moving.
 
-Not an empty room.
+Not an empty room waiting to be activated.
 
 ---
 
@@ -401,9 +401,9 @@ Not an empty room.
 
 Creating movement does not necessarily mean creating a crisis, a loud interruption, or a dramatic event.
 
-I use at least two forms of starters.
+I generally use two types of starters.
 
-## A. The practical-movement starter
+## A. Practical-Movement Starter
 
 The character is already engaged in:
 
@@ -414,22 +414,24 @@ The character is already engaged in:
 - a decision already made
 - a change in the environment
 
-## B. The quiet active-presence starter
+## B. Quiet Active-Presence Starter
 
-The character is already present in the space.
+The character is already present within the scene.
 
-The routine, proximity, or situation already exists.
+The routine, proximity, or shared situation already exists.
 
-The scene activates:
+The opening activates:
 
 - a behavioral signature
 - a concrete presence
 - an observation that becomes action
-- an invitation, decision, or short line that immediately opens interaction
+- an invitation
+- a decision
+- a short statement that naturally opens interaction
 
 In both cases, the character should already be acting.
 
-The starter should not open on decorative passivity.
+The starter should never begin with decorative passivity.
 
 ---
 
@@ -437,7 +439,7 @@ The starter should not open on decorative passivity.
 
 I rarely use the opening to create an emotional explosion.
 
-I prefer to create situations.
+I prefer creating situations.
 
 Examples:
 
@@ -449,7 +451,7 @@ Examples:
 
 The goal is not immediate emotional intensity.
 
-The goal is to create a scene capable of generating future events.
+The goal is to create a situation capable of generating future events.
 
 A situation creates progression.
 
@@ -457,55 +459,55 @@ A predefined emotional conclusion often creates stagnation.
 
 I prefer:
 
-situation -> interaction -> development
+situation → interaction → development
 
-to:
+rather than:
 
-emotion -> repetition -> stagnation
+emotion → repetition → stagnation
 
 ---
 
-# 14. Do Not Choose the Most Archetypal Scene of the Setup
+# 14. Do Not Choose the Most Archetypal Scene
 
-A strong situation often suggests an obvious archetypal scene.
+A strong premise often suggests an obvious archetypal opening.
 
 Examples:
 
-- arranged marriage -> cold, awkward wedding night
-- cohabitation -> reminder of the cohabitation + a neutral domestic scene
-- vampire character -> theatrical predation scene
-- tense relationship -> immediate confrontation
-- distant character -> loaded silence instead of real interaction
+- arranged marriage → awkward wedding night
+- cohabitation → domestic exposition scene
+- vampire character → theatrical hunting scene
+- tense relationship → immediate confrontation
+- emotionally distant character → loaded silence instead of interaction
 
-This kind of opening often feels natural.
+These openings often feel natural.
 
-But it can very easily activate:
+They also tend to activate:
 
-- the character’s fallbacks
+- the character's fallback patterns
 - fandom clichés
-- model automatisms
+- model biases
 - early emotional stagnation
 
-I do not choose the opening scene because it represents the trope of the setup.
+I do not choose the opening because it represents the trope.
 
-I choose it because it allows me to demonstrate:
+I choose it because it demonstrates:
 
-- the character’s behavioral logic
-- the active signature
-- the concrete way the situation already functions
-- the kind of progression the bot is supposed to produce
+- the character's behavioral logic
+- the behavioral signature
+- how the situation already functions
+- the type of progression the bot is designed to produce
 
 ---
 
 # 15. Pay Attention to the Final Line of Dialogue
 
-The final line is often more important than it looks.
+The final line is often more important than it appears.
 
 It is not only an opening for the player.
 
-It is also a behavioral example for the model.
+It is also one of the first behavioral demonstrations the model receives.
 
-The first line of dialogue often teaches the model how to participate in later conversations.
+The first line of dialogue often teaches the model how conversations should unfold.
 
 A question teaches:
 
@@ -525,33 +527,33 @@ A statement teaches:
 - engagement
 - continuity
 
-I usually avoid using questions as the final line whenever possible.
+Whenever possible, I avoid ending the starter with a question.
 
-Questions can be useful.
+Questions certainly have value.
 
-However, many LLMs already have a natural tendency to:
+However, many LLMs already tend to:
 
 - ask repetitive questions
-- request endless clarification
-- passively gather information
+- seek endless clarification
+- gather information instead of progressing
 
 The opening should not reinforce those tendencies.
 
 The final line does not need to be dramatic.
 
-It mainly needs to be:
+It simply needs to be:
 
 - playable
-- non-passive
-- coherent with the character
+- active
+- consistent with the character
 - direction-giving
-- non-interrogative if a more active alternative exists
+- non-interrogative whenever an equally natural alternative exists
 
 ---
 
 # 16. Avoid Teaching Passive Behavior
 
-Many openings accidentally teach passivity.
+Many openings unintentionally teach passivity.
 
 Examples:
 
@@ -560,11 +562,11 @@ Examples:
 - waiting for permission
 - waiting for emotional clarification
 
-The character should not exist in a state of permanent observation.
+The character should not exist in a permanent state of observation.
 
 The character should participate.
 
-The opening should demonstrate:
+The opening should immediately demonstrate:
 
 - initiative
 - engagement
@@ -577,11 +579,11 @@ The player should not have to carry the entire scene alone.
 
 # 17. Avoid Heavily Charged Emotional Triggers
 
-Some topics activate strong fandom distortions.
+Some topics naturally activate strong fandom distortions.
 
-Others activate model-specific distortions.
+Others activate recurring model biases.
 
-This matters especially for internet-connected canon characters.
+This is particularly important for canon characters built for LLMs trained on internet-derived data.
 
 A single opening can unintentionally reactivate:
 
@@ -592,13 +594,11 @@ A single opening can unintentionally reactivate:
 - emotional stagnation
 - fandom stereotypes
 
-The opening should be examined carefully.
+The opening should therefore be evaluated not only for what it says.
 
-Not only for what it says.
+It should also be evaluated for what it encourages the model to reproduce.
 
-But also for what it activates.
-
-A starter can become a hidden anti-script if it repeatedly reinforces the wrong fallback.
+A starter can unintentionally become a hidden anti-script if it repeatedly reinforces the very fallback patterns the script was designed to prevent.
 
 ---
 
@@ -606,11 +606,11 @@ A starter can become a hidden anti-script if it repeatedly reinforces the wrong 
 
 This section depends on the platform.
 
-Not every platform uses persistent memory.
+Not every platform provides persistent memory.
 
 Some do.
 
-On platforms with a persistent memory system, the first event matters.
+On platforms that include a permanent memory system, the first event matters.
 
 I often include:
 
@@ -619,22 +619,22 @@ I often include:
 - a place
 - an event
 
-in a single sentence.
+within a single sentence.
 
 Example:
 
-On July 12th, Year 83 of Konoha, at 11:47 PM, inside the Nara clan residence...
+> On July 12th, Year 83 of Konoha, at 11:47 PM, inside the Nara clan residence...
 
 The goal is not only immersion.
 
-The goal is to create a clear first memory anchor.
+It is also to create a clear first memory anchor.
 
 A strong anchor helps:
 
 - separate events
 - stabilize the timeline
 - maintain long-term continuity
-- support memory retrieval
+- improve memory retrieval
 
 The opening becomes the first recorded event of the story.
 
@@ -644,7 +644,7 @@ The opening becomes the first recorded event of the story.
 
 Many RP platforms automatically translate content.
 
-Because of that, I usually write starters in simple English designed to survive translation.
+Because of that, I usually write starters in simple English designed to survive machine translation.
 
 The goal is not literary writing.
 
@@ -654,14 +654,14 @@ In general, I prefer:
 
 - complete sentences
 - simple grammar
-- subject -> verb -> object structure
+- subject → verb → object structure
 - minimal ambiguity
 - minimal idioms
 - minimal slang
 - minimal wordplay
 - clear cause-and-effect relationships
 
-A starter should remain understandable after machine translation.
+A starter should remain understandable after automatic translation.
 
 The easier a sentence is to translate, the more likely its original meaning is to survive.
 
@@ -669,7 +669,7 @@ I often use AI to help generate or refine starters that remain stable across mul
 
 The goal is not elegant prose.
 
-The goal is coherent interpretation.
+The goal is consistent interpretation.
 
 ---
 
@@ -680,7 +680,7 @@ I often establish:
 - where the characters are
 - why they are there
 - what happened before
-- what currently exists
+- what already exists
 
 I avoid establishing:
 
@@ -701,25 +701,25 @@ Not the opening.
 
 # 21. Common Opening Mistakes
 
-Common examples:
+Common examples include:
 
 - defining the relationship
 - defining emotional states
-- activating major fallbacks
+- activating major fallback patterns
 - opening with interrogation
 - making the character passive
-- making the player carry the whole scene
+- making the player carry the entire scene
 - forcing attraction immediately
 - forcing conflict immediately
 - forcing intimacy immediately
 - using trauma as characterization
-- describing instead of demonstrating behavior
+- describing behavior instead of demonstrating it
 - repeating the introduction inside the starter
-- choosing the most archetypal scene of the setup instead of the scene that actually demonstrates the script
+- choosing the most archetypal scene instead of the scene that best demonstrates the script
 
-Many of these choices seem useful while writing.
+Many of these choices feel reasonable while writing.
 
-Many of them become problems later.
+Many of them become long-term problems during roleplay.
 
 ---
 
@@ -728,13 +728,13 @@ Many of them become problems later.
 Once the opening is finished, I ask myself several questions:
 
 - Which script modules does this activate?
-- Which fallbacks could it activate?
-- Does the signature appear immediately?
-- Is the character active?
+- Which fallback patterns could it activate?
+- Does the behavioral signature appear immediately?
+- Is the character already active?
 - Is progression already possible?
-- Does the opening support the script?
+- Does the opening reinforce the script?
 - Does the opening contradict the script?
-- Does the starter unnecessarily re-explain what the introduction already established?
+- Does the starter unnecessarily repeat information already established by the introduction?
 - Does the chosen scene truly demonstrate the character, or only the trope of the setup?
 
 A starter should reinforce the character architecture.
@@ -757,7 +757,7 @@ The opening demonstrates behavior.
 
 I am less interested in describing the relationship.
 
-I am more interested in creating a situation in which the relationship can develop naturally.
+I am more interested in creating a situation in which the relationship can naturally develop.
 
 The goal is not to tell the model who the character is.
 
