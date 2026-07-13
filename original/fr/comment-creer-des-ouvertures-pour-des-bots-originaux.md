@@ -10,7 +10,7 @@ Sur certaines plateformes, l’introduction et le démarrage existent séparéme
 
 Sur d’autres, surtout les plateformes connectées à Internet, le démarrage peut influencer directement le comportement futur du bot.
 
-À cause de cela, je ne traite pas l’introduction et le démarrage comme des éléments séparés du bot.
+Pour cette raison, je ne traite pas l’introduction et le démarrage comme des éléments séparés du bot.
 
 Je traite :
 
@@ -65,7 +65,7 @@ Avant d’écrire quoi que ce soit, je définis :
 - quel type d’histoire ce bot est censé générer
 - quel rôle l’utilisateur occupe dans cette histoire
 - quelle situation existe déjà
-- quelle pression, obligation, difficulté ou arrangement est actuellement en cours
+- quelle pression, obligation, difficulté ou quel arrangement est actuellement en place
 
 Exemples :
 
@@ -94,7 +94,7 @@ Beaucoup de créateurs traitent l’introduction comme un simple texte de prése
 
 Ce n’est pas mon cas.
 
-Pour les bots originaux, surtout les bots connectés à Internet, l’ouverture devient souvent une partie de la compréhension que le modèle se fait du bot lui-même.
+Pour les bots originaux, surtout les bots connectés à Internet, l’ouverture devient souvent une partie de la manière dont le modèle comprend le bot lui-même.
 
 L’ouverture n’est pas seulement lue par le joueur.
 
@@ -118,7 +118,7 @@ Mais elle n’est pas neutre non plus.
 
 Elle doit soutenir l’architecture du bot.
 
-Pas entrer en compétition avec elle.
+Pas entrer en concurrence avec elle.
 
 ---
 
@@ -142,7 +142,7 @@ L’introduction sert à poser :
 - le rôle structurel de l’utilisateur
 - la situation déjà existante
 - les faits nécessaires pour comprendre la scène
-- le minimum d’univers requis pour que le setup soit lisible
+- le minimum d’éléments d’univers nécessaires pour rendre la prémisse lisible
 
 Le démarrage, lui, ne doit pas recommencer ce travail.
 
@@ -175,11 +175,11 @@ Cela peut inclure :
 - le rôle structurel de l’utilisateur dans l’histoire
 - le rôle structurel du personnage dans l’histoire
 - la situation déjà existante
-- la raison pratique pour laquelle les deux personnages gravitent l’un autour de l’autre
+- la raison pratique pour laquelle les deux personnages sont amenés à interagir
 - l’arrangement, le conflit, l’obligation ou la pression actuellement en cours
 - les faits fixes importants que le joueur doit connaître avant d’entrer dans la scène
 
-L’introduction n’est pas l’endroit où j’essaie de prouver la personnalité du personnage.
+L’introduction n’est pas l’endroit où j’essaie de démontrer la personnalité du personnage.
 
 Ce n’est pas non plus l’endroit où j’explique toutes les nuances émotionnelles.
 
@@ -200,15 +200,15 @@ C’est là que je veux du mouvement, de la participation et la première expres
 J’utilise généralement le démarrage pour montrer :
 
 - comment le personnage se comporte en action
-- comment la situation fonctionne concrètement maintenant
+- comment la situation fonctionne concrètement à cet instant
 - comment le personnage interagit avec l’utilisateur
-- quel type de rythme le roleplay doit avoir
+- quel rythme le roleplay est censé adopter
 - quel type de tension, de tâche, d’interruption ou d’événement est déjà en cours
-- quel type de scène ce bot est censé générer
+- quel type de scène ce bot est censé produire
 
 L’introduction peut dire au modèle ce qui existe.
 
-Le démarrage doit montrer au modèle ce qui se passe.
+Le démarrage doit lui montrer ce qui est en train de se passer.
 
 ---
 
@@ -283,12 +283,12 @@ L’ouverture ne doit pas décider à la place du joueur que la relation est dé
 - émotionnellement intime
 - pleine de ressentiment
 - déjà réparée
-- dévouée
+- empreinte de dévouement
 - parfaitement comprise des deux côtés
 
 La structure peut être fixe.
 
-L’interprétation émotionnelle doit rester assez souple pour que l’histoire puisse se construire par l’interaction.
+L’interprétation émotionnelle doit rester suffisamment souple pour que l’histoire puisse se construire par l’interaction.
 
 ---
 
@@ -298,7 +298,7 @@ Un bot canon peut s’appuyer sur les connaissances préalables du joueur.
 
 Un bot original, généralement non.
 
-Cela ne veut pas dire que l’introduction doit devenir un infodump.
+Cela ne veut pas dire que l’introduction doit devenir un *infodump*.
 
 Cela signifie que l’ouverture doit établir juste assez d’univers pour que la scène ait du sens.
 
@@ -310,11 +310,11 @@ Cela peut inclure :
 
 - où se trouvent les personnages
 - quel type d’endroit c’est
-- quelles règles ou quels dangers comptent maintenant
+- quelles règles ou quels dangers comptent à ce moment-là
 - quel type de structure de pouvoir est pertinent
 - quel type de pression sociale ou politique est active
 - quel rôle le personnage et l’utilisateur occupent dans ce monde
-- ce qui rend cette situation spécifique à cet univers plutôt qu’interchangeable avec n’importe quelle romance ou n’importe quel setup de roleplay générique
+- ce qui rend cette situation propre à cet univers plutôt qu’interchangeable avec une romance ou un setup de roleplay générique
 
 L’ouverture doit rendre l’univers lisible.
 
@@ -322,7 +322,7 @@ Pas exhaustif.
 
 ---
 
-# 9. Ne pas déporter le script dans l’ouverture
+# 9. Ne pas déplacer le script dans l’ouverture
 
 C’est l’une des erreurs les plus faciles à faire avec un bot original.
 
@@ -353,7 +353,7 @@ Elle doit le démontrer.
 
 Elle doit rendre la prémisse jouable.
 
-Mais elle ne doit pas devenir un substitut compressé du cadre complet.
+Mais elle ne doit pas devenir une version condensée du cadre complet.
 
 ---
 
@@ -377,7 +377,7 @@ je préfère des choses comme :
 - surveiller
 - participer
 - se souvenir
-- initier
+- prendre l’initiative
 - prioriser
 - faire de la place
 - se rapprocher
@@ -391,11 +391,11 @@ Plus un concept est important, plus il est utile de le convertir en comportement
 
 ---
 
-# 11. Introduire immédiatement le motif actif du personnage
+# 11. Introduire immédiatement la signature comportementale du personnage
 
 Le démarrage doit activer quelque chose de distinctif dès le premier message.
 
-Pour les bots originaux, je veux que le premier message montre un schéma récurrent qui appartient à ce personnage précis.
+Pour les bots originaux, je veux que le premier message montre un schéma récurrent propre à ce personnage.
 
 Cela ne signifie pas forcément un gimmick spectaculaire ou une démonstration de pouvoir.
 
@@ -411,13 +411,13 @@ Cela peut être :
 - une manière récurrente de rediriger la tension
 - une interaction récurrente avec l’environnement
 - une habitude physique récurrente
-- une manière récurrente d’intervenir quand quelque chose compte
+- une manière récurrente d’intervenir lorsque quelque chose compte
 
 Ce qui compte, ce n’est pas le spectacle.
 
 Ce qui compte, c’est le schéma.
 
-Le démarrage doit montrer au modèle un comportement qui devra rester pertinent plus tard.
+Le démarrage doit montrer au modèle un comportement qui devra rester pertinent par la suite.
 
 ---
 
@@ -463,7 +463,7 @@ Avant d’écrire le démarrage, j’identifie :
 
 - quel comportement doit rester visible
 - quel comportement doit rester récurrent
-- quel comportement doit remplacer les fallbacks probables
+- quel comportement doit remplacer les fallbacks les plus probables
 - quelle partie de la logique du personnage doit être activée en premier
 
 Le démarrage démontre immédiatement ce comportement.
@@ -493,7 +493,7 @@ Le joueur doit entrer dans un moment déjà exploitable.
 
 Pas dans un second paragraphe d’exposition.
 
-L’introduction pose la prémisse.
+L’introduction établit la prémisse.
 
 Le démarrage doit déjà produire une scène.
 
@@ -538,166 +538,11 @@ Un garde a été renvoyé.
 
 Le personnage a déjà pris une décision.
 
-Quelque chose est déjà en train de se passer.
+Quelque chose est déjà en train de se produire.
 
 Le joueur doit entrer dans une scène en mouvement.
 
 Pas dans une pièce vide.
-
----
-
-# 15. Le mouvement n’est pas toujours spectaculaire
-
-Créer du mouvement ne signifie pas forcément créer une crise, un incident bruyant, ou un événement spectaculaire.
-
-J’utilise au moins deux formes de démarrage.
-
-## A. Le démarrage à mouvement pratique
-
-Le personnage est déjà pris dans :
-
-- une tâche
-- une interruption
-- un retour
-- un problème concret
-- une décision déjà prise
-- un changement dans l’environnement
-
-## B. Le démarrage de présence active calme
-
-Le personnage est déjà présent dans l’espace.
-
-La routine, la proximité ou la situation existe déjà.
-
-La scène active :
-
-- un motif comportemental
-- une présence concrète
-- une observation qui devient action
-- un geste, une décision, une invitation ou une ligne courte qui ouvre immédiatement l’interaction
-
-Dans les deux cas, le personnage doit déjà agir.
-
-Le démarrage ne doit pas ouvrir sur une passivité décorative.
-
----
-
-# 16. Créer une situation, pas un infodump de lore
-
-Je n’utilise presque jamais l’ouverture pour expliquer le monde en détail.
-
-Je préfère créer une situation qui transporte naturellement une partie de l’univers avec elle.
-
-Par exemple :
-
-- un conjoint politique qu’on informe de l’événement de cour de ce soir
-- un soigneur qui refait les bandages d’un soldat maudit avant la patrouille de l’aube
-- un garde du corps qui verrouille un appartement après une faille de sécurité
-- un chasseur de monstres qui rentre avec du sang frais sur son manteau et une nouvelle blessure
-- un prince qui revient d’un conseil avec de mauvaises nouvelles et aucun temps pour les adoucir
-- un contrebandier qui vide de la marchandise sur la table de la cuisine parce que la route vient de s’effondrer
-
-Le but n’est pas l’exposition immédiate.
-
-Le but est de créer une scène qui contient déjà l’univers en mouvement.
-
-Je préfère :
-
-situation -> interaction -> développement
-
-à :
-
-lore -> explication -> délai
-
-Le joueur doit découvrir une partie du monde en y entrant.
-
-Pas en lisant une mini-encyclopédie.
-
----
-
-# 17. Ne pas choisir la scène la plus archétypale de la prémisse
-
-Une forte prémisse appelle souvent une scène archétypale évidente.
-
-Exemples :
-
-- vampire -> scène de prédation théâtrale
-- mariage arrangé -> première nuit tendue
-- garde du corps -> menace immédiate ou contrôle possessif
-- coloc forcée -> petite scène domestique vide qui ne montre rien d’autre que la cohabitation
-- personnage traumatisé -> crise émotionnelle immédiate
-- noble, mafieux, prince, chef de guerre -> domination générique à la place d’un vrai comportement spécifique
-
-Ce type de scène paraît souvent naturel.
-
-Mais il active facilement :
-
-- les automatismes du trope
-- les fallbacks archétypaux du personnage
-- des comportements génériques
-- une fausse intensité émotionnelle
-- une stagnation précoce
-
-Je ne choisis pas la scène d’ouverture parce qu’elle représente le trope le plus évident de la prémisse.
-
-Je la choisis parce qu’elle permet de démontrer :
-
-- la logique comportementale du personnage
-- la manière concrète dont la prémisse fonctionne
-- le type de scène que le bot doit produire
-- ce qui distingue ce personnage d’un archétype générique
-
----
-
-# 18. Faire attention à la dernière ligne de dialogue
-
-La dernière ligne est souvent plus importante qu’elle n’en a l’air.
-
-Ce n’est pas seulement une ouverture pour le joueur.
-
-C’est aussi un exemple comportemental pour le modèle.
-
-Le premier dialogue apprend souvent au modèle comment participer aux conversations suivantes.
-
-Une question enseigne :
-
-- l’attente
-- la collecte d’informations
-- l’interrogation
-
-Une décision enseigne :
-
-- l’initiative
-- le mouvement
-- la participation
-
-Une affirmation enseigne :
-
-- l’observation
-- l’engagement
-- la continuité
-
-En général, j’évite d’utiliser une question comme dernière ligne dès que possible.
-
-Les questions peuvent être utiles.
-
-Mais beaucoup de LLM ont déjà une tendance naturelle à :
-
-- poser des questions en boucle
-- demander sans fin des clarifications
-- rester dans une collecte d’informations passive
-
-L’ouverture ne devrait pas renforcer ces tendances, sauf si la scène l’exige réellement.
-
-La dernière ligne n’a pas besoin d’être spectaculaire.
-
-Elle doit surtout être :
-
-- jouable
-- non passive
-- cohérente avec le personnage
-- porteuse d’une direction
-- non interrogative si une alternative plus active existe
 
 ---
 
@@ -756,7 +601,7 @@ Un foyer partagé peut déjà exister.
 
 Une longue histoire commune peut déjà exister.
 
-Cela ne signifie pas que l’ouverture doit décider à l’avance de la signification émotionnelle de chaque élément.
+Cela ne signifie pas que l’ouverture doit décider à l’avance de la signification émotionnelle de chacun de ces éléments.
 
 Je veux que l’histoire produise l’arc émotionnel.
 
@@ -766,7 +611,7 @@ Pas le paragraphe d’ouverture.
 
 # 21. Se souvenir que les personnages originaux déclenchent des fallbacks archétypaux
 
-Les ouvertures de bots canons peuvent réactiver des fallbacks fandom.
+Les ouvertures de bots canons peuvent réactiver des fallbacks issus du fandom.
 
 Les ouvertures de bots originaux déclenchent souvent des fallbacks archétypaux.
 
@@ -777,7 +622,7 @@ Une seule ouverture peut pousser le modèle vers une mauvaise version du personn
 Exemples :
 
 - un personnage protecteur qui devient contrôlant
-- un personnage flirt qui devient superficiel et émotionnellement fuyant
+- un personnage séducteur qui devient superficiel et émotionnellement fuyant
 - un personnage traumatisé qui devient définitivement évitant
 - un personnage froid qui devient statique et inaccessible
 - un personnage puissant qui devient émotionnellement détaché de toute l’histoire
@@ -796,7 +641,7 @@ Un démarrage peut devenir un anti-script caché s’il renforce sans cesse le m
 
 ---
 
-# 22. Construire un premier ancrage mémoire quand la plateforme en bénéficie
+# 22. Construire un premier ancrage mémoire lorsque la plateforme en bénéficie
 
 Cette section dépend de la plateforme.
 
@@ -806,14 +651,14 @@ Certaines, si.
 
 Sur les plateformes dotées d’un système de mémoire persistante, le premier événement compte.
 
-Quand c’est utile, j’inclus souvent :
+Lorsque c’est utile, j’inclus souvent :
 
 - une date
 - une heure
 - un lieu
 - un événement
 
-dans la même séquence d’ouverture.
+dans une même séquence d’ouverture.
 
 Le but n’est pas seulement l’immersion.
 
@@ -822,15 +667,15 @@ Le but est de créer un premier ancrage mémoire clair.
 Un ancrage solide peut aider à :
 
 - séparer les événements
-- stabiliser la timeline
+- stabiliser la chronologie
 - maintenir la continuité à long terme
-- faciliter la récupération mémoire
+- faciliter la récupération des souvenirs
 
 L’ouverture devient alors le premier événement enregistré de l’histoire.
 
 Je ne traite pas cela comme une règle universelle.
 
-Je le traite comme une optimisation dépendante de la plateforme.
+Je le considère comme une optimisation dépendante de la plateforme.
 
 ---
 
@@ -838,7 +683,7 @@ Je le traite comme une optimisation dépendante de la plateforme.
 
 Beaucoup de plateformes de roleplay traduisent automatiquement les contenus.
 
-À cause de cela, j’écris généralement les introductions et les démarrages dans un anglais simple conçu pour survivre à la traduction.
+Pour cette raison, j’écris généralement les introductions et les démarrages dans un anglais simple conçu pour survivre à la traduction.
 
 Le but n’est pas l’écriture littéraire.
 
@@ -848,44 +693,44 @@ En général, je préfère :
 
 - des phrases complètes
 - une grammaire simple
-- une structure sujet -> verbe -> objet
+- une structure sujet -> verbe -> complément
 - un minimum d’ambiguïté
-- un minimum d’idiomes
+- un minimum d’expressions idiomatiques
 - un minimum d’argot
 - un minimum de jeux de mots
 - des relations de cause à effet claires
 
-Une ouverture doit rester compréhensible après traduction automatique.
+Une ouverture doit rester compréhensible après une traduction automatique.
 
-Plus une phrase est facile à traduire, plus son sens d’origine a de chances de survivre correctement.
+Plus une phrase est facile à traduire, plus son sens d’origine a de chances d’être préservé.
 
 J’utilise souvent l’IA pour m’aider à générer ou à affiner des ouvertures qui restent stables dans plusieurs langues.
 
-Le but n’est pas d’écrire de la belle prose.
+Le but n’est pas d’écrire une belle prose.
 
 Le but est d’obtenir une interprétation cohérente.
 
 ---
 
-# 24. Le contexte peut être fixe. L’interprétation doit rester flexible.
+# 24. Le contexte peut être établi. L’interprétation doit rester flexible.
 
-Je pose souvent :
+J’établis souvent :
 
 - où se trouvent les personnages
 - pourquoi ils sont là
 - quel arrangement existe
 - ce qui s’est passé avant la scène
-- quel problème, quelle tâche ou quelle obligation est active
+- quel problème, quelle tâche ou quelle obligation est en cours
 - quelle structure relationnelle pratique existe déjà
 
-J’évite de poser :
+J’évite d’établir :
 
 - exactement ce qu’ils ressentent
 - exactement ce qu’ils veulent secrètement
-- exactement ce que signifie la relation
+- exactement ce que signifie leur relation
 - exactement quelle conclusion émotionnelle existe déjà
 
-Les faits peuvent être fixes.
+Les faits peuvent être établis.
 
 L’interprétation doit rester souple.
 
@@ -901,7 +746,7 @@ Exemples fréquents :
 
 - essayer d’expliquer tout l’univers avant même que la scène ne commence
 - utiliser l’introduction pour remplacer le script
-- définir la relation émotionnelle au lieu de définir sa structure
+- définir la relation émotionnelle au lieu d’en définir la structure
 - ouvrir sur une scène statique et vide
 - laisser le joueur porter seul tout le setup
 - rendre le personnage passif
@@ -911,18 +756,18 @@ Exemples fréquents :
 - forcer immédiatement l’intimité
 - déverser du lore au lieu de créer une situation
 - décrire la personnalité au lieu de démontrer le comportement
-- surcharger l’ouverture avec du trauma au lieu d’une action présente
+- surcharger l’ouverture avec le traumatisme au lieu de privilégier une action présente
 - ne pas montrer ce qui distingue ce personnage d’un archétype générique
 - répéter la prémisse dans le démarrage au lieu de produire une scène
-- choisir la scène archétypale la plus évidente de la prémisse au lieu de la scène qui démontre réellement le bot
+- choisir la scène archétypale la plus évidente de la prémisse plutôt que celle qui démontre réellement le fonctionnement du bot
 
 Beaucoup de ces choix semblent utiles au moment de l’écriture.
 
-Beaucoup deviennent des problèmes ensuite.
+Beaucoup deviennent des problèmes par la suite.
 
 ---
 
-# 26. Tester l’ouverture contre le script
+# 26. Tester l’ouverture par rapport au script
 
 Une fois l’ouverture terminée, je me pose plusieurs questions :
 
@@ -930,15 +775,15 @@ Une fois l’ouverture terminée, je me pose plusieurs questions :
 - Quels fallbacks archétypaux pourrait-elle activer ?
 - La prémisse est-elle lisible ?
 - L’univers est-il compréhensible sans être surchargé ?
-- Le rôle de l’utilisateur est-il clair immédiatement ?
-- Le motif actif du personnage apparaît-il vite ?
+- Le rôle de l’utilisateur est-il immédiatement clair ?
+- La signature comportementale du personnage apparaît-elle rapidement ?
 - Le personnage est-il actif ?
-- La progression est-elle déjà possible ?
+- Une progression est-elle déjà possible ?
 - L’ouverture soutient-elle le script ?
-- L’ouverture essaie-t-elle de remplacer le script ?
-- Le démarrage répète-t-il inutilement ce que l’introduction a déjà posé ?
+- Essaie-t-elle de remplacer le script ?
+- Le démarrage répète-t-il inutilement ce que l’introduction a déjà établi ?
 - La scène choisie démontre-t-elle réellement le bot, ou seulement le trope de la prémisse ?
-- L’ouverture contredit-elle le rythme ou le modèle relationnel prévu ?
+- L’ouverture contredit-elle le rythme ou le modèle relationnel prévus ?
 
 L’introduction et le démarrage doivent renforcer l’architecture du bot.
 
@@ -958,15 +803,15 @@ Le script définit le comportement.
 
 L’ouverture démontre le comportement.
 
-Pour les bots originaux, l’ouverture aide aussi le modèle à comprendre l’univers, la prémisse et la place de l’utilisateur dans l’histoire.
+Pour les bots originaux, l’ouverture aide également le modèle à comprendre l’univers, la prémisse et la place de l’utilisateur dans l’histoire.
 
 Je m’intéresse moins à décrire la relation.
 
-Je m’intéresse davantage à créer une situation où la relation peut se développer naturellement.
+Je m’intéresse davantage à créer une situation dans laquelle la relation peut se développer naturellement.
 
 Je m’intéresse moins à expliquer le monde.
 
-Je m’intéresse davantage à rendre le monde suffisamment lisible pour que l’histoire puisse se mettre en mouvement.
+Je m’intéresse davantage à le rendre suffisamment lisible pour que l’histoire puisse se mettre en mouvement.
 
 Le but n’est pas de tout dire au modèle.
 
