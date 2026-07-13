@@ -33,8 +33,7 @@ Player protection is not only about preventing bad writing.
 It is about defining what the bot is and is not allowed to control.
 
 This is not the only valid method.
-
-It is simply the framework that currently gives me the most stable results when building RP bots for internet-connected LLMs.
+It is simply the framework that currently gives me the most stable results when building RP bots for modern LLM-based roleplay platforms.
 
 ---
 
