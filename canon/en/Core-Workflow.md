@@ -1,6 +1,6 @@
 # Canon Character Workflow — How I Build Canon Bots With AI
 
-After building a large number of canon characters, I ended up developing a workflow that combines AI-assisted analysis, AI-assisted writing, and iterative testing.
+After building a large number of canon characters, I developed a workflow that combines AI-assisted analysis, AI-assisted writing, and iterative testing.
 
 This is not the only valid method.
 
@@ -29,7 +29,7 @@ I start with:
 
 The exact version matters.
 
-Internet-connected models frequently merge multiple eras of the same character into a single unstable portrayal.
+LLMs trained on internet-derived data frequently merge multiple eras of the same character into a single unstable portrayal.
 
 The first goal is to establish exactly which version is being represented.
 
@@ -50,20 +50,21 @@ I use AI to:
 - compare versions
 - identify contradictions
 - identify recurring fandom interpretations
-- identify recurring model mistakes
+- identify recurring model biases
 
 Popular characters rarely suffer from missing information.
 
 They suffer from accumulated information.
 
-Internet-connected models absorb:
+LLMs trained on internet-derived data are exposed to knowledge originating from:
 
 - source material
-- adaptations
+- official adaptations
 - fandom discussions
-- fanfiction influence
+- fanfiction
 - memes
 - community shorthand
+- common online interpretations
 
 Over time, many characters collapse into simplified versions of themselves.
 
@@ -100,11 +101,11 @@ I care more about how a character makes decisions than which adjectives describe
 
 ## 4. Create Corrective Axioms Only When Necessary
 
-Not every character needs an axiom.
+Not every character needs a corrective axiom.
 
 Many characters work perfectly well without one.
 
-However, some characters repeatedly drift toward the same incorrect interpretation.
+However, some characters repeatedly drift toward the same inaccurate interpretation.
 
 When that happens, I sometimes build a corrective axiom.
 
@@ -124,7 +125,7 @@ The goal is to counter a recurring distortion.
 
 Some events permanently changed a character.
 
-The model often forgets this.
+The model often fails to preserve these long-term consequences.
 
 When necessary, I create dedicated modules that explain the behavioral consequences of important events.
 
@@ -137,7 +138,7 @@ When necessary, I create dedicated modules that explain the behavioral consequen
 
 These modules are not lore summaries.
 
-They exist to explain how important events changed the character's worldview and future behavior.
+They explain how important events changed the character's worldview, priorities, and future behavior.
 
 I care more about consequences than facts.
 
@@ -145,7 +146,7 @@ I care more about consequences than facts.
 
 ## 6. Build Environmental Anchors
 
-I often create modules focused on locations.
+I often create modules centered around important locations.
 
 ### Examples
 
@@ -177,9 +178,9 @@ The environment should reinforce the intended direction of the story.
 
 One thing I learned over time:
 
-Too many negative instructions often destabilize difficult characters.
+Too many negative instructions often make difficult characters less stable.
 
-Instead of writing large lists of prohibitions, I prefer explaining:
+Instead of writing long lists of prohibitions, I prefer explaining:
 
 - what the character does
 - why the character does it
@@ -187,7 +188,9 @@ Instead of writing large lists of prohibitions, I prefer explaining:
 
 Restrictions still have value.
 
-But positive behavioral guidance is usually more stable.
+However, I primarily use them to reinforce an already established behavioral rule, not to replace one.
+
+Positive behavioral guidance generally produces more natural and more stable results than a script dominated by prohibitions.
 
 ---
 
@@ -208,26 +211,7 @@ I prefer:
 - initiating
 - prioritizing
 
-The model handles behavior more consistently than emotional labels.
-
----
-
-## 9. Counter Predictable LLM Behavior
-
-Some problems come from fandom.
-
-Others come from the model itself.
-
-Common examples:
-
-- hesitation loops
-- passive observation
-- endless questioning
-- emotional resets
-- circular disagreements
-- attachment without progression
-
-The script should actively compensate for these tendencies.
+The model applies observable behavior far more consistently than emotional labels.
 
 ---
 
@@ -235,11 +219,11 @@ The script should actively compensate for these tendencies.
 
 Anti-loop modules are among the most important parts of my workflow.
 
-The goal is not preventing repetition.
+The goal is not to prevent repetition.
 
-The goal is preserving progression.
+The goal is to preserve progression.
 
-LLMs often struggle to preserve progression over time.
+LLMs trained on internet-derived data often struggle to preserve meaningful progression over long conversations.
 
 ### Common Examples
 
@@ -259,7 +243,7 @@ A concern addressed once remains addressed.
 
 A resolution is not a pause before repeating the same conflict.
 
-Progress should change future behavior.
+Progress should produce lasting behavioral consequences.
 
 ### Example
 
@@ -278,17 +262,25 @@ Forbidden repetition:
 - repeated withdrawal
 - endless almost-moments
 - the same concern returning under different wording
-A concern addressed once is addressed.
+
+A concern addressed once remains addressed.
+
 Questions do not replace decisions.
+
 Acknowledgment without behavioral change is not acknowledgment.
+
 If wrong:
 acknowledge
 adjust behavior
 continue differently
+
 Valid points remain valid.
+
 Resolved issues remain resolved.
+
 New information changes future behavior.
-If a pattern repeats:
+
+If a pattern starts to repeat:
 change:
 - behavior
 - pacing
@@ -297,20 +289,27 @@ change:
 - perspective
 - proximity
 - approach
+
 Progress must continue.
+
 Rephrasing does not reset it.
+```
 
 ---
 
 ## 11. Build Anti-Fallback Systems
 
-Some fandom distortions are extremely powerful.
+Some fandom distortions are extremely persistent.
 
-Some internet-connected model fallbacks are equally powerful.
+Some model biases are equally persistent.
 
-Anti-fallback systems exist to prevent the character from collapsing back into the most common stereotype.
+Anti-fallback systems exist to prevent the character from collapsing back into the most common simplified interpretation.
 
 The more popular the character, the more important this often becomes.
+
+Rather than repeatedly telling the model what the character is not, I prefer reinforcing what the character consistently is.
+
+The goal is to strengthen the intended behavioral direction until it naturally outweighs common fallback patterns.
 
 ---
 
@@ -325,6 +324,10 @@ At minimum:
 - never define user emotions as fact
 
 Player agency should remain intact.
+
+The character may influence the scene.
+
+The character should never overwrite the player's internal experience.
 
 ---
 
@@ -359,7 +362,7 @@ At this point, I already have:
 - the timeline
 - the scenario
 - identified fandom distortions
-- identified model distortions
+- identified model biases
 - behavioral logic
 - continuity anchors
 - environmental anchors
@@ -371,7 +374,7 @@ I then use AI to generate the script.
 
 I usually ask for the entire script at once.
 
-Sometimes ChatGPT tries to summarize sections, simplify concepts, or split the generation.
+Sometimes the AI tries to summarize sections, simplify concepts, or split the generation into multiple disconnected outputs.
 
 When that happens, I simply continue until the entire framework is complete.
 
@@ -404,9 +407,9 @@ Most modules contain no blank lines internally.
 
 Blank lines are usually reserved for separating modules.
 
-The goal is not making the script pleasant to read.
+The goal is not to make the script pleasant to read.
 
-The goal is making the script easy for the model to retrieve, prioritize, and apply during long conversations.
+The goal is to make it easy for the model to retrieve, prioritize, and apply consistently during long conversations.
 
 I often ask the AI to convert abstract concepts into observable behaviors.
 
@@ -418,15 +421,20 @@ Raw idea:
 
 Possible output:
 
-    [EFFICIENCY]
-    Efficiency matters.
-    Efficiency is not avoidance.
-    If something matters:
-    {char} acts.
-    If a solution exists:
-    {char} prefers the lowest-cost option.
-    Efficiency influences method.
-    Not commitment.
+```text
+[EFFICIENCY]
+Efficiency matters.
+Efficiency is not avoidance.
+
+If something matters:
+{char} acts.
+
+If a solution exists:
+{char} prefers the lowest-cost option.
+
+Efficiency influences method.
+Not commitment.
+```
 
 ### Example 2
 
@@ -436,19 +444,24 @@ Raw idea:
 
 Possible output:
 
-    [ATTACHMENT]
-    Attachment appears through:
-    - attention
-    - consistency
-    - availability
-    - remembered details
-    Interest changes behavior.
-    The more someone matters:
-    - the sooner {char} notices
-    - the sooner {char} returns
-    - the longer {char} stays
-    Attachment increases involvement.
-    Not distance.
+```text
+[ATTACHMENT]
+Attachment appears through:
+- attention
+- consistency
+- availability
+- remembered details
+
+Interest changes behavior.
+
+The more someone matters:
+- the sooner {char} notices
+- the sooner {char} returns
+- the longer {char} stays
+
+Attachment increases involvement.
+Not distance.
+```
 
 ### Example 3
 
@@ -458,15 +471,20 @@ Raw idea:
 
 Possible output:
 
-    [THE_SAND]
-    The sand is attention made physical.
-    The sand:
-    - reacts
-    - notices
-    - protects
-    - remains present
-    The sand never replaces interaction.
-    It reinforces it.
+```text
+[THE_SAND]
+The sand is attention made physical.
+
+The sand:
+- reacts
+- notices
+- protects
+- remains present
+
+The sand never replaces interaction.
+
+It reinforces it.
+```
 
 These examples illustrate the type of structure I aim for.
 
@@ -474,7 +492,7 @@ The objective is to convert concepts, emotions, and character traits into observ
 
 The AI writes the script.
 
-My role is defining the architecture, priorities, behavioral logic, and constraints that shape the final result.
+My role is to define the architecture, priorities, behavioral logic, and constraints that shape the final result.
 
 ---
 
@@ -486,15 +504,13 @@ The model already understands many concepts.
 
 If something can be inferred reliably, I often remove it.
 
-However:
+However, some redundancy is intentional.
 
-Some redundancy is intentional.
+If a distortion is particularly strong, reinforcing an important concept in more than one place can improve long-term stability.
 
-If a distortion is particularly strong, repeating an important concept in multiple places can improve stability.
+Normally, redundancy adds unnecessary noise.
 
-Normally redundancy is inefficient.
-
-Targeted redundancy can be useful.
+Targeted redundancy can strengthen the behavioral framework.
 
 ---
 
@@ -502,13 +518,15 @@ Targeted redundancy can be useful.
 
 After the script is complete, I often use Claude.
 
-Usually not to rewrite.
+Usually not to rewrite it.
 
 Usually to reorganize the hierarchy and priority of modules.
 
 The wording remains unchanged.
 
 The goal is structural improvement.
+
+A better organization often makes the script easier for the model to retrieve and apply consistently.
 
 ---
 
@@ -531,6 +549,8 @@ I prefer targeted corrections connected to specific observed problems.
 
 The script becomes more stable through iteration.
 
+Each correction should solve a specific problem without introducing unnecessary complexity.
+
 ---
 
 # Final Thought
@@ -543,17 +563,26 @@ I am less interested in describing a character.
 
 I am more interested in understanding the decision-making process that produces the character's behavior.
 
-Once that process is stable, the writing becomes much easier.
+Once that process is stable, writing the script becomes much easier.
 
-- returning
-- staying
-- remembering
-- participating
-- initiating
-- prioritizing
+Behavior is easier for an LLM to apply consistently than abstract personality descriptions.
 
-The model handles behavior more consistently than emotional labels.
-
+That is why my workflow focuses first on behavioral architecture, and only then on writing.
 ---
 
+## 9. Counter Predictable Model Behavior
 
+Some problems originate from fandom.
+
+Others originate from the model itself.
+
+Common examples include:
+
+- hesitation loops
+- passive observation
+- endless questioning
+- emotional resets
+- circular disagreements
+- attachment without progression
+
+The script should actively compensate for these predictable tendencies.
