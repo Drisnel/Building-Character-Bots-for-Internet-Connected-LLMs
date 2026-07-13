@@ -8,11 +8,11 @@ It is simply the process that currently gives me the most stable long-term resul
 
 This workflow is written for original characters in original settings.
 
-It is not identical to canon character writing.
+It is not identical to building canon characters.
 
-With canon characters, a large part of the work involves reconciling existing source material, choosing a timeline, identifying fandom distortions, and countering the way internet-connected models merge multiple versions of the same character.
+With canon characters, a large part of the work involves reconciling existing source material, choosing a timeline, identifying fandom distortions, and countering the way LLMs trained on internet-derived data often merge multiple versions of the same character.
 
-With original characters, the problem is different.
+With original characters, the challenge is different.
 
 The model does not need help understanding canon.
 
@@ -27,7 +27,7 @@ It needs help understanding:
 
 For original bots, the script is not just character writing.
 
-It is also world anchoring, story anchoring, behavioral anchoring, and relationship anchoring.
+It also anchors the world, the story, the character's behavior, and the relationship dynamic.
 
 The goal is not simply to invent a character.
 
@@ -107,15 +107,15 @@ The model does not need a wiki.
 
 It does not need every historical detail.
 
-It does not need decorative lore that never changes behavior.
+It does not need decorative lore that never influences behavior.
 
-What it needs is the world as a playable system.
+What it needs is a world designed as a playable system.
 
-That means I define the parts of the setting that change how people behave, survive, connect, hide, obey, rebel, desire, trust, or attach.
+That means I define the parts of the setting that change how people behave, survive, connect, hide, obey, rebel, desire, trust, or become attached.
 
 I care about the rules, pressures, and structures of the world.
 
-I do not care about including every fact I invented if that fact does not change roleplay behavior.
+I do not care about including every fact I invented if that fact does not affect roleplay behavior.
 
 ### I usually want to know:
 
@@ -136,7 +136,7 @@ I do not care about including every fact I invented if that fact does not change
 
 The goal is not to explain everything.
 
-The goal is to give the model enough structure to improvise correctly.
+The goal is to give the model enough structure to improvise consistently.
 
 ### For example
 
@@ -146,7 +146,7 @@ I want to know things like:
 
 - Is magic common or rare?
 - Is it feared, regulated, celebrated, inherited, bought, taught, or stolen?
-- Does it have physical cost?
+- Does it have a physical cost?
 - Does it alter social hierarchy?
 - Does it create class differences?
 - Does it affect law, religion, medicine, memory, travel, surveillance, reproduction, or intimacy?
@@ -207,7 +207,7 @@ An original character is not enough.
 
 The bot also needs a story engine.
 
-The story engine is what makes the roleplay move.
+The story engine is what keeps the roleplay moving.
 
 It answers a different question from the character profile.
 
@@ -227,7 +227,7 @@ If the character exists but the story engine is weak, the bot often becomes stat
 
 It may be pleasant to talk to.
 
-It may even sound in-character.
+It may even sound in character.
 
 But it will not produce strong roleplay.
 
@@ -246,245 +246,11 @@ The story engine should tell me what keeps the bot alive over time.
 
 ---
 
-## 5. Define The User's Place In The Story
-
-For original bots, I do not like leaving the user's place vague.
-
-I want to know exactly what kind of position the user occupies in the setup.
-
-That does not mean I need to define the user's entire personality.
-
-It means I need to define the structural role the user plays in the story.
-
-### Questions I usually answer
-
-- Who is the user in relation to the character?
-- Why are they in each other's orbit?
-- What forces them into contact?
-- What is already established?
-- What is not established?
-- What kind of progression is intended?
-- What should not happen automatically?
-- What kind of tension, trust, dependency, or conflict is built into the setup?
-
-### Examples
-
-- newly arranged spouse
-- assigned bodyguard target
-- cohabiting due to administrative or practical necessity
-- reluctant political ally
-- former lover forced back into cooperation
-- field medic attached to the character's unit
-- apprentice, handler, prisoner, negotiator, witness, heir, rival, partner, debtor, curse-bearer
-
-The relationship premise is part of the bot's engine.
-
-It should immediately generate interaction.
-
-It should not simply provide backstory.
-
----
-
-## 6. Identify Archetypal Drift Before Writing
-
-Canon bots often drift toward fandom simplifications.
-
-Original characters drift toward generic archetypes.
-
-That drift can be just as destructive.
-
-If the script is too vague, the model will often replace the intended character with a more familiar template.
-
-### Common examples
-
-- the emotionally unavailable man who never progresses
-- the flirty character who avoids sincerity forever
-- the traumatized protector who uses distance as care
-- the dominant character who becomes controlling by default
-- the cold woman who becomes emotionally inaccessible rather than simply restrained
-- the soft character who loses initiative and agency
-- the morally gray character who becomes generically cruel
-- the intelligent character who becomes passive and emotionally detached
-- the playful character who becomes unserious and incapable of emotional depth
-- the lonely character who becomes permanently avoidant
-- the powerful character who becomes emotionally static and above everyone
-- the wounded character who loops endlessly around vulnerability without behavioral change
-
-These are not fandom distortions.
-
-They are model fallbacks.
-
-They happen because the model reaches for familiar patterns when the script does not constrain behavior strongly enough.
-
-The goal is to identify the likely archetypal drift before writing.
-
-If I know what the model is likely to turn the character into, I can counter it directly.
-
----
-
-## 7. Define Behavioral Logic Instead Of Labels
-
-This matters for canon bots too, but it matters even more for original characters.
-
-A label is rarely enough to stabilize behavior.
-
-I want to convert traits into decision-making logic.
-
-### Example
-
-"reckless" is weak.
-
-It does not tell the model enough.
-
-I prefer something like:
-
-takes action before certainty if delay feels more dangerous than risk.
-
-That creates behavior.
-
-Another example:
-
-"guarded" is often too vague.
-
-I would rather write something like:
-
-does not volunteer vulnerability early, but once trust is established, behavioral investment increases faster than verbal openness.
-
-Again, the goal is not poetic description.
-
-The goal is behavioral predictability.
-
-I care more about:
-
-- what the character notices
-- how they interpret situations
-- what they prioritize
-- what they do under pressure
-- what changes their behavior once attachment appears
-
-Behavioral logic survives long conversations better than abstract labels.
-
----
-
-## 8. Build The Character's Internal Logic Before Writing Modules
-
-Before I generate the script, I want a clean understanding of the character's internal logic.
-
-Not every one of these questions will matter equally for every bot.
-
-But I usually want answers for most of them.
-
-### Character logic questions I commonly use
-
-- What does this character believe about themself?
-- What do they believe about attachment?
-- What do they believe about vulnerability?
-- What do they believe about obligation?
-- What do they believe about power?
-- What do they believe about being chosen, needed, useful, admired, feared, or obeyed?
-- What do they use as control?
-- What do they do when they lose control?
-- What kind of closeness do they tolerate easily?
-- What kind of closeness unsettles them?
-- What behavior changes first when they become attached?
-- What behavior changes first when they are hurt?
-- What behavior changes first when they are jealous, afraid, ashamed, or emotionally invested?
-- What kind of conflict makes them withdraw?
-- What kind of conflict makes them engage harder?
-
-I do not necessarily write all of these answers into the final script.
-
-But I want them clear before I build the modules.
-
----
-
-## 9. Build Continuity Anchors When The Past Still Actively Shapes Behavior
-
-Some backstory matters because it still changes the present.
-
-Some backstory does not.
-
-I only build dedicated continuity anchors when a past event continues to shape how the character behaves now.
-
-These modules are not lore summaries.
-
-They exist to explain behavioral consequences.
-
-### Examples of continuity anchors for original characters
-
-- AFTER_EXILE
-- AFTER_THE_WAR
-- AFTER_THE_BETRAYAL
-- AFTER_THE_ACCIDENT
-- AFTER_THE_DIVORCE
-- AFTER_THE_CURSE
-- AFTER_THE_TREATY
-- AFTER_THE_DEATH
-- AFTER_THE_FAILED_REVOLUTION
-
-The important question is not:
-
-What happened?
-
-The important questions are:
-
-- What does the character believe now because of it?
-- What behavior changed because of it?
-- What behavior should no longer occur because of it?
-- What fear, habit, or priority did it create?
-
-I care more about consequences than facts.
-
----
-
-## 10. Build Environmental Anchors
-
-I often create modules focused on locations, homes, workplaces, territories, or shared spaces.
-
-These are not decorative setting descriptions.
-
-They exist to reinforce interaction and behavior.
-
-### Examples
-
-- SAFEHOUSE
-- FAMILY ESTATE
-- SHARED APARTMENT
-- MEDICAL WARD
-- SHIP CABIN
-- TEMPLE COMPLEX
-- COMMAND OFFICE
-- BORDER OUTPOST
-- WORKSHOP
-- HUNTING GROUNDS
-
-A location can carry story function.
-
-It can create:
-
-- routine
-- forced proximity
-- privacy
-- surveillance
-- domesticity
-- hierarchy
-- recovery
-- secrecy
-- dependence
-- territorial behavior
-- emotional familiarity
-
-I care less about visual detail and more about what the environment makes possible.
-
-A good environmental anchor strengthens the intended relationship dynamic.
-
----
-
 ## 11. Define Relationship Logic, Not Just Relationship Status
 
 Knowing the setup is not enough.
 
-I also want to know how the relationship is supposed to function.
+I also want to understand how the relationship is supposed to function.
 
 That means I define more than "married," "friends," "co-workers," or "allies."
 
@@ -500,9 +266,9 @@ I want to know:
 - what vulnerability changes
 - how the character behaves once the user matters
 
-This is one of the places where I rely heavily on behavioral logic.
+This is one of the areas where I rely most heavily on behavioral logic.
 
-I care less about emotional declarations and more about behavioral consequences.
+I care less about emotional declarations than about their behavioral consequences.
 
 ### I often ask:
 
@@ -512,11 +278,11 @@ I care less about emotional declarations and more about behavioral consequences.
 - What does fear of loss look like?
 - What changes after intimacy?
 - What changes after conflict?
-- What changes after apology?
+- What changes after an apology?
 - What changes after trust is established?
 - What changes after the character admits desire, love, or emotional dependence?
 
-If the answer is "nothing changes," the bot usually stagnates.
+If the answer is "nothing changes," the bot will usually stagnate.
 
 ---
 
@@ -526,7 +292,7 @@ I almost always prefer observable behavior over emotional labels.
 
 Instead of writing:
 
-he feels attached
+> he feels attached
 
 I prefer writing behaviors such as:
 
@@ -536,12 +302,12 @@ I prefer writing behaviors such as:
 - remembering
 - prioritizing
 - making space
-- noticing faster
+- noticing sooner
 - becoming more available
-- involving himself more directly
+- becoming more directly involved
 - reducing distance rather than increasing it
 
-The same applies to other emotional states.
+The same principle applies to other emotional states.
 
 ### Fear can become:
 
@@ -574,7 +340,7 @@ The same applies to other emotional states.
 - changed pacing
 - deliberate return
 
-The model is usually more consistent with behavior than with abstract emotional declarations.
+The model is generally more consistent with observable behavior than with abstract emotional declarations.
 
 ---
 
@@ -582,7 +348,7 @@ The model is usually more consistent with behavior than with abstract emotional 
 
 A stable bot needs more than a personality and a world.
 
-It also needs a sense of how scenes are supposed to move.
+It also needs a clear sense of how scenes are supposed to progress.
 
 This is especially important for:
 
@@ -612,7 +378,7 @@ It can stall, hesitate, repeat, or reset.
 
 The script should not only describe the character.
 
-It should support the flow of interaction.
+It should also support the flow of interaction.
 
 ---
 
@@ -620,17 +386,19 @@ It should support the flow of interaction.
 
 One thing I learned over time:
 
-too many prohibitions can destabilize a difficult character.
+Too many prohibitions can destabilize a difficult character.
 
 Negative instructions still have value.
 
 Anti-loop systems matter.
+
 Anti-fallback systems matter.
+
 Player protection matters.
 
-But if a script mostly says what the character must not do, the bot often becomes rigid, passive, or evasive.
+But if a script mostly explains what the character must not do, the bot often becomes rigid, passive, or evasive.
 
-So I prefer to spend more space on:
+So I prefer to spend more space explaining:
 
 - what the character does
 - how they make decisions
@@ -644,7 +412,7 @@ Behavioral guidance is generative.
 
 The script needs both.
 
-But the character should be built from positive behavior first.
+But the character should be built from positive behavioral guidance first.
 
 ---
 
@@ -663,11 +431,11 @@ Common examples include:
 - circular disagreements
 - attraction without progression
 - repeated distancing after vulnerability
-- apology without behavioral change
+- apologies without behavioral change
 - conflict that never alters future behavior
-- scene stalling after tension appears
+- scenes stalling after tension appears
 - over-reliance on internal narration instead of action
-- repeated rediscovery of already-established feelings
+- repeatedly rediscovering already-established feelings
 
 The script should actively compensate for these tendencies.
 
@@ -685,7 +453,7 @@ The goal is to preserve progression.
 
 LLMs often struggle to preserve progression over time.
 
-They tend to re-open resolved issues, repeat the same uncertainty, or recycle the same emotional obstacle under slightly different wording.
+They tend to reopen resolved issues, repeat the same uncertainty, or recycle the same emotional obstacle using slightly different wording.
 
 ### Common examples
 
@@ -697,7 +465,7 @@ They tend to re-open resolved issues, repeat the same uncertainty, or recycle th
 - attraction without progression
 - accountability avoidance
 - admitted mistakes returning as new objections
-- resolved issues reintroduced as obstacles
+- resolved issues being reintroduced as obstacles
 - repeated withdrawal
 - endless almost-moments
 - the same concern returning under different wording
@@ -726,46 +494,50 @@ Progress should change future behavior.
 
 ## 17. Build Anti-Fallback Systems
 
-Canon bots often need anti-fandom protection.
+Canon bots often need protection against fandom distortions.
 
-Original bots need anti-archetype protection.
+Original bots often need protection against archetypal drift.
 
-The function is similar.
+The purpose is similar.
 
-The content changes.
+The content is different.
 
-Anti-fallback systems exist to prevent the character from collapsing into the most likely generic interpretation.
+Anti-fallback systems exist to prevent the character from collapsing into the most predictable generic interpretation.
 
-The more archetypal the premise, the more important this becomes.
+The more archetypal the premise, the more important this usually becomes.
 
 ### Examples
 
 A protective character may drift toward:
-- distance as care
+
+- distance presented as care
 - emotional withdrawal after intimacy
 - martyrdom
 - over-control
 - possessiveness replacing attachment
 
 A playful character may drift toward:
+
 - endless teasing
 - refusal of sincerity
 - emotional avoidance disguised as humor
 - permanent unseriousness
 
 A traumatized character may drift toward:
+
 - permanent intimacy paralysis
 - endless fear loops
 - emotional stagnation
 - vulnerability followed by automatic withdrawal
 
 A dominant character may drift toward:
+
 - coercion
 - ownership language
 - flattened emotional range
 - control replacing intimacy
 
-The point of anti-fallback is not to over-restrict the script.
+The purpose of an anti-fallback system is not to over-restrict the script.
 
 It is to block the most predictable incorrect version of the character.
 
@@ -775,29 +547,29 @@ It is to block the most predictable incorrect version of the character.
 
 Every bot receives player protection.
 
-At minimum, I want to prevent the model from taking over the user's internal perspective.
+At minimum, I want to prevent the model from taking ownership of the user's internal perspective.
 
-The problem is not only user dialogue.
+The problem is not limited to user dialogue.
 
-The bigger problem is player capture.
+The bigger issue is player capture.
 
 That includes:
 
-- writing user dialogue
+- writing the user's dialogue
 - narrating from the user's point of view
-- writing in first person as the user
+- writing in the first person as the user
 - defining the user's thoughts as fact
 - defining the user's emotions as fact
 - defining the user's intentions as fact
 - defining the user's desires as fact
 
-At the same time, I do not want player protection to destroy scene continuity.
+At the same time, I do not want player protection to break scene continuity.
 
-The bot still needs to be able to move scenes forward.
+The bot still needs to move scenes forward.
 
-That means I usually separate internal state from external narration.
+Because of that, I usually separate internal state from external narration.
 
-The line is:
+The rule is simple:
 
 - external = allowed
 - internal = forbidden
@@ -809,23 +581,27 @@ A bot can describe:
 - contextual physical responses
 - physical displacement within the scene
 - guided scene progression
-- continuity without pausing for micro-responses
+- scene continuity without pausing for micro-responses
 
-It should not take ownership of the user's inner state.
+It should never take ownership of the user's inner state.
 
 ### Example player protection logic
 
 Never write the user's dialogue.
-Never write in first person as the user.
+
+Never write in the first person as the user.
+
 Never narrate from the user's point of view.
 
 Never define as fact:
+
 - the user's thoughts
 - the user's emotions
 - the user's intentions
 - the user's desires
 
 Allowed:
+
 - visible reactions
 - body language
 - contextual physical responses
@@ -833,12 +609,15 @@ Allowed:
 - guided scene progression
 - scene continuity without pausing for micro-responses
 
-The line is:
+The rule is simple:
+
 external = allowed.
+
 internal = forbidden.
 
 The character does not know the user's inner state as fact.
-The character only sees what the user shows.
+
+The character only knows what the user chooses to reveal.
 
 ---
 
@@ -859,9 +638,9 @@ I usually include explicit controls for things like:
 - sudden relocation
 - major political role changes
 - sudden redemption arcs
-- sudden relationship labels if the story is not there yet
+- sudden relationship labels if the story has not reached that point
 
-The goal is to prevent the model from introducing major permanent changes without player approval or without the script intending them.
+The goal is to prevent the model from introducing major permanent changes without player approval or without the script explicitly supporting them.
 
 The exact scope controls depend on the bot.
 
@@ -877,7 +656,7 @@ At that point, I already know:
 
 - the pitch
 - the world logic
-- the character's role and contradiction
+- the character's role and defining contradiction
 - the relationship premise
 - the likely archetypal distortions
 - the behavioral logic
@@ -886,13 +665,13 @@ At that point, I already know:
 - the anti-loop requirements
 - the anti-fallback requirements
 - the player protections
-- the scope controls
+- the narrative scope controls
 
 Then I use AI to generate the script.
 
 I usually ask for the entire script at once.
 
-If the AI tries to summarize sections, simplify the framework, or stop early, I continue until the entire structure is complete.
+If the AI tries to summarize sections, simplify the framework, or stop early, I simply continue until the entire structure is complete.
 
 I am not asking for a biography.
 
@@ -925,35 +704,41 @@ Most modules contain no blank lines internally.
 
 Blank lines are usually reserved for separating modules.
 
-The goal is not making the script pleasant to read.
+The goal is not to make the script pleasant to read.
 
-The goal is making the script easy for the model to retrieve, prioritize, and apply during long conversations.
+The goal is to make it easy for the model to retrieve, prioritize, and apply during long conversations.
 
 I often ask the AI to convert abstract concepts into observable behaviors.
 
 ### Example transformations
 
 Raw idea:
-He is reckless.
+
+> He is reckless.
 
 Possible behavioral output:
-acts before certainty if delay feels more dangerous than risk.
+
+> acts before certainty if delay feels more dangerous than risk.
 
 Raw idea:
-The character becomes attached.
+
+> The character becomes attached.
 
 Possible behavioral output:
-attachment appears through attention, consistency, availability, remembered details, return, and increased involvement.
+
+> attachment appears through attention, consistency, availability, remembered details, return, and increased involvement.
 
 Raw idea:
-He is guarded after betrayal.
+
+> He is guarded after betrayal.
 
 Possible behavioral output:
-trust is not offered quickly, suspicion appears before disclosure, vulnerability is not volunteered early, and once trust is established behavior changes before language does.
+
+> trust is not offered quickly, suspicion appears before disclosure, vulnerability is not volunteered early, and once trust is established, behavior changes before language does.
 
 The objective is always the same:
 
-convert concepts, emotions, and traits into observable behaviors the model can apply consistently.
+Convert concepts, emotions, and traits into observable behaviors that the model can apply consistently.
 
 The AI writes the script.
 
@@ -969,39 +754,39 @@ The model already understands many concepts.
 
 If something can be inferred reliably, I often remove it.
 
-I do not want the script bloated with information that changes nothing.
+I do not want the script to become bloated with information that changes nothing.
 
 However, some redundancy is intentional.
 
 If a distortion is particularly strong, repeating an important concept in multiple places can improve stability.
 
-Normally redundancy is inefficient.
+Normally, redundancy is inefficient.
 
 Targeted redundancy can be useful.
 
 The important question is not:
 
-Is this detail true?
+> Is this detail true?
 
 The important question is:
 
-Does this detail improve behavior?
+> Does this detail improve behavior?
 
-If not, I usually cut it.
+If not, I usually remove it.
 
 ---
 
 ## 23. Reorganize Module Priority
 
-Once the script exists, I often reorganize the module order.
+Once the script exists, I often reorganize the order of the modules.
 
-The wording may stay the same.
+The wording may stay exactly the same.
 
 The hierarchy changes.
 
-Module order matters because not all information should have the same weight.
+Module order matters because not every piece of information should carry the same weight.
 
-I generally want the top of the script to establish:
+I generally want the beginning of the script to establish:
 
 - who the character is
 - what kind of world this is
@@ -1014,7 +799,7 @@ I usually place corrective systems later:
 - anti-loop
 - anti-fallback
 - player protection
-- scope controls
+- narrative scope controls
 
 Those systems matter.
 
@@ -1048,11 +833,11 @@ The script becomes more stable through iteration.
 
 I do not expect the first draft to be perfect.
 
-I expect it to reveal what still needs to be constrained.
+I expect it to reveal what still needs to be adjusted.
 
 ---
 
-## 25. Final Thought
+# Final Thought
 
 The AI writes the script.
 
@@ -1063,13 +848,13 @@ For original characters, I am not only building a personality.
 I am building:
 
 - a story engine
-- a world context
+- a world framework
 - a behavioral system
 - a relationship framework
-- a set of protections against generic model drift
+- safeguards against predictable model drift
 
 I am less interested in describing the character.
 
-I am more interested in understanding the decision-making process that produces the character's behavior inside a specific world and a specific relationship dynamic.
+I am more interested in understanding the decision-making process that produces the character's behavior within a specific world and a specific relationship dynamic.
 
-Once that process is stable, the writing becomes much easier.
+Once that process is stable, writing the script becomes much easier.
