@@ -38,7 +38,7 @@ It helps test:
 - sensitive topics
 - behavioral priorities
 - how the bot understands a relationship, a conflict, an attachment, a boundary, or a given theme
-- the script’s resistance to fandom drift, especially for canon characters connected to the internet
+- the script’s resistance to fandom drift, especially for canon characters supported by modern LLM-based roleplay platforms
 
 ## Phase 2 — situational prompts + simulated system questions
 This phase is used to test the bot’s behavior in contexts that are not necessarily the starting state of the script.
@@ -180,7 +180,8 @@ Examples:
 - what makes him pull back or open up
 
 ## 5.4. The actual version of the character being activated by the script
-This is especially important for canon characters connected to the internet.
+
+This is especially important for canon characters on modern LLM-based roleplay platforms.
 
 A bot can look correct on the surface while still carrying, underneath:
 - a fandomized version of the character
