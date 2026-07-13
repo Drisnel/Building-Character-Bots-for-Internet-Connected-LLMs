@@ -1,10 +1,12 @@
 # English Documentation
 
-Welcome to the English documentation for **Building RP Bots for Internet-Connected LLMs**.
+Welcome to the English documentation for **Building RP Bots for LLMs Trained on Internet-Derived Data**.
 
-This repository documents practical methods for designing roleplay bots for internet-connected LLMs.
+This repository documents practical methods for designing roleplay bots for LLMs trained on internet-derived data.
 
 It brings together production workflows, scripting methods, design principles, production templates, and platform-specific guides, all based on practical experimentation and real-world testing.
+
+The methods presented here are intended for language models whose knowledge is largely derived from internet data, whether that knowledge comes from model training, periodic updates, or platform-specific features.
 
 Rather than presenting universal rules, this repository documents the workflows, scripting methods, and observations that currently produce the most consistent results throughout my own projects.
 
@@ -60,7 +62,7 @@ They apply equally to canon and original characters, regardless of the platform 
 
 These workflows are dedicated to building canon characters while preserving their behavioral identity, long-term consistency, and natural progression throughout extended roleplay.
 
-They focus on analyzing the original source material, identifying common model and fandom distortions, and translating that analysis into stable production-ready scripts.
+They focus on analyzing the original source material, identifying common model biases and fandom distortions, and translating that analysis into stable, production-ready scripts.
 
 - [Canon Character Workflow](../canon/en/Core-Workflow.md)
 - [Canon Introduction and Starter Workflow](../canon/en/canon-introduction-and-starter-workflow.md)
@@ -91,7 +93,7 @@ They are **not** tutorials or workflows themselves. Instead, they represent the 
 
 # 🖥️ 6. Platform Guides
 
-Unlike the previous sections, these guides focus on features that are specific to individual roleplay platforms.
+Unlike the previous sections, these guides focus on features specific to individual roleplay platforms.
 
 They document observed behaviors, advanced features, practical workflows, and usage recommendations based on extensive testing.
 
@@ -134,7 +136,7 @@ Whenever possible, every document is available in both English and French.
 
 This repository combines **two complementary objectives**.
 
-The first is to document practical methods for designing stable, engaging, and long-lasting roleplay bots for internet-connected LLMs.
+The first is to document practical methods for designing stable, engaging, and long-lasting roleplay bots for LLMs trained on internet-derived data.
 
 The second is to document advanced platform-specific features that can significantly improve long-term roleplay when properly understood and used.
 
@@ -144,7 +146,7 @@ The workflows, scripting methods, templates, and platform guides presented throu
 
 Instead, they document the approaches, observations, and production methods that currently produce the most consistent results throughout my own projects.
 
-As both LLMs and RP platforms continue to evolve, this repository will continue evolving alongside them.
+As both language models and roleplay platforms continue to evolve, this repository will continue evolving alongside them.
 
 ---
 
@@ -164,4 +166,4 @@ This repository is an ongoing project.
 
 New documentation will continue to expand both the core methodology and the platform-specific documentation as new workflows, production methods, and platform features are explored.
 
-The goal is to build a comprehensive knowledge base for creating stable, engaging, and long-lasting roleplay bots for internet-connected LLMs.
+The goal is to build a comprehensive knowledge base for creating stable, engaging, and long-lasting roleplay bots for LLMs trained on internet-derived data.
