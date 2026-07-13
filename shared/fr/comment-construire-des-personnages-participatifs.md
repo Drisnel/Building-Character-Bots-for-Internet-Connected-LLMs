@@ -51,7 +51,7 @@ Le personnage participe lui aussi à sa construction.
 
 Ce n’est pas la seule méthode valable.
 
-C’est simplement le cadre qui me donne actuellement les résultats les plus stables lorsque je construis des bots de roleplay pour des LLM connectés à Internet.
+C’est simplement le cadre qui me donne actuellement les résultats les plus stables lorsque je construis des bots de roleplay utilisant des modèles dont les connaissances sont largement héritées d’Internet.
 
 ---
 
