@@ -32,7 +32,7 @@ Their purpose is to stop the model from falling into toxic repetition patterns t
 
 This is not the only valid method.
 
-It is simply the framework that currently gives me the most stable results when building roleplay bots for internet-connected LLMs.
+It is simply the framework that currently gives me the most stable results when building roleplay bots for modern LLM-based roleplay platforms.
 
 ---
 
