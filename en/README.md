@@ -39,7 +39,7 @@ These guides are independent from the main methodology and should only be read i
 
 Currently available:
 
-- PolyBuzz Permanent Memory
+- PolyBuzz Permanent Memory Guide
 - PolyBuzz Persona
 
 ---
