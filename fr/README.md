@@ -101,7 +101,7 @@ Ces documents complètent la méthodologie du dépôt mais peuvent également ê
 
 ### PolyBuzz
 
-- [PolyBuzz Permanent Memory Guide](../platforms/polybuzz/fr/PolyBuzz-Permanent-Memory-Guide.md)
+- [Mémoire permanente de PolyBuzz](../platforms/polybuzz/fr/memoire-permanente-polybuzz.md)
 - [Comment construire un Persona PolyBuzz efficace](../platforms/polybuzz/fr/comment-construire-un-persona-polybuzz-efficace.md)
 
 ---
