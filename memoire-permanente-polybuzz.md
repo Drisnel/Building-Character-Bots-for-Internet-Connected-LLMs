@@ -63,9 +63,9 @@ La mémoire permanente est organisée en plusieurs parties. Toutes les informati
 
 Il faut notamment distinguer les trois grands onglets suivants :
 
-### Lié
+### Lier
 
-L'onglet « Lié » regroupe plusieurs catégories d'informations utilisées pour conserver des éléments du RP.
+L'onglet « Lier » regroupe plusieurs catégories d'informations utilisées pour conserver des éléments du RP.
 
 On y retrouve notamment :
 
@@ -134,7 +134,7 @@ C'est donc une distinction importante à retenir :
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
-# 2. Comprendre les quatre catégories de « Lié »
+# 2. Comprendre les quatre catégories de « Lier »
 
 ## 2.1. Événements importants
 
