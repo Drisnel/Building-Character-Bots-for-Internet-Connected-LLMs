@@ -435,7 +435,7 @@ On peut terminer cette scène et écrire :
 
 *Le lendemain, je me retrouve au bar avec Thomas pour continuer notre discussion.*
 
-PolyBuzz peut alors créer un nouvel événement à partir de cette transition. Il dispose notamment d'un nouveau repère temporel — « le lendemain » — ainsi que d'un nouveau lieu : « le bar ». 1
+PolyBuzz peut alors créer un nouvel événement à partir de cette transition. Il dispose notamment d'un nouveau repère temporel — « le lendemain » — ainsi que d'un nouveau lieu : « le bar ». 
 
 Le problème apparaît lorsqu'on utilise ensuite à nouveau des repères très similaires.
 
@@ -663,6 +663,7 @@ Cela peut fonctionner correctement, mais des erreurs peuvent également apparaî
 Il peut notamment y avoir :
 
 - une erreur de date ;
+- une fusion de personnage ;
 - une mauvaise association entre une date et un lieu ;
 - une information mal formulée ;
 - une relation mal comprise ;
