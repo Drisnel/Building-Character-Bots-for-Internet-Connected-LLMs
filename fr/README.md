@@ -39,7 +39,7 @@ Ces guides sont indépendants de la méthodologie principale et ne sont utiles q
 
 Actuellement disponibles :
 
-- Mémoire permanente de PolyBuzz
+- PolyBuzz Permanent Memory Guide
 - Persona de PolyBuzz
 
 ---
