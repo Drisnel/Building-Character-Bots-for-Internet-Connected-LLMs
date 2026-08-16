@@ -101,7 +101,7 @@ These documents complement the repository's methodology but can also be read ind
 
 ### PolyBuzz
 
-- [How to Understand and Use PolyBuzz Permanent Memory](../platforms/polybuzz/en/how-to-understand-and-use-polybuzz-permanent-memory.md)
+- [PolyBuzz Permanent Memory Guide](../platforms/polybuzz/en/PolyBuzz-Permanent-Memory-Guide.md)
 - [How to Build an Effective PolyBuzz Persona](../platforms/polybuzz/en/how-to-build-an-effective-polybuzz-persona.md)
 
 ---
