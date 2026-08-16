@@ -361,7 +361,7 @@ La question n'est donc pas simplement de savoir **combien de temps on joue**, ma
 
 ## 5.1. Pourquoi créer de nouveaux événements
 
-Les « Événements importants » ne sont pas créés manuellement par l'utilisateur. C'est PolyBuzz qui décide automatiquement qu'un événement doit être enregistré lorsqu'il considère qu'une scène est importante ou qu'il s'y passe quelque chose d'intéressant. 0
+Les « Événements importants » ne sont pas créés manuellement par l'utilisateur. C'est PolyBuzz qui décide automatiquement qu'un événement doit être enregistré lorsqu'il considère qu'une scène est importante ou qu'il s'y passe quelque chose d'intéressant.
 
 L'objectif n'est donc pas de chercher à créer soi-même un événement dans l'interface, mais plutôt de **faire évoluer le RP de manière suffisamment claire pour que PolyBuzz puisse distinguer les différentes scènes**.
 
