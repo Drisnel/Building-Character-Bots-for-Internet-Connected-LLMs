@@ -8,6 +8,9 @@
 🇫🇷 **Français**
 ➡️ [Documentation française](./fr/README.md)
 
+🇪🇸 **Español** *(🚧 En construcción)*
+➡️ [Documentación en español](./es/README.md)
+
 ---
 
 ## 🇬🇧 English
@@ -27,3 +30,13 @@ Ce dépôt documente des méthodes pratiques pour concevoir des bots de roleplay
 Il rassemble des workflows de production, des méthodes d'écriture, des principes de conception comportementale, des templates de scripts ainsi que des guides consacrés aux fonctionnalités de certaines plateformes, le tout fondé sur des expérimentations et des tests réalisés en conditions réelles.
 
 Les méthodes présentées ici s'adressent aux modèles de langage dont les connaissances proviennent en grande partie de données issues d'Internet, qu'elles soient acquises lors de l'entraînement du modèle, par des mises à jour régulières ou via des fonctionnalités propres à certaines plateformes.
+
+---
+
+## 🇪🇸 Español
+
+Este repositorio documenta métodos prácticos para diseñar bots de roleplay estables, atractivos y duraderos para LLM entrenados con datos derivados de Internet.
+
+Reúne workflows de producción, métodos de escritura, principios de diseño conductual, plantillas de scripts y guías específicas de determinadas plataformas, todo ello basado en experimentación práctica y pruebas en condiciones reales.
+
+Los métodos presentados aquí están destinados a modelos de lenguaje cuyos conocimientos proceden en gran medida de datos de Internet, ya sea que estos conocimientos provengan del entrenamiento del modelo, de actualizaciones periódicas o de funcionalidades específicas de determinadas plataformas.
